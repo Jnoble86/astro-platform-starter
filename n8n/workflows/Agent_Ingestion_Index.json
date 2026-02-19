@@ -1,0 +1,82 @@
+{
+  "name": "Agent_Ingestion_Index",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "1",
+      "name": "When Called by Another Workflow",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const fs = require('fs');\nconst path = require('path');\nconst input = $json;\nconst sourceDir = path.join(input.tender_root, '01_Source_Docs');\nconst files = fs.readdirSync(sourceDir).filter(f => !f.startsWith('.'));\nreturn files.map(f => ({ json: { ...input, file: f, source_path: path.join(sourceDir, f) } }));"
+      },
+      "id": "2",
+      "name": "List Source Docs",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [500, 300]
+    },
+    {
+      "parameters": {
+        "command": "python3 {{$json.repo_root}}/n8n/scripts/parse_docs.py \"{{$json.source_path}}\" \"{{$json.tender_root}}/02_Parsed_Text\""
+      },
+      "id": "3",
+      "name": "Parse Document",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [760, 300]
+    },
+    {
+      "parameters": {
+        "mode": "combineAll"
+      },
+      "id": "4",
+      "name": "Aggregate Parsed",
+      "type": "n8n-nodes-base.itemLists",
+      "typeVersion": 3,
+      "position": [1010, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/responses",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "=Bearer {{$env.OPENAI_API_KEY}}" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ {\n  model: $env.OPENAI_MODEL_MAIN || 'gpt-4.1',\n  store: false,\n  temperature: 0.1,\n  max_output_tokens: 2800,\n  input: [\n    { role: 'system', content: 'Build a document index. Never invent evidence.' },\n    { role: 'user', content: 'Tender ID: ' + $json.tender_id + '\\nParsed files: ' + JSON.stringify($json) }\n  ],\n  text: {\n    format: {\n      type: 'json_schema',\n      name: 'doc_index',\n      schema: {\n        type: 'object',\n        properties: {\n          tender_id: { type: 'string' },\n          documents: { type: 'array' },\n          high_confidence: { type: 'boolean' },\n          unknowns: { type: 'array' }\n        },\n        required: ['tender_id','documents','high_confidence','unknowns'],\n        additionalProperties: false\n      },\n      strict: true\n    }\n  }\n} }}"
+      },
+      "id": "5",
+      "name": "OpenAI Doc Index",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1260, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const fs = require('fs');\nconst path = require('path');\nconst outDir = path.join($json.tender_root, '03_Doc_Index');\nfs.mkdirSync(outDir, { recursive: true });\nconst textOut = $json.output_text || $json.output?.[0]?.content?.[0]?.text || '{}';\nconst parsed = JSON.parse(textOut);\nfs.writeFileSync(path.join(outDir, 'doc_index.json'), JSON.stringify(parsed, null, 2));\nreturn [{ json: { ...$json, doc_index: parsed } }];"
+      },
+      "id": "6",
+      "name": "Write doc_index.json",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1510, 300]
+    }
+  ],
+  "connections": {
+    "When Called by Another Workflow": { "main": [[{ "node": "List Source Docs", "type": "main", "index": 0 }]] },
+    "List Source Docs": { "main": [[{ "node": "Parse Document", "type": "main", "index": 0 }]] },
+    "Parse Document": { "main": [[{ "node": "Aggregate Parsed", "type": "main", "index": 0 }]] },
+    "Aggregate Parsed": { "main": [[{ "node": "OpenAI Doc Index", "type": "main", "index": 0 }]] },
+    "OpenAI Doc Index": { "main": [[{ "node": "Write doc_index.json", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" }
+}

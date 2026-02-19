@@ -1,0 +1,8 @@
+{
+  "name": "Agent_BidManager_Packager",
+  "nodes": [
+    {"parameters": {}, "id": "1", "name": "When Called by Another Workflow", "type": "n8n-nodes-base.executeWorkflowTrigger", "typeVersion": 1, "position": [240, 260]},
+    {"parameters": {"jsCode": "const fs = require('fs');\nconst path = require('path');\nconst req = $json.requirements_extract || {};\nconst tenderId = $json.tender_id;\nconst lines = [\n`# Go/No-Go Pack`,\n`Tender_ID: ${tenderId}`,\n``,\n`## 3-line scope`,\nreq.scope_summary_3_lines || 'UNKNOWN',\n``,\n`## Design maturity`,\nreq.design_maturity || 'Unknown (no evidence)',\n``,\n`## Contract risks`,\nJSON.stringify(req.contract_risks || [], null, 2),\n``,\n`## Risk tier`,\nString(req.recommended_risk_tier || 'UNKNOWN'),\n``,\n`## Top operational risks`,\nJSON.stringify((req.top_operational_risks || []).slice(0,3), null, 2),\n``,\n`## Recommendation`,\nreq.recommended_go || 'Go_with_Conditions',\n``,\n`## Conditions`,\nJSON.stringify(req.go_conditions || [], null, 2),\n``,\n`## RFI summary`,\n`Count: ${(req.missing_information || []).length}`,\n`Next action after Go: send RFIs immediately`\n];\nconst outDir = path.join($json.tender_root, '04_Go_NoGo_Pack');\nfs.mkdirSync(outDir, { recursive: true });\nfs.writeFileSync(path.join(outDir, 'go_nogo_pack.md'), lines.join('\n'), 'utf-8');\nreturn [{json: $json}];"}, "id": "2", "name": "Build go_nogo_pack.md", "type": "n8n-nodes-base.code", "typeVersion": 2, "position": [510, 260]}
+  ],
+  "connections": {"When Called by Another Workflow": {"main": [[{"node": "Build go_nogo_pack.md", "type": "main", "index": 0}]]}}
+}

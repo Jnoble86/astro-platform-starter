@@ -1,0 +1,12 @@
+{
+  "name": "Agent_TradeRouter",
+  "nodes": [
+    {"parameters": {}, "id": "1", "name": "When Called by Another Workflow", "type": "n8n-nodes-base.executeWorkflowTrigger", "typeVersion": 1, "position": [240, 260]},
+    {"parameters": {"method": "POST", "url": "https://api.openai.com/v1/responses", "sendHeaders": true, "headerParameters": {"parameters": [{"name": "Authorization", "value": "=Bearer {{$env.OPENAI_API_KEY}}"}, {"name": "Content-Type", "value": "application/json"}]}, "sendBody": true, "specifyBody": "json", "jsonBody": "={{ { model: $env.OPENAI_MODEL_MAIN || 'gpt-4.1', store: false, temperature: 0.1, max_output_tokens: 2200, input: [{role:'system', content:'Identify REAL delivery trades only from extracted scope.'},{role:'user', content: JSON.stringify($json.scope_items || [])}], text:{format:{type:'json_schema', name:'trade_router', strict:true, schema:{ type:'object', properties:{ primary_trades:{type:'array'}, secondary_trades:{type:'array'}, suggested_sme_agents:{type:'array'} }, required:['primary_trades','secondary_trades','suggested_sme_agents'], additionalProperties:false }}} } }}"}, "id": "2", "name": "OpenAI Trade Router", "type": "n8n-nodes-base.httpRequest", "typeVersion": 4.2, "position": [530, 260]},
+    {"parameters": {"jsCode": "const fs = require('fs');\nconst path = require('path');\nconst outDir = path.join($json.tender_root, '07_Pricing_Pack');\nfs.mkdirSync(outDir, { recursive: true });\nconst textOut = $json.output_text || $json.output?.[0]?.content?.[0]?.text || '{}';\nfs.writeFileSync(path.join(outDir, 'trade_router.json'), textOut);\nreturn [{json: $json}];"}, "id": "3", "name": "Write trade_router.json", "type": "n8n-nodes-base.code", "typeVersion": 2, "position": [800, 260]}
+  ],
+  "connections": {
+    "When Called by Another Workflow": {"main": [[{"node": "OpenAI Trade Router", "type": "main", "index": 0}]]},
+    "OpenAI Trade Router": {"main": [[{"node": "Write trade_router.json", "type": "main", "index": 0}]]}
+  }
+}

@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_HOST=0.0.0.0
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - NODE_FUNCTION_ALLOW_EXTERNAL=fs,path
+      - INTAKE_FOLDER=${INTAKE_FOLDER}
+      - TENDERS_ROOT=${TENDERS_ROOT}
+      - TEMPLATE_TENDER_CONTROL=${TEMPLATE_TENDER_CONTROL}
+      - TEMPLATE_RFI=${TEMPLATE_RFI}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_MODEL_MAIN=${OPENAI_MODEL_MAIN}
+      - OPENAI_MODEL_FAST=${OPENAI_MODEL_FAST}
+      - SPONSOR_EMAIL=${SPONSOR_EMAIL}
+      - BIDMANAGER_EMAIL=${BIDMANAGER_EMAIL}
+    volumes:
+      - ./data:/home/node/.n8n
+      - /:/host

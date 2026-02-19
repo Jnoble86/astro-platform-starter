@@ -1,0 +1,12 @@
+{
+  "name": "Agent_RFI_Generator",
+  "nodes": [
+    {"parameters": {}, "id": "1", "name": "When Called by Another Workflow", "type": "n8n-nodes-base.executeWorkflowTrigger", "typeVersion": 1, "position": [240, 260]},
+    {"parameters": {"command": "python3 {{$json.repo_root}}/n8n/scripts/populate_rfi.py '={{JSON.stringify($json)}}' \"{{$json.tender_root}}/05_RFI/RFI_Draft.xlsx\""}, "id": "2", "name": "Populate RFI workbook", "type": "n8n-nodes-base.executeCommand", "typeVersion": 1, "position": [520, 260]},
+    {"parameters": {"jsCode": "const fs = require('fs');\nconst path = require('path');\nconst outDir = path.join($json.tender_root, '05_RFI');\nconst rfiCount = (() => { try { return JSON.parse($json.stdout || '{}').rfi_count || 0; } catch { return 0; }})();\nfs.writeFileSync(path.join(outDir, 'rfi_cover_note.txt'), `Please review attached draft RFIs for ${$json.tender_id}. Total RFIs: ${rfiCount}.`, 'utf-8');\nreturn [{json: {...$json, rfi_count: rfiCount}}];"}, "id": "3", "name": "Write cover note", "type": "n8n-nodes-base.code", "typeVersion": 2, "position": [780, 260]}
+  ],
+  "connections": {
+    "When Called by Another Workflow": {"main": [[{"node": "Populate RFI workbook", "type": "main", "index": 0}]]},
+    "Populate RFI workbook": {"main": [[{"node": "Write cover note", "type": "main", "index": 0}]]}
+  }
+}
