@@ -1,3 +1,16 @@
 ---
-return Astro.redirect('/prototype');
+import '../styles/globals.css';
+import '@fontsource-variable/inter/wght.css';
+import StarlinkJobOrder from '../components/StarlinkJobOrder';
 ---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Starlink Job Order</title>
+  </head>
+  <body>
+    <StarlinkJobOrder client:load />
+  </body>
+</html>
