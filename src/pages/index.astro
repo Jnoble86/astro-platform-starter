@@ -1,11 +1,3 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import EstimatorPrototypeApp from '../components/prototype/EstimatorPrototypeApp';
-import { loadPrototypeSeedData } from '../lib/prototypeSeedLoader';
-
-const seedData = await loadPrototypeSeedData();
+return Astro.redirect('/prototype');
 ---
-
-<Layout title="Civils Quote Workspace">
-  <EstimatorPrototypeApp client:load seedData={seedData} />
-</Layout>
