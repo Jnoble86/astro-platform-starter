@@ -1,0 +1,6 @@
+Trigger Code,Trigger Name,Applies To,Pricing Outcome Summary,Price Impact Type,Active,Notes
+ECT-ACC,Restricted access affects normal production path,Global,Conditional cost uplift for constrained access,uplift,True,
+ECT-PMP,Pump required for concrete placement,Concrete objects,Opens pump add-on or separate module,separate module,True,
+ECT-BRK,Hard surface breakout required,Excavation / pavements / pits / proving,Opens breakout and disposal path,separate module,True,
+ECT-TC,Traffic or pedestrian control required,Overlays / proving / brownfield works,Opens traffic management overlay,fixed add-on,True,
+ECT-LIFT,Large pit lift support required,Large pit method,Opens lift/crane support overlay,provisional sum,True,

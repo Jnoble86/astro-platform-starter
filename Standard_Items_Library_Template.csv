@@ -1,0 +1,3 @@
+Library Type,Item Code,Item Name,Supplier Name,Length mm,Width mm,Depth mm,Weight kg,Capacity kVA,Default Method Class,Active,Notes
+Pit Riser,PIT-RISER-PLH,Concrete pit riser - placeholder,TBC Supplier,,,,,,Supplier item pending quote,Yes,Explicit placeholder for quote-dependent open item
+Lid / Frame,PIT-LIDFRAME-PLH,Concrete pit lid/frame - placeholder,TBC Supplier,,,,,,Supplier item pending quote,Yes,Explicit placeholder for quote-dependent open item

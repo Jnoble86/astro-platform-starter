@@ -1,0 +1,178 @@
+work_category,scope_item,delivery_method,cost_component,rate_group,cluster,unit_normalized,retained_rate,retained_workbook,retained_sheet,retained_row,mapping_confidence
+Drainage and Minor Civil Structures,PVC Drainage Line Installation,rock,Pipe Install,Provisional Sums,100mm PVC drainage pipe up to 1.5m depth | rock,m,313.6842105263158,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,17,Confirmed
+Drainage and Minor Civil Structures,PVC Drainage Line Installation,shale,Pipe Install,Provisional Sums,100mm PVC drainage pipe up to 1.5m depth | shale,m,236.8421052631579,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,16,Confirmed
+Drainage and Minor Civil Structures,PVC Drainage Line Installation,soil,Pipe Install,Provisional Sums,100mm PVC drainage pipe up to 1.5m depth | soil,m,221.0526315789474,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,15,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,unspecified,Minor Civils,Provisional Sums,100mm concrete paving,m2,328.421052631579,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,56,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,unspecified,Minor Civils,Provisional Sums,100mm expansion joint,m,223.1578947368421,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,58,Confirmed
+Drainage and Minor Civil Structures,PVC Drainage Line Installation,rock,Pipe Install,Provisional Sums,225mm PVC drainage pipe up to 1.5m depth | rock,m,328.421052631579,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,20,Confirmed
+Drainage and Minor Civil Structures,PVC Drainage Line Installation,shale,Pipe Install,Provisional Sums,225mm PVC drainage pipe up to 1.5m depth | shale,m,252.6315789473684,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,19,Confirmed
+Drainage and Minor Civil Structures,PVC Drainage Line Installation,soil,Pipe Install,Provisional Sums,225mm PVC drainage pipe up to 1.5m depth | soil,m,242.1052631578948,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,18,Confirmed
+Drainage and Minor Civil Structures,Reinforced Concrete Drainage Line Installation,rock,Pipe Install,Provisional Sums,225mm reinforced concrete pipe up to 1.5m depth | rock,m,344.7368421052632,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,24,Confirmed
+Drainage and Minor Civil Structures,Reinforced Concrete Drainage Line Installation,shale,Pipe Install,Provisional Sums,225mm reinforced concrete pipe up to 1.5m depth | shale,m,282.1052631578947,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,23,Confirmed
+Drainage and Minor Civil Structures,Reinforced Concrete Drainage Line Installation,soil,Pipe Install,Provisional Sums,225mm reinforced concrete pipe up to 1.5m depth | soil,m,268.421052631579,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,21,Confirmed
+Pits,Pit Works,,Pit Install / Supply,Materials,300x300 electrical pit supply,each,835,AARNet Pricebook.xlsx,AARnet Ratecard,33,Inferred
+Pits,Pit Works,,Pit Install / Supply,Materials,450x450 electrical pit supply,each,1230,AARNet Pricebook.xlsx,AARnet Ratecard,28,Inferred
+Drainage and Minor Civil Structures,Minor Civil Structure,unspecified,Minor Civils,Provisional Sums,75mm concrete paving,m2,326.3157894736842,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,38,Confirmed
+Pavements and Hardstand,Pavement / Hardstand,,Surface Install,Provisional Sums,75mm hard standing,m2,379.4736842105264,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,40,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Provisional Sums,Additional shelter pier volume per m3,m3,1214.350919896154,NBN quote Master .xlsx,Sheet1,41,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Provisional Sums,Additional shelter slab volume per m3,m3,1078.793380623913,NBN quote Master .xlsx,Sheet1,39,Confirmed
+Drainage and Minor Civil Structures,Drainage / Pipe Install,additional-in-existing-trench,Pipe Install,Provisional Sums,Additional underground pipe in existing trench >25mm,m,20,Annexure 3 - GWM Price Response Template - Decon 20240815.xlsx,1 SoRs,26,Confirmed
+Pavements and Hardstand,Local Reinstatement,asphalt,Local Reinstatement,Provisional Sums,Asphalt reinstatement,m2,435.0877192982456,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,339,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Materials,Blinding layer,site,1552.631578947369,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,85,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Provisional Sums,Bored pier and pile cap formwork,m2,1405.263157894737,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,89,Confirmed
+Earthworks and Reinstatement,Service Route Boring,rock,Boring,Provisional Sums,Boring | p100 | rock,m,1129.824561403509,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,487,Confirmed
+Earthworks and Reinstatement,Service Route Boring,rock,Boring,Provisional Sums,Boring | p100 | rock,metre length of bore,484.5684,NBN quote Master .xlsx,Sheet1,97,Confirmed
+Earthworks and Reinstatement,Service Route Boring,unspecified,Boring,Provisional Sums,Boring | p100 | unspecified,m,589.4736842105264,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,334,Confirmed
+Earthworks and Reinstatement,Service Route Boring,rock,Boring,Provisional Sums,Boring | p63 | rock,m,581.0526315789474,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,474,Confirmed
+Earthworks and Reinstatement,Service Route Boring,rock,Boring,Provisional Sums,Boring | p63 | rock,metre length of bore,445.0902,NBN quote Master .xlsx,Sheet1,96,Confirmed
+Earthworks and Reinstatement,Service Route Boring,unspecified,Boring,Provisional Sums,Boring | p63 | unspecified,m,360.9022556390978,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,306,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Provisional Sums,CEV footing and pier construction,pier,3277.38,AARNet Pricebook.xlsx,AARnet Ratecard,9,Inferred
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Materials,Cement stabilised crushed rock,m3,373.6842105263158,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,55,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Provisional Sums,Clearing and grubbing,m2,4.94,AARNet Pricebook.xlsx,AARnet Ratecard,2,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Provisional Sums,Clearing vegetation / rubbish / shrub removal,m3,231.5789473684211,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,22,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Provisional Sums,Compaction,day,1757.49,Andersons Hill-NSWTA-Decon Costs Draft.xlsx,Variation Cost Schedule,411,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Provisional Sums,Compaction,m,144.9605263157895,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,594,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Provisional Sums,Compaction,m2,226.3157894736842,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,73,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Provisional Sums,Compaction,site,1358,Andersons Hill-NSWTA-Decon Costs Draft.xlsx,Variation Cost Schedule,441,Confirmed
+Fencing and Access Control,Fencing and Gates,,Fence / Gate,Provisional Sums,Compound fence relocation,m,300.5263157894737,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,67,Confirmed
+Fencing and Access Control,Fencing and Gates,,Fence / Gate,Provisional Sums,Compound fence removal,m,236.8421052631579,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,66,Confirmed
+Pavements and Hardstand,Local Reinstatement,concrete,Local Reinstatement,Provisional Sums,Concrete reinstatement,m2,435.0877192982456,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,340,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Provisional Sums,Concrete slab/pad,m2,698.61,AARNet Pricebook.xlsx,AARnet Ratecard,17,Inferred
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Specialist Subcontract,Concrete testing pier,site,1560,AARNet Pricebook.xlsx,AARnet Ratecard,16,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Freight / Haulage,Concrete travel time,minute,3.96,AARNet Pricebook.xlsx,AARnet Ratecard,14,Confirmed
+Preliminaries and Controls,Preliminaries and Controls,,Pre-start / Controls,Preliminaries,Constructability attendance,site,1258.95,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,7,Confirmed
+Preliminaries and Controls,Preliminaries and Controls,,Pre-start / Controls,Preliminaries,Construction safety report / SWMS,site,1178.483111689645,Andersons Hill-NSWTA-Decon Costs Draft.xlsx,Variation Cost Schedule,9,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Materials,Crushed rock base,m3,310.6842105263158,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,54,Confirmed
+Preliminaries and Controls,Preliminaries and Controls,,Pre-start / Controls,Preliminaries,Dilapidation surveys,site,4000,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,8,Confirmed
+Fencing and Access Control,Fencing and Gates,,Fence / Gate,Provisional Sums,Double gate barb top 32 NB,each,1800,AARNet Pricebook.xlsx,AARnet Ratecard,72,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,rock,Minor Civils,Provisional Sums,Double vehicular crossing | rock,each,10865.56315789474,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,80,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,shale,Minor Civils,Provisional Sums,Double vehicular crossing | shale,each,8068.4,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,79,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,soil,Minor Civils,Provisional Sums,Double vehicular crossing | soil,each,7713.473684210526,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,78,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Provisional Sums,Drill pier holes and install cages,pier,1116.25,AARNet Pricebook.xlsx,AARnet Ratecard,12,Inferred
+Pavements and Hardstand,Pavement / Hardstand,,Surface Install,Labour,Driveway labour,site,78.83,AARNet Pricebook.xlsx,AARnet Ratecard,45,Inferred
+Pavements and Hardstand,Pavement / Hardstand,,Surface Install,Provisional Sums,Driveway topping crossover,m2,36.1,AARNet Pricebook.xlsx,AARnet Ratecard,39,Inferred
+Environmental and Traffic Overlays,Environmental / Traffic Overlay,,Overlay,Overlays,Dust control,day,3026.315789473684,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,79,Confirmed
+Preliminaries and Controls,Preliminaries and Controls,,Pre-start / Controls,Preliminaries,Ecological inspection,site,3873.684210526316,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,9,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Specialist Subcontract,Engineer sign-off pier,pier,1100,AARNet Pricebook.xlsx,AARnet Ratecard,15,Confirmed
+Preliminaries and Controls,Preliminaries and Controls,,Pre-start / Controls,Preliminaries,Engineering final inspection,site,5052.631578947368,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,3,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Provisional Sums,Excavation and removal of rock,m3,366.062502811938,Andersons Hill-NSWTA-Decon Costs Draft.xlsx,Variation Cost Schedule,26,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Disposal,Excavation and removal of soil offsite,m3,305.26,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,57,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,unspecified,Minor Civils,Provisional Sums,Expansion joint to concrete paving,m,257.8947368421053,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,39,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Provisional Sums,Fix holding down bolts,each,1162.105263157895,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,130,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Materials,Foundation materials formtube/grout/anchors,pier,236.88,AARNet Pricebook.xlsx,AARnet Ratecard,10,Confirmed
+Pits,Pit Works,,Pit Install / Supply,Provisional Sums,Generic pit civils,each,5420,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,363,Inferred
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Materials,Gravel supply and place,m2,321.6973684210527,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,104,Inferred
+Pavements and Hardstand,Pavement / Hardstand,,Surface Install,Provisional Sums,Hardstand layer install,m2,436.3947368421053,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,83,Confirmed
+Environmental and Traffic Overlays,Environmental / Traffic Overlay,,Overlay,Overlays,Hay bale barriers,each,134.7368421052632,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,78,Confirmed
+Pits,Pit Works,,Pit Install / Supply,Materials,J8 concrete pit supply,each,1326.67,AARNet Pricebook.xlsx,AARnet Ratecard,31,Inferred
+Preliminaries and Controls,Site preparation labour,,Labour,Labour,Labour (site preparation),site,4860,AARNet Pricebook.xlsx,AARnet Ratecard,5,Inferred
+Drainage and Minor Civil Structures,Minor Civil Structure,rock,Minor Civils,Provisional Sums,Layback kerb | rock,m,332.1052631578947,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,30,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,shale,Minor Civils,Provisional Sums,Layback kerb | shale,m,288.421052631579,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,29,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,soil,Minor Civils,Provisional Sums,Layback kerb | soil,m,262.4736842105263,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,28,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Provisional Sums,Mass concrete in footings,m3,2085.157894736842,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,93,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Provisional Sums,ODU plinth,each,2191.052631578947,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,557,Inferred
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Provisional Sums,ODU plinth,site,5175,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,580,Inferred
+Preliminaries and Controls,Preliminaries and Controls,,Pre-start / Controls,Preliminaries,Onsite toilet,site,2240,AARNet Pricebook.xlsx,AARnet Ratecard,6,Confirmed
+Pits,Pit Works,,Pit Install / Supply,Materials,P2 pit gasket lid,each,232,AARNet Pricebook.xlsx,AARnet Ratecard,24,Inferred
+Fencing and Access Control,Fencing and Gates,,Fence / Gate,Provisional Sums,Personnel gate install,each,3460,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,64,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Materials,Pier concrete supply,m3,214.09,AARNet Pricebook.xlsx,AARnet Ratecard,13,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Provisional Sums,Pier extension footing to direct embedded pole,m3,1875.057700540501,NBN quote Master .xlsx,Sheet1,49,Confirmed
+Drainage and Minor Civil Structures,Drainage / Pipe Install,rock,Pipe Install,Provisional Sums,Pipe and sand bedding | unknown | rock,m,396.4473684210526,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,67,Inferred
+Drainage and Minor Civil Structures,Drainage / Pipe Install,shale,Pipe Install,Provisional Sums,Pipe and sand bedding | unknown | shale,m,324.4210526315789,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,66,Inferred
+Drainage and Minor Civil Structures,Drainage / Pipe Install,soil,Pipe Install,Provisional Sums,Pipe and sand bedding | unknown | soil,m,308.6842105263158,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,64,Inferred
+Pits,Pit Install in Trench,in-trench,Pit Install,Provisional Sums,Pit install in already excavated trench | p2,each,320.496,NBN quote Master .xlsx,Sheet1,73,Confirmed
+Pits,Pit Install in Trench,in-trench,Pit Install,Provisional Sums,Pit install in already excavated trench | p5,each,526.9535999999999,NBN quote Master .xlsx,Sheet1,75,Confirmed
+Pits,Pit Install in Trench,in-trench,Pit Install,Provisional Sums,Pit install in already excavated trench | p6,each,1515.8472,NBN quote Master .xlsx,Sheet1,78,Confirmed
+Pits,Pit Works,,Pit Install / Supply,Materials,Pit lid supply/replace,each,473.6842105263158,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,378,Confirmed
+Pits,Pit over Existing Plant,over-existing,Pit Install,Provisional Sums,Pit over existing plant | p2,each,421.308,NBN quote Master .xlsx,Sheet1,74,Confirmed
+Pits,Pit over Existing Plant,over-existing,Pit Install,Provisional Sums,Pit over existing plant | p5,each,749.808,NBN quote Master .xlsx,Sheet1,76,Confirmed
+Pits,Pit over Existing Plant,over-existing,Pit Install,Provisional Sums,Pit over existing plant | p6,each,1735.6164,NBN quote Master .xlsx,Sheet1,80,Confirmed
+Preliminaries and Controls,Site preparation plant,,Plant,Plant,Plant (site preparation),site,4690,AARNet Pricebook.xlsx,AARnet Ratecard,8,Inferred
+Preliminaries and Controls,Preliminaries and Controls,,Pre-start / Controls,Preliminaries,Power viability audit,site,4000,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,11,Confirmed
+Preliminaries and Controls,Preliminaries and Controls,,Pre-start / Controls,Preliminaries,Preliminary construction survey,site,1050,Andersons Hill-NSWTA-Decon Costs Draft.xlsx,Variation Cost Schedule,11,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Provisional Sums,Proof roll subgrade,m2,33.81176410915703,Andersons Hill-NSWTA-Decon Costs Draft.xlsx,Variation Cost Schedule,28,Confirmed
+Fencing and Access Control,Fencing and Gates,,Fence / Gate,Provisional Sums,Protection posts,each,789.4736842105264,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,380,Confirmed
+Pits,Pit Works,,Pit Install / Supply,Materials,Reinforced concrete cover replacement,each,161.07,NBN quote Master .xlsx,Sheet1,99,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Disposal,Remove existing soil and green waste,m3,65.65,AARNet Pricebook.xlsx,AARnet Ratecard,3,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Materials,Reo cage steelwork,pier,334.38,AARNet Pricebook.xlsx,AARnet Ratecard,11,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,unspecified,Minor Civils,Provisional Sums,Retaining wall 200mm blockwork,m,282.8947368421053,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,41,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,rock,Minor Civils,Provisional Sums,Retaining wall concrete 200-1000,m,416.6315789473685,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,43,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,soil,Minor Civils,Provisional Sums,Retaining wall concrete 200-1000,m,347.3684210526316,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,42,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,rock,Minor Civils,Provisional Sums,Retaining wall concrete >1000,m,525,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,49,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,rock,Minor Civils,Provisional Sums,Retaining wall timber 200-1000,m,447.3684210526316,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,46,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,rock,Minor Civils,Provisional Sums,Retaining wall timber >1000,m,556.421052631579,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,52,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Disposal,Rock disposal only,m3,100.875612911846,Andersons Hill-NSWTA-Decon Costs Draft.xlsx,Variation Cost Schedule,27,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Provisional Sums,Rooftop plinth footings,4 plinths,3887.375974631101,NBN quote Master .xlsx,Sheet1,43,Confirmed
+Environmental and Traffic Overlays,Environmental / Traffic Overlay,,Overlay,Overlays,Rubble trap / mud grid,site,3628.947368421053,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,80,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Materials,Sand blinding,m2,208.9473684210526,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,57,Confirmed
+Environmental and Traffic Overlays,Environmental / Traffic Overlay,,Overlay,Overlays,Sediment fence,m,239.6842105263157,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,119,Confirmed
+Proving and Brownfield Controls,Service Proving,,Proving / Locate,Specialist Subcontract,Service location services | hr,hr,378.9473684210527,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,187,Confirmed
+Proving and Brownfield Controls,Service Proving,,Proving / Locate,Specialist Subcontract,Service location services | l,l,3.789473684210527,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,192,Inferred
+Proving and Brownfield Controls,Service Proving,,Proving / Locate,Specialist Subcontract,Service location services | per day,day,3098.947368421053,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,191,Inferred
+Proving and Brownfield Controls,Service Proving,,Proving / Locate,Specialist Subcontract,Service location services | site,site,1320,AARNet Pricebook.xlsx,AARnet Ratecard,7,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Provisional Sums,Shelter foundation 2 strip footings,2 footings,5764.00027619348,NBN quote Master .xlsx,Sheet1,42,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Provisional Sums,Shelter foundation 4 concrete pier footings up to 2.0m3,each,4319.603670346651,NBN quote Master .xlsx,Sheet1,40,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Provisional Sums,Shelter foundation slab up to 2.8m3,each,6405.549918668855,NBN quote Master .xlsx,Sheet1,38,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Provisional Sums,Shoring of excavations,m,110.99,Andersons Hill-NSWTA-Decon Costs Draft.xlsx,Variation Cost Schedule,30,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Provisional Sums,Shoring of excavations,m2,292.6315789473684,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,14,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,rock,Minor Civils,Provisional Sums,Single vehicular crossway | rock,each,6406.084210526316,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,34,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,shale,Minor Civils,Provisional Sums,Single vehicular crossway | shale,each,5953.157894736843,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,32,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,soil,Minor Civils,Provisional Sums,Single vehicular crossway | soil,each,5133.684210526316,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,31,Confirmed
+Preliminaries and Controls,Preliminaries and Controls,,Pre-start / Controls,Preliminaries,Site inductions / tickets,person,373.75,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,12,Confirmed
+Preliminaries and Controls,Preliminaries and Controls,,Pre-start / Controls,Preliminaries,Site quotation inspection,site,2631.578947368421,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,4,Confirmed
+Preliminaries and Controls,Preliminaries and Controls,,Pre-start / Controls,Preliminaries,Site setout / identification survey,site,4830,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,8,Confirmed
+Environmental and Traffic Overlays,Environmental / Traffic Overlay,,Overlay,Overlays,Site signage,each,960,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,59,Confirmed
+Environmental and Traffic Overlays,Environmental / Traffic Overlay,,Overlay,Overlays,Site signage,sign,59.49999999999999,Andersons Hill-NSWTA-Decon Costs Draft.xlsx,Variation Cost Schedule,81,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Provisional Sums,Solar C-post concrete,m3,393.56,AARNet Pricebook.xlsx,AARnet Ratecard,37,Inferred
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Disposal,Spoil removal,m2,50,NBN quote Master .xlsx,Sheet1,57,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Disposal,Spoil removal,m3,305.2631578947369,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,33,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,rock,Minor Civils,Provisional Sums,Standard kerb and gutter | rock,m,313.6842105263158,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,27,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,shale,Minor Civils,Provisional Sums,Standard kerb and gutter | shale,m,278.9473684210527,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,26,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,soil,Minor Civils,Provisional Sums,Standard kerb and gutter | soil,m,251.3157894736842,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,25,Confirmed
+Fencing and Access Control,Fencing and Gates,,Fence / Gate,Provisional Sums,Stock fence gate double,each,3134.736842105264,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,69,Confirmed
+Fencing and Access Control,Fencing and Gates,,Fence / Gate,Provisional Sums,Stock fence gate single,,2263.157894736842,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,70,Confirmed
+Fencing and Access Control,Fencing and Gates,,Fence / Gate,Provisional Sums,Stock fencing,m,342.6315789473684,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,68,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Provisional Sums,Strip vegetation and topsoil,m2,27.96175069792952,Andersons Hill-NSWTA-Decon Costs Draft.xlsx,Variation Cost Schedule,25,Confirmed
+Drainage and Minor Civil Structures,Minor Civil Structure,soil,Minor Civils,Provisional Sums,Sub-soil drains | soil,m,248.421052631579,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,83,Confirmed
+Preliminaries and Controls,Preliminaries and Controls,,Pre-start / Controls,Preliminaries,Supervision and site project management,site,1850,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,12,Confirmed
+Foundations and Support Civils,Foundation / Slab Works,,Foundation or Slab,Materials,Supply and fix reinforcing steel,t,4157.894736842106,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,87,Confirmed
+Preliminaries and Controls,Preliminaries and Controls,,Pre-start / Controls,Preliminaries,Survey pegs and return levels,site,2430,AARNet Pricebook.xlsx,AARnet Ratecard,4,Inferred
+Fencing and Access Control,Fencing and Gates,,Fence / Gate,Provisional Sums,Temporary site fencing,m,257.8947368421053,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,72,Confirmed
+Environmental and Traffic Overlays,Environmental / Traffic Overlay,,Overlay,Overlays,Traffic management,cost plus,1650,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,53,Confirmed
+Environmental and Traffic Overlays,Environmental / Traffic Overlay,,Overlay,Overlays,Traffic management,day,4721.052631578947,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,434,Confirmed
+Environmental and Traffic Overlays,Environmental / Traffic Overlay,,Overlay,Overlays,Tree protection,each,342.1052631578947,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,76,Confirmed
+Earthworks and Reinstatement,Service Route Trenching,otr,Trenching,Provisional Sums,Trenching | p100 | otr | additional,m,19.09753846153846,NBN quote Master .xlsx,Sheet1,72,Confirmed
+Earthworks and Reinstatement,Service Route Trenching,otr,Trenching,Provisional Sums,Trenching | p100 | otr | standard,m,112,NBN quote Master .xlsx,Sheet1,71,Confirmed
+Earthworks and Reinstatement,Service Route Trenching,rock,Trenching,Provisional Sums,Trenching | p100 | rock | standard,m,782.8070175438596,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,490,Confirmed
+Earthworks and Reinstatement,Service Route Trenching,shale,Trenching,Provisional Sums,Trenching | p100 | shale | standard,m,629.4736842105262,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,489,Confirmed
+Earthworks and Reinstatement,Service Route Trenching,soil,Trenching,Provisional Sums,Trenching | p100 | soil | standard,m,484.2105263157895,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,488,Confirmed
+Earthworks and Reinstatement,Service Route Trenching,rock,Trenching,Provisional Sums,Trenching | p63 & p100 | rock | standard,m,680.7017543859649,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,338,Confirmed
+Earthworks and Reinstatement,Service Route Trenching,shale,Trenching,Provisional Sums,Trenching | p63 & p100 | shale | standard,m,547.3684210526316,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,337,Confirmed
+Earthworks and Reinstatement,Service Route Trenching,soil,Trenching,Provisional Sums,Trenching | p63 & p100 | soil | standard,m,421.0526315789474,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,336,Confirmed
+Earthworks and Reinstatement,Service Route Trenching,rock,Trenching,Provisional Sums,Trenching | p63 | rock | standard,m,302.6315789473684,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,470,Confirmed
+Earthworks and Reinstatement,Service Route Trenching,shale,Trenching,Provisional Sums,Trenching | p63 | shale | standard,m,236.9,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,469,Confirmed
+Earthworks and Reinstatement,Service Route Trenching,soil,Trenching,Provisional Sums,Trenching | p63 | soil | standard,m,213.9,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,468,Confirmed
+Pits,Pit Works,,Pit Install / Supply,Provisional Sums,Underground feeder pit,each,2635.2,NBN quote Master .xlsx,Sheet1,81,Inferred
+Proving and Brownfield Controls,Service Proving,,Proving / Locate,Specialist Subcontract,Underground service search intrusive potholing,each,155.38,Andersons Hill-NSWTA-Decon Costs Draft.xlsx,Variation Cost Schedule,13,Confirmed
+Proving and Brownfield Controls,Service Proving,,Proving / Locate,Specialist Subcontract,Underground service search non-intrusive,site,1088.194470755558,Andersons Hill-NSWTA-Decon Costs Draft.xlsx,Variation Cost Schedule,12,Confirmed
+Fencing and Access Control,Fencing and Gates,,Fence / Gate,Provisional Sums,Vehicular access gate install,each,4452.631578947368,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,65,Confirmed
+Preliminaries and Controls,Preliminaries and Controls,,Pre-start / Controls,Preliminaries,Waste bin / rubbish support,site,1457.894736842105,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,9,Confirmed
+Earthworks and Reinstatement,Earthworks Core,,Earthworks,Materials,Weed matting / separator,m2,119.5394736842105,Supplier RTQ Pricing Template Kirstie-AO.xlsx,RATE BASED WORKS,103,Inferred
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,daily generator hire - after hours - metro,,180,Generator Maryborough LCR Victrack Per Refuel 3-2026.xlsx,Sheet1,17,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,daily generator hire - after hours regional,,180,Generator Maryborough LCR Victrack Per Refuel 3-2026.xlsx,Sheet1,33,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,daily generator hire - business hours - metro,,180,Generator Maryborough LCR Victrack Per Refuel 3-2026.xlsx,Sheet1,10,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,daily generator hire - business hours - regional,,180,Generator Maryborough LCR Victrack Per Refuel 3-2026.xlsx,Sheet1,25,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,daily generator hire -after hours - metro,,757.5,Generator Maryborough LCR Victrack Per Refuel 3-2026.xlsx,Sheet1,19,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,deployment cost after hours hours metro,,195,Generator Maryborough LCR Victrack Per Refuel 3-2026.xlsx,Sheet1,14,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,deployment cost after hours regional,,195,Generator Maryborough LCR Victrack Per Refuel 3-2026.xlsx,Sheet1,29,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,deployment cost business hours metro,,150,Generator Maryborough LCR Victrack Per Refuel 3-2026.xlsx,Sheet1,7,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,deployment cost business hours regional,,150,Generator Maryborough LCR Victrack Per Refuel 3-2026.xlsx,Sheet1,21,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,extra hours cost p/h,,195,Generator Maryborough LCR Victrack Per Refuel 3-2026.xlsx,Sheet1,16,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Materials,fuel cost per litre,,3.65,Generator Maryborough LCR Victrack Per Refuel 3-2026.xlsx,Sheet1,5,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,generator plug & transfer switch - install additional generator switch and socket on meter box. ref std-761,each,991.5832227747889,Andersons Hill-NSWTA-Decon Costs Draft.xlsx,Variation Cost Schedule,262,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,generator plug & transfer switch,each,5789.473684210527,VT_Rate Card_Generic for pricing Only.xlsx,Vic Track,320,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,minimum hours in deployment,,,Generator Maryborough LCR Victrack Per Refuel 3-2026.xlsx,Sheet1,8,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,mobilisation to site - outside 100km metro zone.,,4.77,Generator Maryborough LCR Victrack Per Refuel 3-2026.xlsx,Sheet1,31,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,weekly generator hire - after hours regional,,757.5,Generator Maryborough LCR Victrack Per Refuel 3-2026.xlsx,Sheet1,35,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,weekly generator hire - business hours - metro,,725,Generator Maryborough LCR Victrack Per Refuel 3-2026.xlsx,Sheet1,12,Confirmed
+Temporary Power and Generator Support,Generator Support,,Generator Support,Plant,weekly generator hire - business hours - regional,,757.5,Generator Maryborough LCR Victrack Per Refuel 3-2026.xlsx,Sheet1,27,Confirmed

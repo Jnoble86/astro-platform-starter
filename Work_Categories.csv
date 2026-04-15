@@ -1,0 +1,14 @@
+Work Category Code,Work Category Name,Category Type,Active,Notes
+WC-FOUND,Foundations,Core Production,True,Piers and support civils
+WC-SLAB,Slabs and Bases,Core Production,True,"Slabs, plinths, steps, minor footing/base civils"
+WC-EW,Earthworks,Core Production,True,"Excavation, fill, backfill, compaction, spoil"
+WC-PIT,Pits,Core Production,True,Concrete pit installation and related civils
+WC-PAVE,Pavements and Hardstand,Core Production,True,"Footpaths, driveways, hardstand"
+WC-PROVE,Proving and Brownfield Controls,Core Production,True,"NDD, potholing, proving trench, brownfield protection"
+WC-PRELIM,Preliminaries and Controls,Support,True,"Site inspection, setout, ecology, supervision, etc."
+WC-DRAIN,Drainage and Minor Civil Structures,Core Production,True,"Pipework, kerb, crossings, retaining walls, subsoil drains"
+WC-FENCE,Fencing and Access Control,Core Production,True,"Fencing, gates, removals, relocations"
+WC-ENV,Environmental and Traffic Overlays,Overlay,True,"Traffic, sediment, tree protection, dust control"
+WC-GEN,Temporary Power and Generator Support,Support,True,"Deployment, hire, fuel, switchgear support"
+WC-RAIL,Rail and Corridor Overlays,Overlay,True,Track protection and corridor-specific overlays
+WC-QUAR,Quarantined Non-Civil Items,Quarantined,True,Telecom and non-civil families held outside current phase

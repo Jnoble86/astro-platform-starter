@@ -1,0 +1,3 @@
+Revision ID,Revision Date,Change Summary,Status
+REV-001,2026-04-15,Initial audit-ready Dataverse pack and CSV import pack created,Superseded
+REV-002,2026-04-15,Audit outcomes folded in; three quote-dependent items added as explicit placeholders; Codex test brief added; import pack refreshed,Current

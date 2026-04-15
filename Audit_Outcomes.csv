@@ -1,0 +1,6 @@
+Area,Outcome Type,Item,Current Status,Action Now,Replacement Needed Later
+Pits,Open Quote-Dependent Item,Concrete pit risers,Open,Carry explicit placeholder rows in Rate Library and Standard Items Library,Supplier quote or price list
+Pits,Open Quote-Dependent Item,Concrete pit lid and frame library,Open,Carry explicit placeholder rows in Rate Library and Standard Items Library,Supplier quote or price list
+Pavements and Hardstand,Open Quote-Dependent Item,Geotextile / separator layer,Open,Carry explicit placeholder row in Rate Library,Supplier quote or price list
+Engine,Audit Outcome,Core civils phase structurally complete,Closed,"Proceed to table creation, import, and Codex integrity testing",None
+Engine,Audit Outcome,Non-civil telecom items quarantined,Closed,Keep outside civils implementation phase,Only if scope expands

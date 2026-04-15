@@ -1,0 +1,4 @@
+Rate Code,Rate Name,Rate Group,Unit,Rate Status,Source Owner,Source Reference,Value,Active,Notes
+RATE-PIT-RISER-PLH,Concrete pit riser supply - placeholder,Materials,each,Blocked,Supplier,Supplier quote required,,Yes,Explicit placeholder for quote-dependent open item
+RATE-PIT-LIDFRAME-PLH,Concrete pit lid and frame supply - placeholder,Materials,each,Blocked,Supplier,Supplier quote required,,Yes,Explicit placeholder for quote-dependent open item
+RATE-GEOTEXTILE-PLH,Geotextile / separator layer - placeholder,Materials,m2,Blocked,Supplier,Supplier quote required,,Yes,Explicit placeholder for quote-dependent open item

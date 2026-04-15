@@ -1,0 +1,312 @@
+Calculated Quantity Code,Calculated Quantity Name,Scope Item Code,Delivery Method Code,Quantity Type,Unit,Formula Summary,Depends On Summary,Active
+CQ-PITNEW-01,Selected pit weight,SI-PIT-NEW,DM-PIT-STD,value,kg,lookup from standard items library,pit type,True
+CQ-PITNEW-02,Excavation volume,SI-PIT-NEW,DM-PIT-STD,quantity,m3,pit footprint with install allowance x depth,pit type plus install rule,True
+CQ-PITNEW-03,Bedding volume,SI-PIT-NEW,DM-PIT-STD,quantity,m3,pit footprint with bedding thickness,pit type,True
+CQ-PITNEW-04,Backfill volume,SI-PIT-NEW,DM-PIT-STD,quantity,m3,excavation volume minus pit external volume minus bedding,pit type and install rule,True
+CQ-PITNEW-05,Riser required flag,SI-PIT-NEW,DM-PIT-STD,flag,,direct from project input,riser required input,True
+CQ-PITNEW-06,Proving required flag,SI-PIT-NEW,DM-PIT-STD,flag,,if assets within 2 m then yes,brownfield/proximity input,True
+CQ-PITNEW-07,Water review flag,SI-PIT-NEW,DM-PIT-STD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-PITNEW-01,Selected pit weight,SI-PIT-NEW,DM-PIT-LRG,value,kg,lookup from standard items library,pit type,True
+CQ-PITNEW-02,Excavation volume,SI-PIT-NEW,DM-PIT-LRG,quantity,m3,pit footprint with install allowance x depth,pit type plus install rule,True
+CQ-PITNEW-03,Bedding volume,SI-PIT-NEW,DM-PIT-LRG,quantity,m3,pit footprint with bedding thickness,pit type,True
+CQ-PITNEW-04,Backfill volume,SI-PIT-NEW,DM-PIT-LRG,quantity,m3,excavation volume minus pit external volume minus bedding,pit type and install rule,True
+CQ-PITNEW-05,Riser required flag,SI-PIT-NEW,DM-PIT-LRG,flag,,direct from project input,riser required input,True
+CQ-PITNEW-06,Proving required flag,SI-PIT-NEW,DM-PIT-LRG,flag,,if assets within 2 m then yes,brownfield/proximity input,True
+CQ-PITNEW-07,Water review flag,SI-PIT-NEW,DM-PIT-LRG,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-PITTIE-01,Selected pit weight,SI-PIT-TIE,DM-PIT-TIE,value,kg,lookup from standard items library,pit type,True
+CQ-PITTIE-02,Excavation volume,SI-PIT-TIE,DM-PIT-TIE,quantity,m3,pit footprint with install allowance x depth,pit type plus install rule,True
+CQ-PITTIE-03,Bedding volume,SI-PIT-TIE,DM-PIT-TIE,quantity,m3,pit footprint with bedding thickness,pit type,True
+CQ-PITTIE-04,Backfill volume,SI-PIT-TIE,DM-PIT-TIE,quantity,m3,excavation volume minus pit external volume minus bedding,pit type and install rule,True
+CQ-PITTIE-05,Riser required flag,SI-PIT-TIE,DM-PIT-TIE,flag,,direct from project input,riser required input,True
+CQ-PITTIE-06,Proving required flag,SI-PIT-TIE,DM-PIT-TIE,flag,,if assets within 2 m then yes,brownfield/proximity input,True
+CQ-PITTIE-07,Water review flag,SI-PIT-TIE,DM-PIT-TIE,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-PITREP-01,Selected pit weight,SI-PIT-REP,DM-PIT-REP,value,kg,lookup from standard items library,pit type,True
+CQ-PITREP-02,Excavation volume,SI-PIT-REP,DM-PIT-REP,quantity,m3,pit footprint with install allowance x depth,pit type plus install rule,True
+CQ-PITREP-03,Bedding volume,SI-PIT-REP,DM-PIT-REP,quantity,m3,pit footprint with bedding thickness,pit type,True
+CQ-PITREP-04,Backfill volume,SI-PIT-REP,DM-PIT-REP,quantity,m3,excavation volume minus pit external volume minus bedding,pit type and install rule,True
+CQ-PITREP-05,Riser required flag,SI-PIT-REP,DM-PIT-REP,flag,,direct from project input,riser required input,True
+CQ-PITREP-06,Proving required flag,SI-PIT-REP,DM-PIT-REP,flag,,if assets within 2 m then yes,brownfield/proximity input,True
+CQ-PITREP-07,Water review flag,SI-PIT-REP,DM-PIT-REP,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-FPCONC-01,Breakout area,SI-FP-CONC,DM-FP-CONC-LD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-FPCONC-02,Excavation volume,SI-FP-CONC,DM-FP-CONC-LD,quantity,m3,area x box-out depth,area and depth,True
+CQ-FPCONC-03,Subbase volume,SI-FP-CONC,DM-FP-CONC-LD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-FPCONC-05,Concrete volume,SI-FP-CONC,DM-FP-CONC-LD,quantity,m3,area x concrete thickness,area and thickness,True
+CQ-FPCONC-06,Proving required flag,SI-FP-CONC,DM-FP-CONC-LD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-FPCONC-07,Water review flag,SI-FP-CONC,DM-FP-CONC-LD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-FPCONC-08,Reinstatement area,SI-FP-CONC,DM-FP-CONC-LD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-FPASPH-01,Breakout area,SI-FP-ASPH,DM-FP-ASPH-LD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-FPASPH-02,Excavation volume,SI-FP-ASPH,DM-FP-ASPH-LD,quantity,m3,area x box-out depth,area and depth,True
+CQ-FPASPH-03,Subbase volume,SI-FP-ASPH,DM-FP-ASPH-LD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-FPASPH-05,Surface quantity,SI-FP-ASPH,DM-FP-ASPH-LD,quantity,m2,area based surface quantity,area,True
+CQ-FPASPH-06,Proving required flag,SI-FP-ASPH,DM-FP-ASPH-LD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-FPASPH-07,Water review flag,SI-FP-ASPH,DM-FP-ASPH-LD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-FPASPH-08,Reinstatement area,SI-FP-ASPH,DM-FP-ASPH-LD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-FPGRAV-01,Breakout area,SI-FP-GRAV,DM-FP-GRAV-LD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-FPGRAV-02,Excavation volume,SI-FP-GRAV,DM-FP-GRAV-LD,quantity,m3,area x box-out depth,area and depth,True
+CQ-FPGRAV-03,Subbase volume,SI-FP-GRAV,DM-FP-GRAV-LD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-FPGRAV-05,Surface quantity,SI-FP-GRAV,DM-FP-GRAV-LD,quantity,m2,area based surface quantity,area,True
+CQ-FPGRAV-06,Proving required flag,SI-FP-GRAV,DM-FP-GRAV-LD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-FPGRAV-07,Water review flag,SI-FP-GRAV,DM-FP-GRAV-LD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-FPGRAV-08,Reinstatement area,SI-FP-GRAV,DM-FP-GRAV-LD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-DRVCONC-01,Breakout area,SI-DRV-CONC,DM-DRV-CONC-LD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-DRVCONC-02,Excavation volume,SI-DRV-CONC,DM-DRV-CONC-LD,quantity,m3,area x box-out depth,area and depth,True
+CQ-DRVCONC-03,Subbase volume,SI-DRV-CONC,DM-DRV-CONC-LD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-DRVCONC-04,Basecourse / structural layer volume,SI-DRV-CONC,DM-DRV-CONC-LD,quantity,m3,area x structural layer thickness,area and thickness,True
+CQ-DRVCONC-05,Concrete volume,SI-DRV-CONC,DM-DRV-CONC-LD,quantity,m3,area x concrete thickness,area and thickness,True
+CQ-DRVCONC-06,Proving required flag,SI-DRV-CONC,DM-DRV-CONC-LD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-DRVCONC-07,Water review flag,SI-DRV-CONC,DM-DRV-CONC-LD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-DRVCONC-08,Reinstatement area,SI-DRV-CONC,DM-DRV-CONC-LD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-DRVASPH-01,Breakout area,SI-DRV-ASPH,DM-DRV-ASPH-LD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-DRVASPH-02,Excavation volume,SI-DRV-ASPH,DM-DRV-ASPH-LD,quantity,m3,area x box-out depth,area and depth,True
+CQ-DRVASPH-03,Subbase volume,SI-DRV-ASPH,DM-DRV-ASPH-LD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-DRVASPH-04,Basecourse / structural layer volume,SI-DRV-ASPH,DM-DRV-ASPH-LD,quantity,m3,area x structural layer thickness,area and thickness,True
+CQ-DRVASPH-05,Surface quantity,SI-DRV-ASPH,DM-DRV-ASPH-LD,quantity,m2,area based surface quantity,area,True
+CQ-DRVASPH-06,Proving required flag,SI-DRV-ASPH,DM-DRV-ASPH-LD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-DRVASPH-07,Water review flag,SI-DRV-ASPH,DM-DRV-ASPH-LD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-DRVASPH-08,Reinstatement area,SI-DRV-ASPH,DM-DRV-ASPH-LD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-DRVGRAV-01,Breakout area,SI-DRV-GRAV,DM-DRV-GRAV-LD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-DRVGRAV-02,Excavation volume,SI-DRV-GRAV,DM-DRV-GRAV-LD,quantity,m3,area x box-out depth,area and depth,True
+CQ-DRVGRAV-03,Subbase volume,SI-DRV-GRAV,DM-DRV-GRAV-LD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-DRVGRAV-04,Basecourse / structural layer volume,SI-DRV-GRAV,DM-DRV-GRAV-LD,quantity,m3,area x structural layer thickness,area and thickness,True
+CQ-DRVGRAV-05,Surface quantity,SI-DRV-GRAV,DM-DRV-GRAV-LD,quantity,m2,area based surface quantity,area,True
+CQ-DRVGRAV-06,Proving required flag,SI-DRV-GRAV,DM-DRV-GRAV-LD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-DRVGRAV-07,Water review flag,SI-DRV-GRAV,DM-DRV-GRAV-LD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-DRVGRAV-08,Reinstatement area,SI-DRV-GRAV,DM-DRV-GRAV-LD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-HDSCONC-01,Breakout area,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-HDSCONC-02,Excavation volume,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m3,area x box-out depth,area and depth,True
+CQ-HDSCONC-03,Subbase volume,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-HDSCONC-04,Basecourse / structural layer volume,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m3,area x structural layer thickness,area and thickness,True
+CQ-HDSCONC-05,Concrete volume,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m3,area x concrete thickness,area and thickness,True
+CQ-HDSCONC-06,Proving required flag,SI-HDS-CONC,DM-HDS-CONC-LD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-HDSCONC-07,Water review flag,SI-HDS-CONC,DM-HDS-CONC-LD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-HDSCONC-08,Reinstatement area,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-HDSCONC-01,Breakout area,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-HDSCONC-02,Excavation volume,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m3,area x box-out depth,area and depth,True
+CQ-HDSCONC-03,Subbase volume,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-HDSCONC-04,Basecourse / structural layer volume,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m3,area x structural layer thickness,area and thickness,True
+CQ-HDSCONC-05,Concrete volume,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m3,area x concrete thickness,area and thickness,True
+CQ-HDSCONC-06,Proving required flag,SI-HDS-CONC,DM-HDS-CONC-HD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-HDSCONC-07,Water review flag,SI-HDS-CONC,DM-HDS-CONC-HD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-HDSCONC-08,Reinstatement area,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-HDSASPH-01,Breakout area,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-HDSASPH-02,Excavation volume,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m3,area x box-out depth,area and depth,True
+CQ-HDSASPH-03,Subbase volume,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-HDSASPH-04,Basecourse / structural layer volume,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m3,area x structural layer thickness,area and thickness,True
+CQ-HDSASPH-05,Surface quantity,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m2,area based surface quantity,area,True
+CQ-HDSASPH-06,Proving required flag,SI-HDS-ASPH,DM-HDS-ASPH-LD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-HDSASPH-07,Water review flag,SI-HDS-ASPH,DM-HDS-ASPH-LD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-HDSASPH-08,Reinstatement area,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-HDSASPH-01,Breakout area,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-HDSASPH-02,Excavation volume,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m3,area x box-out depth,area and depth,True
+CQ-HDSASPH-03,Subbase volume,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-HDSASPH-04,Basecourse / structural layer volume,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m3,area x structural layer thickness,area and thickness,True
+CQ-HDSASPH-05,Surface quantity,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m2,area based surface quantity,area,True
+CQ-HDSASPH-06,Proving required flag,SI-HDS-ASPH,DM-HDS-ASPH-HD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-HDSASPH-07,Water review flag,SI-HDS-ASPH,DM-HDS-ASPH-HD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-HDSASPH-08,Reinstatement area,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-HDSGRAV-01,Breakout area,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-HDSGRAV-02,Excavation volume,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m3,area x box-out depth,area and depth,True
+CQ-HDSGRAV-03,Subbase volume,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-HDSGRAV-04,Basecourse / structural layer volume,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m3,area x structural layer thickness,area and thickness,True
+CQ-HDSGRAV-05,Surface quantity,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m2,area based surface quantity,area,True
+CQ-HDSGRAV-06,Proving required flag,SI-HDS-GRAV,DM-HDS-GRAV-LD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-HDSGRAV-07,Water review flag,SI-HDS-GRAV,DM-HDS-GRAV-LD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-HDSGRAV-08,Reinstatement area,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-HDSGRAV-01,Breakout area,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-HDSGRAV-02,Excavation volume,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m3,area x box-out depth,area and depth,True
+CQ-HDSGRAV-03,Subbase volume,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-HDSGRAV-04,Basecourse / structural layer volume,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m3,area x structural layer thickness,area and thickness,True
+CQ-HDSGRAV-05,Surface quantity,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m2,area based surface quantity,area,True
+CQ-HDSGRAV-06,Proving required flag,SI-HDS-GRAV,DM-HDS-GRAV-HD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-HDSGRAV-07,Water review flag,SI-HDS-GRAV,DM-HDS-GRAV-HD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-HDSGRAV-08,Reinstatement area,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-PROVNDD-01,Number of proves,SI-PROV-NDD,DM-PROV-NDD,quantity,count,direct from project input,prove count input,True
+CQ-PROVNDD-02,Breakout area,SI-PROV-NDD,DM-PROV-NDD,quantity,m2,entered disturbed area or standard local area,surface inputs,True
+CQ-PROVNDD-03,Spoil / slurry quantity,SI-PROV-NDD,DM-PROV-NDD,quantity,item,derived from prove count and depth band,prove count and depth,True
+CQ-PROVNDD-04,Traffic control flag,SI-PROV-NDD,DM-PROV-NDD,flag,,direct from project input,traffic input,True
+CQ-PROVNDD-05,Reinstatement flag,SI-PROV-NDD,DM-PROV-NDD,flag,,direct from project input,reinstatement input,True
+CQ-PROVPOT-01,Number of proves,SI-PROV-POT,DM-PROV-POT,quantity,count,direct from project input,prove count input,True
+CQ-PROVPOT-02,Breakout area,SI-PROV-POT,DM-PROV-POT,quantity,m2,entered disturbed area or standard local area,surface inputs,True
+CQ-PROVPOT-03,Spoil / slurry quantity,SI-PROV-POT,DM-PROV-POT,quantity,item,derived from prove count and depth band,prove count and depth,True
+CQ-PROVPOT-04,Traffic control flag,SI-PROV-POT,DM-PROV-POT,flag,,direct from project input,traffic input,True
+CQ-PROVPOT-05,Reinstatement flag,SI-PROV-POT,DM-PROV-POT,flag,,direct from project input,reinstatement input,True
+CQ-PROVSLOT-01,Number of proves,SI-PROV-SLOT,DM-PROV-SLOT,quantity,count,direct from project input,prove count input,True
+CQ-PROVSLOT-02,Breakout area,SI-PROV-SLOT,DM-PROV-SLOT,quantity,m2,entered disturbed area or standard local area,surface inputs,True
+CQ-PROVSLOT-03,Spoil / slurry quantity,SI-PROV-SLOT,DM-PROV-SLOT,quantity,item,derived from prove count and depth band,prove count and depth,True
+CQ-PROVSLOT-04,Traffic control flag,SI-PROV-SLOT,DM-PROV-SLOT,flag,,direct from project input,traffic input,True
+CQ-PROVSLOT-05,Reinstatement flag,SI-PROV-SLOT,DM-PROV-SLOT,flag,,direct from project input,reinstatement input,True
+CQ-PROVBREX-01,Number of proves,SI-PROV-BREXP,DM-PROV-BREXP,quantity,count,direct from project input,prove count input,True
+CQ-PROVBREX-02,Breakout area,SI-PROV-BREXP,DM-PROV-BREXP,quantity,m2,entered disturbed area or standard local area,surface inputs,True
+CQ-PROVBREX-03,Spoil / slurry quantity,SI-PROV-BREXP,DM-PROV-BREXP,quantity,item,derived from prove count and depth band,prove count and depth,True
+CQ-PROVBREX-04,Traffic control flag,SI-PROV-BREXP,DM-PROV-BREXP,flag,,direct from project input,traffic input,True
+CQ-PROVBREX-05,Reinstatement flag,SI-PROV-BREXP,DM-PROV-BREXP,flag,,direct from project input,reinstatement input,True
+CQ-PROVPITI-01,Number of proves,SI-PROV-PITINV,DM-PROV-PITINV,quantity,count,direct from project input,prove count input,True
+CQ-PROVPITI-02,Breakout area,SI-PROV-PITINV,DM-PROV-PITINV,quantity,m2,entered disturbed area or standard local area,surface inputs,True
+CQ-PROVPITI-03,Spoil / slurry quantity,SI-PROV-PITINV,DM-PROV-PITINV,quantity,item,derived from prove count and depth band,prove count and depth,True
+CQ-PROVPITI-04,Traffic control flag,SI-PROV-PITINV,DM-PROV-PITINV,flag,,direct from project input,traffic input,True
+CQ-PROVPITI-05,Reinstatement flag,SI-PROV-PITINV,DM-PROV-PITINV,flag,,direct from project input,reinstatement input,True
+CQ-FOUNDSHE-01,Foundation bore volume,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,quantity,m3,diameter x depth geometry,diameter and depth,True
+CQ-FOUNDSHE-02,Foundation concrete volume,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,quantity,m3,bore plus allowances,diameter and depth plus top detail,True
+CQ-FOUNDSHE-03,Foundation spoil volume,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,quantity,m3,bore geometry,diameter and depth,True
+CQ-FOUNDSHE-04,Cage required flag,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,flag,,direct from project input,cage input,True
+CQ-FOUNDSHE-05,Pump required flag,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,flag,,direct from project input,pump input,True
+CQ-FOUNDSHE-06,Review hold status,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,status,,derived from review rules,water / rock / unstable / conflict,True
+CQ-FOUNDSOL-01,Foundation bore volume,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,quantity,m3,diameter x depth geometry,diameter and depth,True
+CQ-FOUNDSOL-02,Foundation concrete volume,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,quantity,m3,bore plus allowances,diameter and depth plus top detail,True
+CQ-FOUNDSOL-03,Foundation spoil volume,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,quantity,m3,bore geometry,diameter and depth,True
+CQ-FOUNDSOL-04,Cage required flag,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,flag,,direct from project input,cage input,True
+CQ-FOUNDSOL-05,Pump required flag,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,flag,,direct from project input,pump input,True
+CQ-FOUNDSOL-06,Review hold status,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,status,,derived from review rules,water / rock / unstable / conflict,True
+CQ-FOUNDFEN-01,Foundation bore volume,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,quantity,m3,diameter x depth geometry,diameter and depth,True
+CQ-FOUNDFEN-02,Foundation concrete volume,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,quantity,m3,bore plus allowances,diameter and depth plus top detail,True
+CQ-FOUNDFEN-03,Foundation spoil volume,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,quantity,m3,bore geometry,diameter and depth,True
+CQ-FOUNDFEN-04,Cage required flag,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,flag,,direct from project input,cage input,True
+CQ-FOUNDFEN-05,Pump required flag,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,flag,,direct from project input,pump input,True
+CQ-FOUNDFEN-06,Review hold status,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,status,,derived from review rules,water / rock / unstable / conflict,True
+CQ-FOUNDGEN-01,Foundation bore volume,SI-FOUND-GEN,DM-FOUND-GEN-STD,quantity,m3,diameter x depth geometry,diameter and depth,True
+CQ-FOUNDGEN-02,Foundation concrete volume,SI-FOUND-GEN,DM-FOUND-GEN-STD,quantity,m3,bore plus allowances,diameter and depth plus top detail,True
+CQ-FOUNDGEN-03,Foundation spoil volume,SI-FOUND-GEN,DM-FOUND-GEN-STD,quantity,m3,bore geometry,diameter and depth,True
+CQ-FOUNDGEN-04,Cage required flag,SI-FOUND-GEN,DM-FOUND-GEN-STD,flag,,direct from project input,cage input,True
+CQ-FOUNDGEN-05,Pump required flag,SI-FOUND-GEN,DM-FOUND-GEN-STD,flag,,direct from project input,pump input,True
+CQ-FOUNDGEN-06,Review hold status,SI-FOUND-GEN,DM-FOUND-GEN-STD,status,,derived from review rules,water / rock / unstable / conflict,True
+CQ-FOUNDSLA-01,Foundation bore volume,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,quantity,m3,diameter x depth geometry,diameter and depth,True
+CQ-FOUNDSLA-02,Foundation concrete volume,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,quantity,m3,bore plus allowances,diameter and depth plus top detail,True
+CQ-FOUNDSLA-03,Foundation spoil volume,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,quantity,m3,bore geometry,diameter and depth,True
+CQ-FOUNDSLA-04,Cage required flag,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,flag,,direct from project input,cage input,True
+CQ-FOUNDSLA-05,Pump required flag,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,flag,,direct from project input,pump input,True
+CQ-FOUNDSLA-06,Review hold status,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,status,,derived from review rules,water / rock / unstable / conflict,True
+CQ-SLABGEN-01,Excavation volume,SI-SLAB-GEN,DM-SLAB-GEN-STD,quantity,m3,footprint x box-out depth,area and depth,True
+CQ-SLABGEN-02,Base volume,SI-SLAB-GEN,DM-SLAB-GEN-STD,quantity,m3,footprint x base thickness,area and thickness,True
+CQ-SLABGEN-03,Concrete volume,SI-SLAB-GEN,DM-SLAB-GEN-STD,quantity,m3,footprint x concrete thickness,area and thickness,True
+CQ-SLABGEN-04,Formwork length,SI-SLAB-GEN,DM-SLAB-GEN-STD,quantity,m,perimeter / geometry,object geometry,True
+CQ-SLABGEN-05,Interface works flag,SI-SLAB-GEN,DM-SLAB-GEN-STD,flag,,direct from project input,cast-ins / anchors,True
+CQ-SLABPLIN-01,Excavation volume,SI-SLAB-PLINTH,DM-SLAB-PLINTH-STD,quantity,m3,footprint x box-out depth,area and depth,True
+CQ-SLABPLIN-02,Base volume,SI-SLAB-PLINTH,DM-SLAB-PLINTH-STD,quantity,m3,footprint x base thickness,area and thickness,True
+CQ-SLABPLIN-03,Concrete volume,SI-SLAB-PLINTH,DM-SLAB-PLINTH-STD,quantity,m3,footprint x concrete thickness,area and thickness,True
+CQ-SLABPLIN-04,Formwork length,SI-SLAB-PLINTH,DM-SLAB-PLINTH-STD,quantity,m,perimeter / geometry,object geometry,True
+CQ-SLABPLIN-05,Interface works flag,SI-SLAB-PLINTH,DM-SLAB-PLINTH-STD,flag,,direct from project input,cast-ins / anchors,True
+CQ-SLABSTEP-01,Excavation volume,SI-SLAB-STEP,DM-SLAB-STEP-STD,quantity,m3,footprint x box-out depth,area and depth,True
+CQ-SLABSTEP-02,Base volume,SI-SLAB-STEP,DM-SLAB-STEP-STD,quantity,m3,footprint x base thickness,area and thickness,True
+CQ-SLABSTEP-03,Concrete volume,SI-SLAB-STEP,DM-SLAB-STEP-STD,quantity,m3,footprint x concrete thickness,area and thickness,True
+CQ-SLABSTEP-04,Formwork length,SI-SLAB-STEP,DM-SLAB-STEP-STD,quantity,m,perimeter / geometry,object geometry,True
+CQ-SLABSTEP-05,Interface works flag,SI-SLAB-STEP,DM-SLAB-STEP-STD,flag,,direct from project input,cast-ins / anchors,True
+CQ-SLABEDGE-01,Excavation volume,SI-SLAB-EDGE,DM-SLAB-EDGE-STD,quantity,m3,footprint x box-out depth,area and depth,True
+CQ-SLABEDGE-02,Base volume,SI-SLAB-EDGE,DM-SLAB-EDGE-STD,quantity,m3,footprint x base thickness,area and thickness,True
+CQ-SLABEDGE-03,Concrete volume,SI-SLAB-EDGE,DM-SLAB-EDGE-STD,quantity,m3,footprint x concrete thickness,area and thickness,True
+CQ-SLABEDGE-04,Formwork length,SI-SLAB-EDGE,DM-SLAB-EDGE-STD,quantity,m,perimeter / geometry,object geometry,True
+CQ-SLABEDGE-05,Interface works flag,SI-SLAB-EDGE,DM-SLAB-EDGE-STD,flag,,direct from project input,cast-ins / anchors,True
+CQ-EWLOCAL-01,Excavation volume,SI-EW-LOCAL,DM-EW-LOCAL,quantity,m3,area/length x depth or direct quantity,quantity input,True
+CQ-EWLOCAL-02,Spoil tonnes,SI-EW-LOCAL,DM-EW-LOCAL,quantity,t,spoil volume x density,spoil volume and density,True
+CQ-EWLOCAL-03,Truck trips,SI-EW-LOCAL,DM-EW-LOCAL,quantity,count,tonnes divided by payload assumption,spoil tonnes,True
+CQ-EWLOCAL-04,Compaction quantity,SI-EW-LOCAL,DM-EW-LOCAL,quantity,m3,fill volume / lift logic,quantity input,True
+CQ-EWLOCAL-05,Proving required flag,SI-EW-LOCAL,DM-EW-LOCAL,flag,,if assets within 2 m then yes,proximity input,True
+CQ-EWBULK-01,Excavation volume,SI-EW-BULK,DM-EW-BULK,quantity,m3,area/length x depth or direct quantity,quantity input,True
+CQ-EWBULK-02,Spoil tonnes,SI-EW-BULK,DM-EW-BULK,quantity,t,spoil volume x density,spoil volume and density,True
+CQ-EWBULK-03,Truck trips,SI-EW-BULK,DM-EW-BULK,quantity,count,tonnes divided by payload assumption,spoil tonnes,True
+CQ-EWBULK-04,Compaction quantity,SI-EW-BULK,DM-EW-BULK,quantity,m3,fill volume / lift logic,quantity input,True
+CQ-EWBULK-05,Proving required flag,SI-EW-BULK,DM-EW-BULK,flag,,if assets within 2 m then yes,proximity input,True
+CQ-EWSITEFI-01,Excavation volume,SI-EW-SITEFILL,DM-EW-SITEFILL,quantity,m3,area/length x depth or direct quantity,quantity input,True
+CQ-EWSITEFI-02,Spoil tonnes,SI-EW-SITEFILL,DM-EW-SITEFILL,quantity,t,spoil volume x density,spoil volume and density,True
+CQ-EWSITEFI-03,Truck trips,SI-EW-SITEFILL,DM-EW-SITEFILL,quantity,count,tonnes divided by payload assumption,spoil tonnes,True
+CQ-EWSITEFI-04,Compaction quantity,SI-EW-SITEFILL,DM-EW-SITEFILL,quantity,m3,fill volume / lift logic,quantity input,True
+CQ-EWSITEFI-05,Proving required flag,SI-EW-SITEFILL,DM-EW-SITEFILL,flag,,if assets within 2 m then yes,proximity input,True
+CQ-EWIMPFIL-01,Excavation volume,SI-EW-IMPFILL,DM-EW-IMPFILL,quantity,m3,area/length x depth or direct quantity,quantity input,True
+CQ-EWIMPFIL-02,Spoil tonnes,SI-EW-IMPFILL,DM-EW-IMPFILL,quantity,t,spoil volume x density,spoil volume and density,True
+CQ-EWIMPFIL-03,Truck trips,SI-EW-IMPFILL,DM-EW-IMPFILL,quantity,count,tonnes divided by payload assumption,spoil tonnes,True
+CQ-EWIMPFIL-04,Compaction quantity,SI-EW-IMPFILL,DM-EW-IMPFILL,quantity,m3,fill volume / lift logic,quantity input,True
+CQ-EWIMPFIL-05,Proving required flag,SI-EW-IMPFILL,DM-EW-IMPFILL,flag,,if assets within 2 m then yes,proximity input,True
+CQ-EWSELFIL-01,Excavation volume,SI-EW-SELFILL,DM-EW-SELFILL,quantity,m3,area/length x depth or direct quantity,quantity input,True
+CQ-EWSELFIL-02,Spoil tonnes,SI-EW-SELFILL,DM-EW-SELFILL,quantity,t,spoil volume x density,spoil volume and density,True
+CQ-EWSELFIL-03,Truck trips,SI-EW-SELFILL,DM-EW-SELFILL,quantity,count,tonnes divided by payload assumption,spoil tonnes,True
+CQ-EWSELFIL-04,Compaction quantity,SI-EW-SELFILL,DM-EW-SELFILL,quantity,m3,fill volume / lift logic,quantity input,True
+CQ-EWSELFIL-05,Proving required flag,SI-EW-SELFILL,DM-EW-SELFILL,flag,,if assets within 2 m then yes,proximity input,True
+CQ-EWCRUSHB-01,Excavation volume,SI-EW-CRUSHBF,DM-EW-CRUSHBF,quantity,m3,area/length x depth or direct quantity,quantity input,True
+CQ-EWCRUSHB-02,Spoil tonnes,SI-EW-CRUSHBF,DM-EW-CRUSHBF,quantity,t,spoil volume x density,spoil volume and density,True
+CQ-EWCRUSHB-03,Truck trips,SI-EW-CRUSHBF,DM-EW-CRUSHBF,quantity,count,tonnes divided by payload assumption,spoil tonnes,True
+CQ-EWCRUSHB-04,Compaction quantity,SI-EW-CRUSHBF,DM-EW-CRUSHBF,quantity,m3,fill volume / lift logic,quantity input,True
+CQ-EWCRUSHB-05,Proving required flag,SI-EW-CRUSHBF,DM-EW-CRUSHBF,flag,,if assets within 2 m then yes,proximity input,True
+CQ-DRAINPVC-01,Excavation volume,SI-DRAIN-PVC,DM-DRAIN-PVC-STD,quantity,m3,trench / footing geometry,length / count and depth,True
+CQ-DRAINPVC-02,Bedding quantity,SI-DRAIN-PVC,DM-DRAIN-PVC-STD,quantity,m3,geometric bedding quantity,length / count and dimensions,True
+CQ-DRAINPVC-03,Main install quantity,SI-DRAIN-PVC,DM-DRAIN-PVC-STD,quantity,unit,direct length / count,quantity input,True
+CQ-DRAINPVC-04,Backfill quantity,SI-DRAIN-PVC,DM-DRAIN-PVC-STD,quantity,m3,geometry less bedding and structure volume,dimensions and install quantity,True
+CQ-DRAINPVC-05,Ground variant flag,SI-DRAIN-PVC,DM-DRAIN-PVC-STD,flag,,direct from project input,soil / shale / rock,True
+CQ-DRAINRCP-01,Excavation volume,SI-DRAIN-RCP,DM-DRAIN-RCP-STD,quantity,m3,trench / footing geometry,length / count and depth,True
+CQ-DRAINRCP-02,Bedding quantity,SI-DRAIN-RCP,DM-DRAIN-RCP-STD,quantity,m3,geometric bedding quantity,length / count and dimensions,True
+CQ-DRAINRCP-03,Main install quantity,SI-DRAIN-RCP,DM-DRAIN-RCP-STD,quantity,unit,direct length / count,quantity input,True
+CQ-DRAINRCP-04,Backfill quantity,SI-DRAIN-RCP,DM-DRAIN-RCP-STD,quantity,m3,geometry less bedding and structure volume,dimensions and install quantity,True
+CQ-DRAINRCP-05,Ground variant flag,SI-DRAIN-RCP,DM-DRAIN-RCP-STD,flag,,direct from project input,soil / shale / rock,True
+CQ-DRAINSWA-01,Excavation volume,SI-DRAIN-SWAL,DM-DRAIN-SWAL-STD,quantity,m3,trench / footing geometry,length / count and depth,True
+CQ-DRAINSWA-02,Bedding quantity,SI-DRAIN-SWAL,DM-DRAIN-SWAL-STD,quantity,m3,geometric bedding quantity,length / count and dimensions,True
+CQ-DRAINSWA-03,Main install quantity,SI-DRAIN-SWAL,DM-DRAIN-SWAL-STD,quantity,unit,direct length / count,quantity input,True
+CQ-DRAINSWA-04,Backfill quantity,SI-DRAIN-SWAL,DM-DRAIN-SWAL-STD,quantity,m3,geometry less bedding and structure volume,dimensions and install quantity,True
+CQ-DRAINSWA-05,Ground variant flag,SI-DRAIN-SWAL,DM-DRAIN-SWAL-STD,flag,,direct from project input,soil / shale / rock,True
+CQ-DRAINPIT-01,Excavation volume,SI-DRAIN-PIT,DM-DRAIN-PIT-STD,quantity,m3,trench / footing geometry,length / count and depth,True
+CQ-DRAINPIT-02,Bedding quantity,SI-DRAIN-PIT,DM-DRAIN-PIT-STD,quantity,m3,geometric bedding quantity,length / count and dimensions,True
+CQ-DRAINPIT-03,Main install quantity,SI-DRAIN-PIT,DM-DRAIN-PIT-STD,quantity,unit,direct length / count,quantity input,True
+CQ-DRAINPIT-04,Backfill quantity,SI-DRAIN-PIT,DM-DRAIN-PIT-STD,quantity,m3,geometry less bedding and structure volume,dimensions and install quantity,True
+CQ-DRAINPIT-05,Ground variant flag,SI-DRAIN-PIT,DM-DRAIN-PIT-STD,flag,,direct from project input,soil / shale / rock,True
+CQ-DRAINKG-01,Excavation volume,SI-DRAIN-KG,DM-DRAIN-KG-STD,quantity,m3,trench / footing geometry,length / count and depth,True
+CQ-DRAINKG-02,Bedding quantity,SI-DRAIN-KG,DM-DRAIN-KG-STD,quantity,m3,geometric bedding quantity,length / count and dimensions,True
+CQ-DRAINKG-03,Main install quantity,SI-DRAIN-KG,DM-DRAIN-KG-STD,quantity,unit,direct length / count,quantity input,True
+CQ-DRAINKG-04,Backfill quantity,SI-DRAIN-KG,DM-DRAIN-KG-STD,quantity,m3,geometry less bedding and structure volume,dimensions and install quantity,True
+CQ-DRAINKG-05,Ground variant flag,SI-DRAIN-KG,DM-DRAIN-KG-STD,flag,,direct from project input,soil / shale / rock,True
+CQ-DRAINLKB-01,Excavation volume,SI-DRAIN-LKB,DM-DRAIN-LKB-STD,quantity,m3,trench / footing geometry,length / count and depth,True
+CQ-DRAINLKB-02,Bedding quantity,SI-DRAIN-LKB,DM-DRAIN-LKB-STD,quantity,m3,geometric bedding quantity,length / count and dimensions,True
+CQ-DRAINLKB-03,Main install quantity,SI-DRAIN-LKB,DM-DRAIN-LKB-STD,quantity,unit,direct length / count,quantity input,True
+CQ-DRAINLKB-04,Backfill quantity,SI-DRAIN-LKB,DM-DRAIN-LKB-STD,quantity,m3,geometry less bedding and structure volume,dimensions and install quantity,True
+CQ-DRAINLKB-05,Ground variant flag,SI-DRAIN-LKB,DM-DRAIN-LKB-STD,flag,,direct from project input,soil / shale / rock,True
+CQ-DRAINXS-01,Excavation volume,SI-DRAIN-XS,DM-DRAIN-XS-STD,quantity,m3,trench / footing geometry,length / count and depth,True
+CQ-DRAINXS-02,Bedding quantity,SI-DRAIN-XS,DM-DRAIN-XS-STD,quantity,m3,geometric bedding quantity,length / count and dimensions,True
+CQ-DRAINXS-03,Main install quantity,SI-DRAIN-XS,DM-DRAIN-XS-STD,quantity,unit,direct length / count,quantity input,True
+CQ-DRAINXS-04,Backfill quantity,SI-DRAIN-XS,DM-DRAIN-XS-STD,quantity,m3,geometry less bedding and structure volume,dimensions and install quantity,True
+CQ-DRAINXS-05,Ground variant flag,SI-DRAIN-XS,DM-DRAIN-XS-STD,flag,,direct from project input,soil / shale / rock,True
+CQ-DRAINXD-01,Excavation volume,SI-DRAIN-XD,DM-DRAIN-XD-STD,quantity,m3,trench / footing geometry,length / count and depth,True
+CQ-DRAINXD-02,Bedding quantity,SI-DRAIN-XD,DM-DRAIN-XD-STD,quantity,m3,geometric bedding quantity,length / count and dimensions,True
+CQ-DRAINXD-03,Main install quantity,SI-DRAIN-XD,DM-DRAIN-XD-STD,quantity,unit,direct length / count,quantity input,True
+CQ-DRAINXD-04,Backfill quantity,SI-DRAIN-XD,DM-DRAIN-XD-STD,quantity,m3,geometry less bedding and structure volume,dimensions and install quantity,True
+CQ-DRAINXD-05,Ground variant flag,SI-DRAIN-XD,DM-DRAIN-XD-STD,flag,,direct from project input,soil / shale / rock,True
+CQ-DRAINRWB-01,Excavation volume,SI-DRAIN-RWB,DM-DRAIN-RWB-STD,quantity,m3,trench / footing geometry,length / count and depth,True
+CQ-DRAINRWB-02,Bedding quantity,SI-DRAIN-RWB,DM-DRAIN-RWB-STD,quantity,m3,geometric bedding quantity,length / count and dimensions,True
+CQ-DRAINRWB-03,Main install quantity,SI-DRAIN-RWB,DM-DRAIN-RWB-STD,quantity,unit,direct length / count,quantity input,True
+CQ-DRAINRWB-04,Backfill quantity,SI-DRAIN-RWB,DM-DRAIN-RWB-STD,quantity,m3,geometry less bedding and structure volume,dimensions and install quantity,True
+CQ-DRAINRWB-05,Ground variant flag,SI-DRAIN-RWB,DM-DRAIN-RWB-STD,flag,,direct from project input,soil / shale / rock,True
+CQ-DRAINRWC-01,Excavation volume,SI-DRAIN-RWC,DM-DRAIN-RWC-STD,quantity,m3,trench / footing geometry,length / count and depth,True
+CQ-DRAINRWC-02,Bedding quantity,SI-DRAIN-RWC,DM-DRAIN-RWC-STD,quantity,m3,geometric bedding quantity,length / count and dimensions,True
+CQ-DRAINRWC-03,Main install quantity,SI-DRAIN-RWC,DM-DRAIN-RWC-STD,quantity,unit,direct length / count,quantity input,True
+CQ-DRAINRWC-04,Backfill quantity,SI-DRAIN-RWC,DM-DRAIN-RWC-STD,quantity,m3,geometry less bedding and structure volume,dimensions and install quantity,True
+CQ-DRAINRWC-05,Ground variant flag,SI-DRAIN-RWC,DM-DRAIN-RWC-STD,flag,,direct from project input,soil / shale / rock,True
+CQ-DRAINRWT-01,Excavation volume,SI-DRAIN-RWT,DM-DRAIN-RWT-STD,quantity,m3,trench / footing geometry,length / count and depth,True
+CQ-DRAINRWT-02,Bedding quantity,SI-DRAIN-RWT,DM-DRAIN-RWT-STD,quantity,m3,geometric bedding quantity,length / count and dimensions,True
+CQ-DRAINRWT-03,Main install quantity,SI-DRAIN-RWT,DM-DRAIN-RWT-STD,quantity,unit,direct length / count,quantity input,True
+CQ-DRAINRWT-04,Backfill quantity,SI-DRAIN-RWT,DM-DRAIN-RWT-STD,quantity,m3,geometry less bedding and structure volume,dimensions and install quantity,True
+CQ-DRAINRWT-05,Ground variant flag,SI-DRAIN-RWT,DM-DRAIN-RWT-STD,flag,,direct from project input,soil / shale / rock,True
+CQ-PRELIMSI-01,Charge quantity,SI-PRELIM-SITEVIS,DM-PRELIM-SITEVIS-STD,quantity,unit,direct from project input,quantity input,True
+CQ-PRELIMCO-01,Charge quantity,SI-PRELIM-CONSTR,DM-PRELIM-CONSTR-STD,quantity,unit,direct from project input,quantity input,True
+CQ-PRELIMSE-01,Charge quantity,SI-PRELIM-SETOUT,DM-PRELIM-SETOUT-STD,quantity,unit,direct from project input,quantity input,True
+CQ-PRELIMEC-01,Charge quantity,SI-PRELIM-ECO,DM-PRELIM-ECO-STD,quantity,unit,direct from project input,quantity input,True
+CQ-PRELIMDI-01,Charge quantity,SI-PRELIM-DILAP,DM-PRELIM-DILAP-STD,quantity,unit,direct from project input,quantity input,True
+CQ-PRELIMIN-01,Charge quantity,SI-PRELIM-INDUCT,DM-PRELIM-INDUCT-STD,quantity,unit,direct from project input,quantity input,True
+CQ-PRELIMWA-01,Charge quantity,SI-PRELIM-WASTE,DM-PRELIM-WASTE-STD,quantity,unit,direct from project input,quantity input,True
+CQ-PRELIMPW-01,Charge quantity,SI-PRELIM-PWRAUD,DM-PRELIM-PWRAUD-STD,quantity,unit,direct from project input,quantity input,True
+CQ-PRELIMSU-01,Charge quantity,SI-PRELIM-SUPER,DM-PRELIM-SUPER-STD,quantity,unit,direct from project input,quantity input,True
+CQ-PRELIMEN-01,Charge quantity,SI-PRELIM-ENGFIN,DM-PRELIM-ENGFIN-STD,quantity,unit,direct from project input,quantity input,True
+CQ-ENVTC-01,Charge quantity,SI-ENV-TC,DM-ENV-TC-STD,quantity,unit,direct from project input,quantity input,True
+CQ-ENVSEDF-01,Charge quantity,SI-ENV-SEDF,DM-ENV-SEDF-STD,quantity,unit,direct from project input,quantity input,True
+CQ-ENVTREE-01,Charge quantity,SI-ENV-TREE,DM-ENV-TREE-STD,quantity,unit,direct from project input,quantity input,True
+CQ-ENVDUST-01,Charge quantity,SI-ENV-DUST,DM-ENV-DUST-STD,quantity,unit,direct from project input,quantity input,True
+CQ-ENVMUD-01,Charge quantity,SI-ENV-MUD,DM-ENV-MUD-STD,quantity,unit,direct from project input,quantity input,True
+CQ-GENDEPBH-01,Charge quantity,SI-GEN-DEP-BH,DM-GEN-DEP-BH-METRO,quantity,unit,direct from project input,quantity input,True
+CQ-GENDEPBH-02,Fuel variable flag,SI-GEN-DEP-BH,DM-GEN-DEP-BH-METRO,flag,,direct from project input,fuel input,True
+CQ-GENDEPBH-01,Charge quantity,SI-GEN-DEP-BH,DM-GEN-DEP-BH-REG,quantity,unit,direct from project input,quantity input,True
+CQ-GENDEPBH-02,Fuel variable flag,SI-GEN-DEP-BH,DM-GEN-DEP-BH-REG,flag,,direct from project input,fuel input,True
+CQ-GENDEPAH-01,Charge quantity,SI-GEN-DEP-AH,DM-GEN-DEP-AH-STD,quantity,unit,direct from project input,quantity input,True
+CQ-GENDEPAH-02,Fuel variable flag,SI-GEN-DEP-AH,DM-GEN-DEP-AH-STD,flag,,direct from project input,fuel input,True
+CQ-GENHIRED-01,Charge quantity,SI-GEN-HIRE-DAY,DM-GEN-HIRE-DAY-STD,quantity,unit,direct from project input,quantity input,True
+CQ-GENHIRED-02,Fuel variable flag,SI-GEN-HIRE-DAY,DM-GEN-HIRE-DAY-STD,flag,,direct from project input,fuel input,True
+CQ-GENHIREW-01,Charge quantity,SI-GEN-HIRE-WK,DM-GEN-HIRE-WK-STD,quantity,unit,direct from project input,quantity input,True
+CQ-GENHIREW-02,Fuel variable flag,SI-GEN-HIRE-WK,DM-GEN-HIRE-WK-STD,flag,,direct from project input,fuel input,True
+CQ-GENFUEL-01,Charge quantity,SI-GEN-FUEL,DM-GEN-FUEL-STD,quantity,unit,direct from project input,quantity input,True
+CQ-GENFUEL-02,Fuel variable flag,SI-GEN-FUEL,DM-GEN-FUEL-STD,flag,,direct from project input,fuel input,True
+CQ-GENSWITC-01,Charge quantity,SI-GEN-SWITCH,DM-GEN-SWITCH-STD,quantity,unit,direct from project input,quantity input,True
+CQ-GENSWITC-02,Fuel variable flag,SI-GEN-SWITCH,DM-GEN-SWITCH-STD,flag,,direct from project input,fuel input,True
+CQ-RAILTRAC-01,Charge quantity,SI-RAIL-TRACK,DM-RAIL-TRACK-STD,quantity,unit,direct from project input,quantity input,True

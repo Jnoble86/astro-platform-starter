@@ -1,0 +1,291 @@
+Project Input Code,Option Label,Option Value,Sequence Number,Default Option,Active
+PI-PITNEW-SURF,Concrete,Concrete,1,True,True
+PI-PITNEW-SURF,Asphalt,Asphalt,2,False,True
+PI-PITNEW-SURF,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-PITNEW-SURF,Softscape,Softscape,4,False,True
+PI-PITNEW-SURF,Other,Other,5,False,True
+PI-PITNEW-SURF,Concrete,Concrete,1,True,True
+PI-PITNEW-SURF,Asphalt,Asphalt,2,False,True
+PI-PITNEW-SURF,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-PITNEW-SURF,Softscape,Softscape,4,False,True
+PI-PITNEW-SURF,Other,Other,5,False,True
+PI-PITTIE-SURF,Concrete,Concrete,1,True,True
+PI-PITTIE-SURF,Asphalt,Asphalt,2,False,True
+PI-PITTIE-SURF,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-PITTIE-SURF,Softscape,Softscape,4,False,True
+PI-PITTIE-SURF,Other,Other,5,False,True
+PI-PITREP-SURF,Concrete,Concrete,1,True,True
+PI-PITREP-SURF,Asphalt,Asphalt,2,False,True
+PI-PITREP-SURF,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-PITREP-SURF,Softscape,Softscape,4,False,True
+PI-PITREP-SURF,Other,Other,5,False,True
+PI-FPCONC-EST,Concrete,Concrete,1,True,True
+PI-FPCONC-EST,Asphalt,Asphalt,2,False,True
+PI-FPCONC-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-FPCONC-EST,Softscape,Softscape,4,False,True
+PI-FPCONC-EST,Other,Other,5,False,True
+PI-FPASPH-EST,Concrete,Concrete,1,True,True
+PI-FPASPH-EST,Asphalt,Asphalt,2,False,True
+PI-FPASPH-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-FPASPH-EST,Softscape,Softscape,4,False,True
+PI-FPASPH-EST,Other,Other,5,False,True
+PI-FPGRAV-EST,Concrete,Concrete,1,True,True
+PI-FPGRAV-EST,Asphalt,Asphalt,2,False,True
+PI-FPGRAV-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-FPGRAV-EST,Softscape,Softscape,4,False,True
+PI-FPGRAV-EST,Other,Other,5,False,True
+PI-DRVCONC-EST,Concrete,Concrete,1,True,True
+PI-DRVCONC-EST,Asphalt,Asphalt,2,False,True
+PI-DRVCONC-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-DRVCONC-EST,Softscape,Softscape,4,False,True
+PI-DRVCONC-EST,Other,Other,5,False,True
+PI-DRVASPH-EST,Concrete,Concrete,1,True,True
+PI-DRVASPH-EST,Asphalt,Asphalt,2,False,True
+PI-DRVASPH-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-DRVASPH-EST,Softscape,Softscape,4,False,True
+PI-DRVASPH-EST,Other,Other,5,False,True
+PI-DRVGRAV-EST,Concrete,Concrete,1,True,True
+PI-DRVGRAV-EST,Asphalt,Asphalt,2,False,True
+PI-DRVGRAV-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-DRVGRAV-EST,Softscape,Softscape,4,False,True
+PI-DRVGRAV-EST,Other,Other,5,False,True
+PI-HDSCONC-EST,Concrete,Concrete,1,True,True
+PI-HDSCONC-EST,Asphalt,Asphalt,2,False,True
+PI-HDSCONC-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-HDSCONC-EST,Softscape,Softscape,4,False,True
+PI-HDSCONC-EST,Other,Other,5,False,True
+PI-HDSCONC-EST,Concrete,Concrete,1,True,True
+PI-HDSCONC-EST,Asphalt,Asphalt,2,False,True
+PI-HDSCONC-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-HDSCONC-EST,Softscape,Softscape,4,False,True
+PI-HDSCONC-EST,Other,Other,5,False,True
+PI-HDSASPH-EST,Concrete,Concrete,1,True,True
+PI-HDSASPH-EST,Asphalt,Asphalt,2,False,True
+PI-HDSASPH-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-HDSASPH-EST,Softscape,Softscape,4,False,True
+PI-HDSASPH-EST,Other,Other,5,False,True
+PI-HDSASPH-EST,Concrete,Concrete,1,True,True
+PI-HDSASPH-EST,Asphalt,Asphalt,2,False,True
+PI-HDSASPH-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-HDSASPH-EST,Softscape,Softscape,4,False,True
+PI-HDSASPH-EST,Other,Other,5,False,True
+PI-HDSGRAV-EST,Concrete,Concrete,1,True,True
+PI-HDSGRAV-EST,Asphalt,Asphalt,2,False,True
+PI-HDSGRAV-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-HDSGRAV-EST,Softscape,Softscape,4,False,True
+PI-HDSGRAV-EST,Other,Other,5,False,True
+PI-HDSGRAV-EST,Concrete,Concrete,1,True,True
+PI-HDSGRAV-EST,Asphalt,Asphalt,2,False,True
+PI-HDSGRAV-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-HDSGRAV-EST,Softscape,Softscape,4,False,True
+PI-HDSGRAV-EST,Other,Other,5,False,True
+PI-PROVNDD-SURF,Concrete,Concrete,1,True,True
+PI-PROVNDD-SURF,Asphalt,Asphalt,2,False,True
+PI-PROVNDD-SURF,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-PROVNDD-SURF,Softscape,Softscape,4,False,True
+PI-PROVNDD-SURF,Other,Other,5,False,True
+PI-PROVNDD-TYP,Option 1,Option 1,1,True,True
+PI-PROVNDD-TYP,Option 2,Option 2,2,False,True
+PI-PROVNDD-DEP,0-0.5 m,0-0.5 m,1,True,True
+PI-PROVNDD-DEP,0.5-1.0 m,0.5-1.0 m,2,False,True
+PI-PROVNDD-DEP,1.0-1.5 m,1.0-1.5 m,3,False,True
+PI-PROVNDD-DEP,1.5-2.0 m,1.5-2.0 m,4,False,True
+PI-PROVNDD-DEP,2.0 m+,2.0 m+,5,False,True
+PI-PROVPOT-SURF,Concrete,Concrete,1,True,True
+PI-PROVPOT-SURF,Asphalt,Asphalt,2,False,True
+PI-PROVPOT-SURF,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-PROVPOT-SURF,Softscape,Softscape,4,False,True
+PI-PROVPOT-SURF,Other,Other,5,False,True
+PI-PROVPOT-TYP,Option 1,Option 1,1,True,True
+PI-PROVPOT-TYP,Option 2,Option 2,2,False,True
+PI-PROVPOT-DEP,0-0.5 m,0-0.5 m,1,True,True
+PI-PROVPOT-DEP,0.5-1.0 m,0.5-1.0 m,2,False,True
+PI-PROVPOT-DEP,1.0-1.5 m,1.0-1.5 m,3,False,True
+PI-PROVPOT-DEP,1.5-2.0 m,1.5-2.0 m,4,False,True
+PI-PROVPOT-DEP,2.0 m+,2.0 m+,5,False,True
+PI-PROVSLOT-SURF,Concrete,Concrete,1,True,True
+PI-PROVSLOT-SURF,Asphalt,Asphalt,2,False,True
+PI-PROVSLOT-SURF,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-PROVSLOT-SURF,Softscape,Softscape,4,False,True
+PI-PROVSLOT-SURF,Other,Other,5,False,True
+PI-PROVSLOT-TYP,Option 1,Option 1,1,True,True
+PI-PROVSLOT-TYP,Option 2,Option 2,2,False,True
+PI-PROVSLOT-DEP,0-0.5 m,0-0.5 m,1,True,True
+PI-PROVSLOT-DEP,0.5-1.0 m,0.5-1.0 m,2,False,True
+PI-PROVSLOT-DEP,1.0-1.5 m,1.0-1.5 m,3,False,True
+PI-PROVSLOT-DEP,1.5-2.0 m,1.5-2.0 m,4,False,True
+PI-PROVSLOT-DEP,2.0 m+,2.0 m+,5,False,True
+PI-PROVBREX-SURF,Concrete,Concrete,1,True,True
+PI-PROVBREX-SURF,Asphalt,Asphalt,2,False,True
+PI-PROVBREX-SURF,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-PROVBREX-SURF,Softscape,Softscape,4,False,True
+PI-PROVBREX-SURF,Other,Other,5,False,True
+PI-PROVBREX-TYP,Option 1,Option 1,1,True,True
+PI-PROVBREX-TYP,Option 2,Option 2,2,False,True
+PI-PROVBREX-DEP,0-0.5 m,0-0.5 m,1,True,True
+PI-PROVBREX-DEP,0.5-1.0 m,0.5-1.0 m,2,False,True
+PI-PROVBREX-DEP,1.0-1.5 m,1.0-1.5 m,3,False,True
+PI-PROVBREX-DEP,1.5-2.0 m,1.5-2.0 m,4,False,True
+PI-PROVBREX-DEP,2.0 m+,2.0 m+,5,False,True
+PI-PROVPITI-SURF,Concrete,Concrete,1,True,True
+PI-PROVPITI-SURF,Asphalt,Asphalt,2,False,True
+PI-PROVPITI-SURF,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-PROVPITI-SURF,Softscape,Softscape,4,False,True
+PI-PROVPITI-SURF,Other,Other,5,False,True
+PI-PROVPITI-TYP,Option 1,Option 1,1,True,True
+PI-PROVPITI-TYP,Option 2,Option 2,2,False,True
+PI-PROVPITI-DEP,0-0.5 m,0-0.5 m,1,True,True
+PI-PROVPITI-DEP,0.5-1.0 m,0.5-1.0 m,2,False,True
+PI-PROVPITI-DEP,1.0-1.5 m,1.0-1.5 m,3,False,True
+PI-PROVPITI-DEP,1.5-2.0 m,1.5-2.0 m,4,False,True
+PI-PROVPITI-DEP,2.0 m+,2.0 m+,5,False,True
+PI-FOUNDSHE-DIA,250 mm,250 mm,1,True,True
+PI-FOUNDSHE-DIA,350 mm,350 mm,2,False,True
+PI-FOUNDSHE-DIA,450 mm,450 mm,3,False,True
+PI-FOUNDSHE-DIA,600 mm,600 mm,4,False,True
+PI-FOUNDSHE-DEP,0-0.5 m,0-0.5 m,1,True,True
+PI-FOUNDSHE-DEP,0.5-1.0 m,0.5-1.0 m,2,False,True
+PI-FOUNDSHE-DEP,1.0-1.5 m,1.0-1.5 m,3,False,True
+PI-FOUNDSHE-DEP,1.5-2.0 m,1.5-2.0 m,4,False,True
+PI-FOUNDSHE-DEP,2.0 m+,2.0 m+,5,False,True
+PI-FOUNDSOL-DIA,250 mm,250 mm,1,True,True
+PI-FOUNDSOL-DIA,350 mm,350 mm,2,False,True
+PI-FOUNDSOL-DIA,450 mm,450 mm,3,False,True
+PI-FOUNDSOL-DIA,600 mm,600 mm,4,False,True
+PI-FOUNDSOL-DEP,0-0.5 m,0-0.5 m,1,True,True
+PI-FOUNDSOL-DEP,0.5-1.0 m,0.5-1.0 m,2,False,True
+PI-FOUNDSOL-DEP,1.0-1.5 m,1.0-1.5 m,3,False,True
+PI-FOUNDSOL-DEP,1.5-2.0 m,1.5-2.0 m,4,False,True
+PI-FOUNDSOL-DEP,2.0 m+,2.0 m+,5,False,True
+PI-FOUNDFEN-DIA,250 mm,250 mm,1,True,True
+PI-FOUNDFEN-DIA,350 mm,350 mm,2,False,True
+PI-FOUNDFEN-DIA,450 mm,450 mm,3,False,True
+PI-FOUNDFEN-DIA,600 mm,600 mm,4,False,True
+PI-FOUNDFEN-DEP,0-0.5 m,0-0.5 m,1,True,True
+PI-FOUNDFEN-DEP,0.5-1.0 m,0.5-1.0 m,2,False,True
+PI-FOUNDFEN-DEP,1.0-1.5 m,1.0-1.5 m,3,False,True
+PI-FOUNDFEN-DEP,1.5-2.0 m,1.5-2.0 m,4,False,True
+PI-FOUNDFEN-DEP,2.0 m+,2.0 m+,5,False,True
+PI-FOUNDGEN-DIA,250 mm,250 mm,1,True,True
+PI-FOUNDGEN-DIA,350 mm,350 mm,2,False,True
+PI-FOUNDGEN-DIA,450 mm,450 mm,3,False,True
+PI-FOUNDGEN-DIA,600 mm,600 mm,4,False,True
+PI-FOUNDGEN-DEP,0-0.5 m,0-0.5 m,1,True,True
+PI-FOUNDGEN-DEP,0.5-1.0 m,0.5-1.0 m,2,False,True
+PI-FOUNDGEN-DEP,1.0-1.5 m,1.0-1.5 m,3,False,True
+PI-FOUNDGEN-DEP,1.5-2.0 m,1.5-2.0 m,4,False,True
+PI-FOUNDGEN-DEP,2.0 m+,2.0 m+,5,False,True
+PI-FOUNDSLA-DIA,250 mm,250 mm,1,True,True
+PI-FOUNDSLA-DIA,350 mm,350 mm,2,False,True
+PI-FOUNDSLA-DIA,450 mm,450 mm,3,False,True
+PI-FOUNDSLA-DIA,600 mm,600 mm,4,False,True
+PI-FOUNDSLA-DEP,0-0.5 m,0-0.5 m,1,True,True
+PI-FOUNDSLA-DEP,0.5-1.0 m,0.5-1.0 m,2,False,True
+PI-FOUNDSLA-DEP,1.0-1.5 m,1.0-1.5 m,3,False,True
+PI-FOUNDSLA-DEP,1.5-2.0 m,1.5-2.0 m,4,False,True
+PI-FOUNDSLA-DEP,2.0 m+,2.0 m+,5,False,True
+PI-EWLOCAL-MAT,Site-won,Site-won,1,True,True
+PI-EWLOCAL-MAT,Imported,Imported,2,False,True
+PI-EWLOCAL-MAT,Select,Select,3,False,True
+PI-EWLOCAL-MAT,Unsuitable,Unsuitable,4,False,True
+PI-EWBULK-MAT,Site-won,Site-won,1,True,True
+PI-EWBULK-MAT,Imported,Imported,2,False,True
+PI-EWBULK-MAT,Select,Select,3,False,True
+PI-EWBULK-MAT,Unsuitable,Unsuitable,4,False,True
+PI-EWSITEFI-MAT,Site-won,Site-won,1,True,True
+PI-EWSITEFI-MAT,Imported,Imported,2,False,True
+PI-EWSITEFI-MAT,Select,Select,3,False,True
+PI-EWSITEFI-MAT,Unsuitable,Unsuitable,4,False,True
+PI-EWIMPFIL-MAT,Site-won,Site-won,1,True,True
+PI-EWIMPFIL-MAT,Imported,Imported,2,False,True
+PI-EWIMPFIL-MAT,Select,Select,3,False,True
+PI-EWIMPFIL-MAT,Unsuitable,Unsuitable,4,False,True
+PI-EWSELFIL-MAT,Site-won,Site-won,1,True,True
+PI-EWSELFIL-MAT,Imported,Imported,2,False,True
+PI-EWSELFIL-MAT,Select,Select,3,False,True
+PI-EWSELFIL-MAT,Unsuitable,Unsuitable,4,False,True
+PI-EWCRUSHB-MAT,Site-won,Site-won,1,True,True
+PI-EWCRUSHB-MAT,Imported,Imported,2,False,True
+PI-EWCRUSHB-MAT,Select,Select,3,False,True
+PI-EWCRUSHB-MAT,Unsuitable,Unsuitable,4,False,True
+PI-DRAINPVC-TYP,Pipe,Pipe,1,True,True
+PI-DRAINPVC-TYP,Pit / gully,Pit / gully,2,False,True
+PI-DRAINPVC-TYP,Kerb / crossing,Kerb / crossing,3,False,True
+PI-DRAINPVC-TYP,Retaining wall,Retaining wall,4,False,True
+PI-DRAINPVC-GRD,Soil,Soil,1,True,True
+PI-DRAINPVC-GRD,Shale,Shale,2,False,True
+PI-DRAINPVC-GRD,Rock,Rock,3,False,True
+PI-DRAINRCP-TYP,Pipe,Pipe,1,True,True
+PI-DRAINRCP-TYP,Pit / gully,Pit / gully,2,False,True
+PI-DRAINRCP-TYP,Kerb / crossing,Kerb / crossing,3,False,True
+PI-DRAINRCP-TYP,Retaining wall,Retaining wall,4,False,True
+PI-DRAINRCP-GRD,Soil,Soil,1,True,True
+PI-DRAINRCP-GRD,Shale,Shale,2,False,True
+PI-DRAINRCP-GRD,Rock,Rock,3,False,True
+PI-DRAINSWA-TYP,Pipe,Pipe,1,True,True
+PI-DRAINSWA-TYP,Pit / gully,Pit / gully,2,False,True
+PI-DRAINSWA-TYP,Kerb / crossing,Kerb / crossing,3,False,True
+PI-DRAINSWA-TYP,Retaining wall,Retaining wall,4,False,True
+PI-DRAINSWA-GRD,Soil,Soil,1,True,True
+PI-DRAINSWA-GRD,Shale,Shale,2,False,True
+PI-DRAINSWA-GRD,Rock,Rock,3,False,True
+PI-DRAINPIT-TYP,Pipe,Pipe,1,True,True
+PI-DRAINPIT-TYP,Pit / gully,Pit / gully,2,False,True
+PI-DRAINPIT-TYP,Kerb / crossing,Kerb / crossing,3,False,True
+PI-DRAINPIT-TYP,Retaining wall,Retaining wall,4,False,True
+PI-DRAINPIT-GRD,Soil,Soil,1,True,True
+PI-DRAINPIT-GRD,Shale,Shale,2,False,True
+PI-DRAINPIT-GRD,Rock,Rock,3,False,True
+PI-DRAINKG-TYP,Pipe,Pipe,1,True,True
+PI-DRAINKG-TYP,Pit / gully,Pit / gully,2,False,True
+PI-DRAINKG-TYP,Kerb / crossing,Kerb / crossing,3,False,True
+PI-DRAINKG-TYP,Retaining wall,Retaining wall,4,False,True
+PI-DRAINKG-GRD,Soil,Soil,1,True,True
+PI-DRAINKG-GRD,Shale,Shale,2,False,True
+PI-DRAINKG-GRD,Rock,Rock,3,False,True
+PI-DRAINLKB-TYP,Pipe,Pipe,1,True,True
+PI-DRAINLKB-TYP,Pit / gully,Pit / gully,2,False,True
+PI-DRAINLKB-TYP,Kerb / crossing,Kerb / crossing,3,False,True
+PI-DRAINLKB-TYP,Retaining wall,Retaining wall,4,False,True
+PI-DRAINLKB-GRD,Soil,Soil,1,True,True
+PI-DRAINLKB-GRD,Shale,Shale,2,False,True
+PI-DRAINLKB-GRD,Rock,Rock,3,False,True
+PI-DRAINXS-TYP,Pipe,Pipe,1,True,True
+PI-DRAINXS-TYP,Pit / gully,Pit / gully,2,False,True
+PI-DRAINXS-TYP,Kerb / crossing,Kerb / crossing,3,False,True
+PI-DRAINXS-TYP,Retaining wall,Retaining wall,4,False,True
+PI-DRAINXS-GRD,Soil,Soil,1,True,True
+PI-DRAINXS-GRD,Shale,Shale,2,False,True
+PI-DRAINXS-GRD,Rock,Rock,3,False,True
+PI-DRAINXD-TYP,Pipe,Pipe,1,True,True
+PI-DRAINXD-TYP,Pit / gully,Pit / gully,2,False,True
+PI-DRAINXD-TYP,Kerb / crossing,Kerb / crossing,3,False,True
+PI-DRAINXD-TYP,Retaining wall,Retaining wall,4,False,True
+PI-DRAINXD-GRD,Soil,Soil,1,True,True
+PI-DRAINXD-GRD,Shale,Shale,2,False,True
+PI-DRAINXD-GRD,Rock,Rock,3,False,True
+PI-DRAINRWB-TYP,Pipe,Pipe,1,True,True
+PI-DRAINRWB-TYP,Pit / gully,Pit / gully,2,False,True
+PI-DRAINRWB-TYP,Kerb / crossing,Kerb / crossing,3,False,True
+PI-DRAINRWB-TYP,Retaining wall,Retaining wall,4,False,True
+PI-DRAINRWB-GRD,Soil,Soil,1,True,True
+PI-DRAINRWB-GRD,Shale,Shale,2,False,True
+PI-DRAINRWB-GRD,Rock,Rock,3,False,True
+PI-DRAINRWC-TYP,Pipe,Pipe,1,True,True
+PI-DRAINRWC-TYP,Pit / gully,Pit / gully,2,False,True
+PI-DRAINRWC-TYP,Kerb / crossing,Kerb / crossing,3,False,True
+PI-DRAINRWC-TYP,Retaining wall,Retaining wall,4,False,True
+PI-DRAINRWC-GRD,Soil,Soil,1,True,True
+PI-DRAINRWC-GRD,Shale,Shale,2,False,True
+PI-DRAINRWC-GRD,Rock,Rock,3,False,True
+PI-DRAINRWT-TYP,Pipe,Pipe,1,True,True
+PI-DRAINRWT-TYP,Pit / gully,Pit / gully,2,False,True
+PI-DRAINRWT-TYP,Kerb / crossing,Kerb / crossing,3,False,True
+PI-DRAINRWT-TYP,Retaining wall,Retaining wall,4,False,True
+PI-DRAINRWT-GRD,Soil,Soil,1,True,True
+PI-DRAINRWT-GRD,Shale,Shale,2,False,True
+PI-DRAINRWT-GRD,Rock,Rock,3,False,True
+PI-GENHIRED-PER,Daily,Daily,1,True,True
+PI-GENHIRED-PER,Weekly,Weekly,2,False,True
+PI-GENHIREW-PER,Daily,Daily,1,True,True
+PI-GENHIREW-PER,Weekly,Weekly,2,False,True
