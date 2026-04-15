@@ -1,22 +1,22 @@
 Project Input Code,Project Input Text,Scope Item Code,Delivery Method Code,Answer Type,Unit,Required,Blocks Pricing if Missing,Conditional On Summary,Active
-PI-PITNEW-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-PIT-NEW,DM-PIT-STD,yes/no,,True,True,none,True
-PI-PITNEW-WAT,Is abnormal water present or likely?,SI-PIT-NEW,DM-PIT-STD,yes/no,,True,True,none,True
-PI-PITNEW-W15,Does water exceed the 15 percent rule?,SI-PIT-NEW,DM-PIT-STD,yes/no,,False,True,if abnormal water present,True
-PI-PITNEW-RIN,Is local reinstatement included now?,SI-PIT-NEW,DM-PIT-STD,yes/no,,True,False,none,True
-PI-PITNEW-SURF,What is the local reinstatement surface type?,SI-PIT-NEW,DM-PIT-STD,choice,,True,True,none,True
-PI-PITNEW-BRK,Is surface breakout required?,SI-PIT-NEW,DM-PIT-STD,yes/no,,True,True,none,True
-PI-PITNEW-PIT,Which concrete pit type are you installing?,SI-PIT-NEW,DM-PIT-STD,lookup,,True,True,none,True
-PI-PITNEW-ENT,How many conduit entries are required?,SI-PIT-NEW,DM-PIT-STD,whole number,count,True,True,none,True
-PI-PITNEW-RIS,Is a riser required?,SI-PIT-NEW,DM-PIT-STD,yes/no,,True,False,none,True
-PI-PITNEW-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,True,True,none,True
-PI-PITNEW-WAT,Is abnormal water present or likely?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,True,True,none,True
-PI-PITNEW-W15,Does water exceed the 15 percent rule?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,False,True,if abnormal water present,True
-PI-PITNEW-RIN,Is local reinstatement included now?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,True,False,none,True
-PI-PITNEW-SURF,What is the local reinstatement surface type?,SI-PIT-NEW,DM-PIT-LRG,choice,,True,True,none,True
-PI-PITNEW-BRK,Is surface breakout required?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,True,True,none,True
-PI-PITNEW-PIT,Which concrete pit type are you installing?,SI-PIT-NEW,DM-PIT-LRG,lookup,,True,True,none,True
-PI-PITNEW-ENT,How many conduit entries are required?,SI-PIT-NEW,DM-PIT-LRG,whole number,count,True,True,none,True
-PI-PITNEW-RIS,Is a riser required?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,True,False,none,True
+PI-PITNEW-A2M__SI-PIT-NEW__DM-PIT-STD,Are known or suspected assets within 2 metres of mechanical excavation?,SI-PIT-NEW,DM-PIT-STD,yes/no,,True,True,none,True
+PI-PITNEW-WAT__SI-PIT-NEW__DM-PIT-STD,Is abnormal water present or likely?,SI-PIT-NEW,DM-PIT-STD,yes/no,,True,True,none,True
+PI-PITNEW-W15__SI-PIT-NEW__DM-PIT-STD,Does water exceed the 15 percent rule?,SI-PIT-NEW,DM-PIT-STD,yes/no,,False,True,if abnormal water present,True
+PI-PITNEW-RIN__SI-PIT-NEW__DM-PIT-STD,Is local reinstatement included now?,SI-PIT-NEW,DM-PIT-STD,yes/no,,True,False,none,True
+PI-PITNEW-SURF__SI-PIT-NEW__DM-PIT-STD,What is the local reinstatement surface type?,SI-PIT-NEW,DM-PIT-STD,choice,,True,True,none,True
+PI-PITNEW-BRK__SI-PIT-NEW__DM-PIT-STD,Is surface breakout required?,SI-PIT-NEW,DM-PIT-STD,yes/no,,True,True,none,True
+PI-PITNEW-PIT__SI-PIT-NEW__DM-PIT-STD,Which concrete pit type are you installing?,SI-PIT-NEW,DM-PIT-STD,lookup,,True,True,none,True
+PI-PITNEW-ENT__SI-PIT-NEW__DM-PIT-STD,How many conduit entries are required?,SI-PIT-NEW,DM-PIT-STD,whole number,count,True,True,none,True
+PI-PITNEW-RIS__SI-PIT-NEW__DM-PIT-STD,Is a riser required?,SI-PIT-NEW,DM-PIT-STD,yes/no,,True,False,none,True
+PI-PITNEW-A2M__SI-PIT-NEW__DM-PIT-LRG,Are known or suspected assets within 2 metres of mechanical excavation?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,True,True,none,True
+PI-PITNEW-WAT__SI-PIT-NEW__DM-PIT-LRG,Is abnormal water present or likely?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,True,True,none,True
+PI-PITNEW-W15__SI-PIT-NEW__DM-PIT-LRG,Does water exceed the 15 percent rule?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,False,True,if abnormal water present,True
+PI-PITNEW-RIN__SI-PIT-NEW__DM-PIT-LRG,Is local reinstatement included now?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,True,False,none,True
+PI-PITNEW-SURF__SI-PIT-NEW__DM-PIT-LRG,What is the local reinstatement surface type?,SI-PIT-NEW,DM-PIT-LRG,choice,,True,True,none,True
+PI-PITNEW-BRK__SI-PIT-NEW__DM-PIT-LRG,Is surface breakout required?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,True,True,none,True
+PI-PITNEW-PIT__SI-PIT-NEW__DM-PIT-LRG,Which concrete pit type are you installing?,SI-PIT-NEW,DM-PIT-LRG,lookup,,True,True,none,True
+PI-PITNEW-ENT__SI-PIT-NEW__DM-PIT-LRG,How many conduit entries are required?,SI-PIT-NEW,DM-PIT-LRG,whole number,count,True,True,none,True
+PI-PITNEW-RIS__SI-PIT-NEW__DM-PIT-LRG,Is a riser required?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,True,False,none,True
 PI-PITTIE-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-PIT-TIE,DM-PIT-TIE,yes/no,,True,True,none,True
 PI-PITTIE-WAT,Is abnormal water present or likely?,SI-PIT-TIE,DM-PIT-TIE,yes/no,,True,True,none,True
 PI-PITTIE-W15,Does water exceed the 15 percent rule?,SI-PIT-TIE,DM-PIT-TIE,yes/no,,False,True,if abnormal water present,True
@@ -112,86 +112,86 @@ PI-DRVGRAV-BAS,What is the structural layer thickness?,SI-DRV-GRAV,DM-DRV-GRAV-L
 PI-DRVGRAV-CAP,Is a capping layer required?,SI-DRV-GRAV,DM-DRV-GRAV-LD,yes/no,,True,False,none,True
 PI-DRVGRAV-SEP,Is a geotextile or separator required?,SI-DRV-GRAV,DM-DRV-GRAV-LD,yes/no,,True,False,none,True
 PI-DRVGRAV-TIE,Are tie-ins or edge treatments required?,SI-DRV-GRAV,DM-DRV-GRAV-LD,yes/no,,True,False,none,True
-PI-HDSCONC-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,True,none,True
-PI-HDSCONC-WAT,Is abnormal water present or likely?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,True,none,True
-PI-HDSCONC-W15,Does water exceed the 15 percent rule?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,False,True,if abnormal water present,True
-PI-HDSCONC-RIN,Is local reinstatement included now?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,False,none,True
-PI-HDSCONC-QTY,What is the area?,SI-HDS-CONC,DM-HDS-CONC-LD,decimal,m2,True,True,none,True
-PI-HDSCONC-BRK,Is existing surface breakout required?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,True,none,True
-PI-HDSCONC-EST,What is the existing surface type?,SI-HDS-CONC,DM-HDS-CONC-LD,choice,,False,False,if breakout required,True
-PI-HDSCONC-DEP,What is the box-out depth?,SI-HDS-CONC,DM-HDS-CONC-LD,decimal,mm,True,True,none,True
-PI-HDSCONC-SUB,What is the subbase thickness?,SI-HDS-CONC,DM-HDS-CONC-LD,decimal,mm,True,True,none,True
-PI-HDSCONC-BAS,What is the structural layer thickness?,SI-HDS-CONC,DM-HDS-CONC-LD,decimal,mm,True,True,none,True
-PI-HDSCONC-CON,What is the concrete thickness?,SI-HDS-CONC,DM-HDS-CONC-LD,decimal,mm,True,True,none,True
-PI-HDSCONC-CAP,Is a capping layer required?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,False,none,True
-PI-HDSCONC-SEP,Is a geotextile or separator required?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,False,none,True
-PI-HDSCONC-TIE,Are tie-ins or edge treatments required?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,False,none,True
-PI-HDSCONC-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,True,none,True
-PI-HDSCONC-WAT,Is abnormal water present or likely?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,True,none,True
-PI-HDSCONC-W15,Does water exceed the 15 percent rule?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,False,True,if abnormal water present,True
-PI-HDSCONC-RIN,Is local reinstatement included now?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,False,none,True
-PI-HDSCONC-QTY,What is the area?,SI-HDS-CONC,DM-HDS-CONC-HD,decimal,m2,True,True,none,True
-PI-HDSCONC-BRK,Is existing surface breakout required?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,True,none,True
-PI-HDSCONC-EST,What is the existing surface type?,SI-HDS-CONC,DM-HDS-CONC-HD,choice,,False,False,if breakout required,True
-PI-HDSCONC-DEP,What is the box-out depth?,SI-HDS-CONC,DM-HDS-CONC-HD,decimal,mm,True,True,none,True
-PI-HDSCONC-SUB,What is the subbase thickness?,SI-HDS-CONC,DM-HDS-CONC-HD,decimal,mm,True,True,none,True
-PI-HDSCONC-BAS,What is the structural layer thickness?,SI-HDS-CONC,DM-HDS-CONC-HD,decimal,mm,True,True,none,True
-PI-HDSCONC-CON,What is the concrete thickness?,SI-HDS-CONC,DM-HDS-CONC-HD,decimal,mm,True,True,none,True
-PI-HDSCONC-CAP,Is a capping layer required?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,False,none,True
-PI-HDSCONC-SEP,Is a geotextile or separator required?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,False,none,True
-PI-HDSCONC-TIE,Are tie-ins or edge treatments required?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,False,none,True
-PI-HDSASPH-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,True,none,True
-PI-HDSASPH-WAT,Is abnormal water present or likely?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,True,none,True
-PI-HDSASPH-W15,Does water exceed the 15 percent rule?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,False,True,if abnormal water present,True
-PI-HDSASPH-RIN,Is local reinstatement included now?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,False,none,True
-PI-HDSASPH-QTY,What is the area?,SI-HDS-ASPH,DM-HDS-ASPH-LD,decimal,m2,True,True,none,True
-PI-HDSASPH-BRK,Is existing surface breakout required?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,True,none,True
-PI-HDSASPH-EST,What is the existing surface type?,SI-HDS-ASPH,DM-HDS-ASPH-LD,choice,,False,False,if breakout required,True
-PI-HDSASPH-DEP,What is the box-out depth?,SI-HDS-ASPH,DM-HDS-ASPH-LD,decimal,mm,True,True,none,True
-PI-HDSASPH-SUB,What is the subbase thickness?,SI-HDS-ASPH,DM-HDS-ASPH-LD,decimal,mm,True,True,none,True
-PI-HDSASPH-BAS,What is the structural layer thickness?,SI-HDS-ASPH,DM-HDS-ASPH-LD,decimal,mm,True,True,none,True
-PI-HDSASPH-CAP,Is a capping layer required?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,False,none,True
-PI-HDSASPH-SEP,Is a geotextile or separator required?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,False,none,True
-PI-HDSASPH-TIE,Are tie-ins or edge treatments required?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,False,none,True
-PI-HDSASPH-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,True,none,True
-PI-HDSASPH-WAT,Is abnormal water present or likely?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,True,none,True
-PI-HDSASPH-W15,Does water exceed the 15 percent rule?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,False,True,if abnormal water present,True
-PI-HDSASPH-RIN,Is local reinstatement included now?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,False,none,True
-PI-HDSASPH-QTY,What is the area?,SI-HDS-ASPH,DM-HDS-ASPH-HD,decimal,m2,True,True,none,True
-PI-HDSASPH-BRK,Is existing surface breakout required?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,True,none,True
-PI-HDSASPH-EST,What is the existing surface type?,SI-HDS-ASPH,DM-HDS-ASPH-HD,choice,,False,False,if breakout required,True
-PI-HDSASPH-DEP,What is the box-out depth?,SI-HDS-ASPH,DM-HDS-ASPH-HD,decimal,mm,True,True,none,True
-PI-HDSASPH-SUB,What is the subbase thickness?,SI-HDS-ASPH,DM-HDS-ASPH-HD,decimal,mm,True,True,none,True
-PI-HDSASPH-BAS,What is the structural layer thickness?,SI-HDS-ASPH,DM-HDS-ASPH-HD,decimal,mm,True,True,none,True
-PI-HDSASPH-CAP,Is a capping layer required?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,False,none,True
-PI-HDSASPH-SEP,Is a geotextile or separator required?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,False,none,True
-PI-HDSASPH-TIE,Are tie-ins or edge treatments required?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,False,none,True
-PI-HDSGRAV-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,True,none,True
-PI-HDSGRAV-WAT,Is abnormal water present or likely?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,True,none,True
-PI-HDSGRAV-W15,Does water exceed the 15 percent rule?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,False,True,if abnormal water present,True
-PI-HDSGRAV-RIN,Is local reinstatement included now?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,False,none,True
-PI-HDSGRAV-QTY,What is the area?,SI-HDS-GRAV,DM-HDS-GRAV-LD,decimal,m2,True,True,none,True
-PI-HDSGRAV-BRK,Is existing surface breakout required?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,True,none,True
-PI-HDSGRAV-EST,What is the existing surface type?,SI-HDS-GRAV,DM-HDS-GRAV-LD,choice,,False,False,if breakout required,True
-PI-HDSGRAV-DEP,What is the box-out depth?,SI-HDS-GRAV,DM-HDS-GRAV-LD,decimal,mm,True,True,none,True
-PI-HDSGRAV-SUB,What is the subbase thickness?,SI-HDS-GRAV,DM-HDS-GRAV-LD,decimal,mm,True,True,none,True
-PI-HDSGRAV-BAS,What is the structural layer thickness?,SI-HDS-GRAV,DM-HDS-GRAV-LD,decimal,mm,True,True,none,True
-PI-HDSGRAV-CAP,Is a capping layer required?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,False,none,True
-PI-HDSGRAV-SEP,Is a geotextile or separator required?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,False,none,True
-PI-HDSGRAV-TIE,Are tie-ins or edge treatments required?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,False,none,True
-PI-HDSGRAV-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,True,none,True
-PI-HDSGRAV-WAT,Is abnormal water present or likely?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,True,none,True
-PI-HDSGRAV-W15,Does water exceed the 15 percent rule?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,False,True,if abnormal water present,True
-PI-HDSGRAV-RIN,Is local reinstatement included now?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,False,none,True
-PI-HDSGRAV-QTY,What is the area?,SI-HDS-GRAV,DM-HDS-GRAV-HD,decimal,m2,True,True,none,True
-PI-HDSGRAV-BRK,Is existing surface breakout required?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,True,none,True
-PI-HDSGRAV-EST,What is the existing surface type?,SI-HDS-GRAV,DM-HDS-GRAV-HD,choice,,False,False,if breakout required,True
-PI-HDSGRAV-DEP,What is the box-out depth?,SI-HDS-GRAV,DM-HDS-GRAV-HD,decimal,mm,True,True,none,True
-PI-HDSGRAV-SUB,What is the subbase thickness?,SI-HDS-GRAV,DM-HDS-GRAV-HD,decimal,mm,True,True,none,True
-PI-HDSGRAV-BAS,What is the structural layer thickness?,SI-HDS-GRAV,DM-HDS-GRAV-HD,decimal,mm,True,True,none,True
-PI-HDSGRAV-CAP,Is a capping layer required?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,False,none,True
-PI-HDSGRAV-SEP,Is a geotextile or separator required?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,False,none,True
-PI-HDSGRAV-TIE,Are tie-ins or edge treatments required?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,False,none,True
+PI-HDSCONC-A2M__SI-HDS-CONC__DM-HDS-CONC-LD,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,True,none,True
+PI-HDSCONC-WAT__SI-HDS-CONC__DM-HDS-CONC-LD,Is abnormal water present or likely?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,True,none,True
+PI-HDSCONC-W15__SI-HDS-CONC__DM-HDS-CONC-LD,Does water exceed the 15 percent rule?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,False,True,if abnormal water present,True
+PI-HDSCONC-RIN__SI-HDS-CONC__DM-HDS-CONC-LD,Is local reinstatement included now?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,False,none,True
+PI-HDSCONC-QTY__SI-HDS-CONC__DM-HDS-CONC-LD,What is the area?,SI-HDS-CONC,DM-HDS-CONC-LD,decimal,m2,True,True,none,True
+PI-HDSCONC-BRK__SI-HDS-CONC__DM-HDS-CONC-LD,Is existing surface breakout required?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,True,none,True
+PI-HDSCONC-EST__SI-HDS-CONC__DM-HDS-CONC-LD,What is the existing surface type?,SI-HDS-CONC,DM-HDS-CONC-LD,choice,,False,False,if breakout required,True
+PI-HDSCONC-DEP__SI-HDS-CONC__DM-HDS-CONC-LD,What is the box-out depth?,SI-HDS-CONC,DM-HDS-CONC-LD,decimal,mm,True,True,none,True
+PI-HDSCONC-SUB__SI-HDS-CONC__DM-HDS-CONC-LD,What is the subbase thickness?,SI-HDS-CONC,DM-HDS-CONC-LD,decimal,mm,True,True,none,True
+PI-HDSCONC-BAS__SI-HDS-CONC__DM-HDS-CONC-LD,What is the structural layer thickness?,SI-HDS-CONC,DM-HDS-CONC-LD,decimal,mm,True,True,none,True
+PI-HDSCONC-CON__SI-HDS-CONC__DM-HDS-CONC-LD,What is the concrete thickness?,SI-HDS-CONC,DM-HDS-CONC-LD,decimal,mm,True,True,none,True
+PI-HDSCONC-CAP__SI-HDS-CONC__DM-HDS-CONC-LD,Is a capping layer required?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,False,none,True
+PI-HDSCONC-SEP__SI-HDS-CONC__DM-HDS-CONC-LD,Is a geotextile or separator required?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,False,none,True
+PI-HDSCONC-TIE__SI-HDS-CONC__DM-HDS-CONC-LD,Are tie-ins or edge treatments required?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,False,none,True
+PI-HDSCONC-A2M__SI-HDS-CONC__DM-HDS-CONC-HD,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,True,none,True
+PI-HDSCONC-WAT__SI-HDS-CONC__DM-HDS-CONC-HD,Is abnormal water present or likely?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,True,none,True
+PI-HDSCONC-W15__SI-HDS-CONC__DM-HDS-CONC-HD,Does water exceed the 15 percent rule?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,False,True,if abnormal water present,True
+PI-HDSCONC-RIN__SI-HDS-CONC__DM-HDS-CONC-HD,Is local reinstatement included now?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,False,none,True
+PI-HDSCONC-QTY__SI-HDS-CONC__DM-HDS-CONC-HD,What is the area?,SI-HDS-CONC,DM-HDS-CONC-HD,decimal,m2,True,True,none,True
+PI-HDSCONC-BRK__SI-HDS-CONC__DM-HDS-CONC-HD,Is existing surface breakout required?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,True,none,True
+PI-HDSCONC-EST__SI-HDS-CONC__DM-HDS-CONC-HD,What is the existing surface type?,SI-HDS-CONC,DM-HDS-CONC-HD,choice,,False,False,if breakout required,True
+PI-HDSCONC-DEP__SI-HDS-CONC__DM-HDS-CONC-HD,What is the box-out depth?,SI-HDS-CONC,DM-HDS-CONC-HD,decimal,mm,True,True,none,True
+PI-HDSCONC-SUB__SI-HDS-CONC__DM-HDS-CONC-HD,What is the subbase thickness?,SI-HDS-CONC,DM-HDS-CONC-HD,decimal,mm,True,True,none,True
+PI-HDSCONC-BAS__SI-HDS-CONC__DM-HDS-CONC-HD,What is the structural layer thickness?,SI-HDS-CONC,DM-HDS-CONC-HD,decimal,mm,True,True,none,True
+PI-HDSCONC-CON__SI-HDS-CONC__DM-HDS-CONC-HD,What is the concrete thickness?,SI-HDS-CONC,DM-HDS-CONC-HD,decimal,mm,True,True,none,True
+PI-HDSCONC-CAP__SI-HDS-CONC__DM-HDS-CONC-HD,Is a capping layer required?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,False,none,True
+PI-HDSCONC-SEP__SI-HDS-CONC__DM-HDS-CONC-HD,Is a geotextile or separator required?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,False,none,True
+PI-HDSCONC-TIE__SI-HDS-CONC__DM-HDS-CONC-HD,Are tie-ins or edge treatments required?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,False,none,True
+PI-HDSASPH-A2M__SI-HDS-ASPH__DM-HDS-ASPH-LD,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,True,none,True
+PI-HDSASPH-WAT__SI-HDS-ASPH__DM-HDS-ASPH-LD,Is abnormal water present or likely?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,True,none,True
+PI-HDSASPH-W15__SI-HDS-ASPH__DM-HDS-ASPH-LD,Does water exceed the 15 percent rule?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,False,True,if abnormal water present,True
+PI-HDSASPH-RIN__SI-HDS-ASPH__DM-HDS-ASPH-LD,Is local reinstatement included now?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,False,none,True
+PI-HDSASPH-QTY__SI-HDS-ASPH__DM-HDS-ASPH-LD,What is the area?,SI-HDS-ASPH,DM-HDS-ASPH-LD,decimal,m2,True,True,none,True
+PI-HDSASPH-BRK__SI-HDS-ASPH__DM-HDS-ASPH-LD,Is existing surface breakout required?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,True,none,True
+PI-HDSASPH-EST__SI-HDS-ASPH__DM-HDS-ASPH-LD,What is the existing surface type?,SI-HDS-ASPH,DM-HDS-ASPH-LD,choice,,False,False,if breakout required,True
+PI-HDSASPH-DEP__SI-HDS-ASPH__DM-HDS-ASPH-LD,What is the box-out depth?,SI-HDS-ASPH,DM-HDS-ASPH-LD,decimal,mm,True,True,none,True
+PI-HDSASPH-SUB__SI-HDS-ASPH__DM-HDS-ASPH-LD,What is the subbase thickness?,SI-HDS-ASPH,DM-HDS-ASPH-LD,decimal,mm,True,True,none,True
+PI-HDSASPH-BAS__SI-HDS-ASPH__DM-HDS-ASPH-LD,What is the structural layer thickness?,SI-HDS-ASPH,DM-HDS-ASPH-LD,decimal,mm,True,True,none,True
+PI-HDSASPH-CAP__SI-HDS-ASPH__DM-HDS-ASPH-LD,Is a capping layer required?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,False,none,True
+PI-HDSASPH-SEP__SI-HDS-ASPH__DM-HDS-ASPH-LD,Is a geotextile or separator required?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,False,none,True
+PI-HDSASPH-TIE__SI-HDS-ASPH__DM-HDS-ASPH-LD,Are tie-ins or edge treatments required?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,False,none,True
+PI-HDSASPH-A2M__SI-HDS-ASPH__DM-HDS-ASPH-HD,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,True,none,True
+PI-HDSASPH-WAT__SI-HDS-ASPH__DM-HDS-ASPH-HD,Is abnormal water present or likely?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,True,none,True
+PI-HDSASPH-W15__SI-HDS-ASPH__DM-HDS-ASPH-HD,Does water exceed the 15 percent rule?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,False,True,if abnormal water present,True
+PI-HDSASPH-RIN__SI-HDS-ASPH__DM-HDS-ASPH-HD,Is local reinstatement included now?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,False,none,True
+PI-HDSASPH-QTY__SI-HDS-ASPH__DM-HDS-ASPH-HD,What is the area?,SI-HDS-ASPH,DM-HDS-ASPH-HD,decimal,m2,True,True,none,True
+PI-HDSASPH-BRK__SI-HDS-ASPH__DM-HDS-ASPH-HD,Is existing surface breakout required?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,True,none,True
+PI-HDSASPH-EST__SI-HDS-ASPH__DM-HDS-ASPH-HD,What is the existing surface type?,SI-HDS-ASPH,DM-HDS-ASPH-HD,choice,,False,False,if breakout required,True
+PI-HDSASPH-DEP__SI-HDS-ASPH__DM-HDS-ASPH-HD,What is the box-out depth?,SI-HDS-ASPH,DM-HDS-ASPH-HD,decimal,mm,True,True,none,True
+PI-HDSASPH-SUB__SI-HDS-ASPH__DM-HDS-ASPH-HD,What is the subbase thickness?,SI-HDS-ASPH,DM-HDS-ASPH-HD,decimal,mm,True,True,none,True
+PI-HDSASPH-BAS__SI-HDS-ASPH__DM-HDS-ASPH-HD,What is the structural layer thickness?,SI-HDS-ASPH,DM-HDS-ASPH-HD,decimal,mm,True,True,none,True
+PI-HDSASPH-CAP__SI-HDS-ASPH__DM-HDS-ASPH-HD,Is a capping layer required?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,False,none,True
+PI-HDSASPH-SEP__SI-HDS-ASPH__DM-HDS-ASPH-HD,Is a geotextile or separator required?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,False,none,True
+PI-HDSASPH-TIE__SI-HDS-ASPH__DM-HDS-ASPH-HD,Are tie-ins or edge treatments required?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,False,none,True
+PI-HDSGRAV-A2M__SI-HDS-GRAV__DM-HDS-GRAV-LD,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,True,none,True
+PI-HDSGRAV-WAT__SI-HDS-GRAV__DM-HDS-GRAV-LD,Is abnormal water present or likely?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,True,none,True
+PI-HDSGRAV-W15__SI-HDS-GRAV__DM-HDS-GRAV-LD,Does water exceed the 15 percent rule?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,False,True,if abnormal water present,True
+PI-HDSGRAV-RIN__SI-HDS-GRAV__DM-HDS-GRAV-LD,Is local reinstatement included now?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,False,none,True
+PI-HDSGRAV-QTY__SI-HDS-GRAV__DM-HDS-GRAV-LD,What is the area?,SI-HDS-GRAV,DM-HDS-GRAV-LD,decimal,m2,True,True,none,True
+PI-HDSGRAV-BRK__SI-HDS-GRAV__DM-HDS-GRAV-LD,Is existing surface breakout required?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,True,none,True
+PI-HDSGRAV-EST__SI-HDS-GRAV__DM-HDS-GRAV-LD,What is the existing surface type?,SI-HDS-GRAV,DM-HDS-GRAV-LD,choice,,False,False,if breakout required,True
+PI-HDSGRAV-DEP__SI-HDS-GRAV__DM-HDS-GRAV-LD,What is the box-out depth?,SI-HDS-GRAV,DM-HDS-GRAV-LD,decimal,mm,True,True,none,True
+PI-HDSGRAV-SUB__SI-HDS-GRAV__DM-HDS-GRAV-LD,What is the subbase thickness?,SI-HDS-GRAV,DM-HDS-GRAV-LD,decimal,mm,True,True,none,True
+PI-HDSGRAV-BAS__SI-HDS-GRAV__DM-HDS-GRAV-LD,What is the structural layer thickness?,SI-HDS-GRAV,DM-HDS-GRAV-LD,decimal,mm,True,True,none,True
+PI-HDSGRAV-CAP__SI-HDS-GRAV__DM-HDS-GRAV-LD,Is a capping layer required?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,False,none,True
+PI-HDSGRAV-SEP__SI-HDS-GRAV__DM-HDS-GRAV-LD,Is a geotextile or separator required?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,False,none,True
+PI-HDSGRAV-TIE__SI-HDS-GRAV__DM-HDS-GRAV-LD,Are tie-ins or edge treatments required?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,False,none,True
+PI-HDSGRAV-A2M__SI-HDS-GRAV__DM-HDS-GRAV-HD,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,True,none,True
+PI-HDSGRAV-WAT__SI-HDS-GRAV__DM-HDS-GRAV-HD,Is abnormal water present or likely?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,True,none,True
+PI-HDSGRAV-W15__SI-HDS-GRAV__DM-HDS-GRAV-HD,Does water exceed the 15 percent rule?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,False,True,if abnormal water present,True
+PI-HDSGRAV-RIN__SI-HDS-GRAV__DM-HDS-GRAV-HD,Is local reinstatement included now?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,False,none,True
+PI-HDSGRAV-QTY__SI-HDS-GRAV__DM-HDS-GRAV-HD,What is the area?,SI-HDS-GRAV,DM-HDS-GRAV-HD,decimal,m2,True,True,none,True
+PI-HDSGRAV-BRK__SI-HDS-GRAV__DM-HDS-GRAV-HD,Is existing surface breakout required?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,True,none,True
+PI-HDSGRAV-EST__SI-HDS-GRAV__DM-HDS-GRAV-HD,What is the existing surface type?,SI-HDS-GRAV,DM-HDS-GRAV-HD,choice,,False,False,if breakout required,True
+PI-HDSGRAV-DEP__SI-HDS-GRAV__DM-HDS-GRAV-HD,What is the box-out depth?,SI-HDS-GRAV,DM-HDS-GRAV-HD,decimal,mm,True,True,none,True
+PI-HDSGRAV-SUB__SI-HDS-GRAV__DM-HDS-GRAV-HD,What is the subbase thickness?,SI-HDS-GRAV,DM-HDS-GRAV-HD,decimal,mm,True,True,none,True
+PI-HDSGRAV-BAS__SI-HDS-GRAV__DM-HDS-GRAV-HD,What is the structural layer thickness?,SI-HDS-GRAV,DM-HDS-GRAV-HD,decimal,mm,True,True,none,True
+PI-HDSGRAV-CAP__SI-HDS-GRAV__DM-HDS-GRAV-HD,Is a capping layer required?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,False,none,True
+PI-HDSGRAV-SEP__SI-HDS-GRAV__DM-HDS-GRAV-HD,Is a geotextile or separator required?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,False,none,True
+PI-HDSGRAV-TIE__SI-HDS-GRAV__DM-HDS-GRAV-HD,Are tie-ins or edge treatments required?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,False,none,True
 PI-PROVNDD-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-PROV-NDD,DM-PROV-NDD,yes/no,,True,True,none,True
 PI-PROVNDD-WAT,Is abnormal water present or likely?,SI-PROV-NDD,DM-PROV-NDD,yes/no,,True,True,none,True
 PI-PROVNDD-W15,Does water exceed the 15 percent rule?,SI-PROV-NDD,DM-PROV-NDD,yes/no,,False,True,if abnormal water present,True
@@ -501,24 +501,24 @@ PI-FENCEREL-W15,Does water exceed the 15 percent rule?,SI-FENCE-RELOC,DM-FENCE-R
 PI-FENCEREL-RIN,Is local reinstatement included now?,SI-FENCE-RELOC,DM-FENCE-RELOC,yes/no,,True,False,none,True
 PI-FENCEREL-QTY,What is the quantity / length / count?,SI-FENCE-RELOC,DM-FENCE-RELOC,decimal,each,True,True,none,True
 PI-FENCEREL-TIE,Are tie-ins or local footing works required?,SI-FENCE-RELOC,DM-FENCE-RELOC,yes/no,,False,False,none,True
-PI-FENCESTK-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FENCE-STKS,DM-FENCE-STKS,yes/no,,True,True,none,True
-PI-FENCESTK-WAT,Is abnormal water present or likely?,SI-FENCE-STKS,DM-FENCE-STKS,yes/no,,True,True,none,True
-PI-FENCESTK-W15,Does water exceed the 15 percent rule?,SI-FENCE-STKS,DM-FENCE-STKS,yes/no,,False,True,if abnormal water present,True
-PI-FENCESTK-RIN,Is local reinstatement included now?,SI-FENCE-STKS,DM-FENCE-STKS,yes/no,,True,False,none,True
-PI-FENCESTK-QTY,What is the quantity / length / count?,SI-FENCE-STKS,DM-FENCE-STKS,decimal,each,True,True,none,True
-PI-FENCESTK-TIE,Are tie-ins or local footing works required?,SI-FENCE-STKS,DM-FENCE-STKS,yes/no,,False,False,none,True
-PI-FENCESTK-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FENCE-STKD,DM-FENCE-STKD,yes/no,,True,True,none,True
-PI-FENCESTK-WAT,Is abnormal water present or likely?,SI-FENCE-STKD,DM-FENCE-STKD,yes/no,,True,True,none,True
-PI-FENCESTK-W15,Does water exceed the 15 percent rule?,SI-FENCE-STKD,DM-FENCE-STKD,yes/no,,False,True,if abnormal water present,True
-PI-FENCESTK-RIN,Is local reinstatement included now?,SI-FENCE-STKD,DM-FENCE-STKD,yes/no,,True,False,none,True
-PI-FENCESTK-QTY,What is the quantity / length / count?,SI-FENCE-STKD,DM-FENCE-STKD,decimal,each,True,True,none,True
-PI-FENCESTK-TIE,Are tie-ins or local footing works required?,SI-FENCE-STKD,DM-FENCE-STKD,yes/no,,False,False,none,True
-PI-FENCESTK-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FENCE-STKREM,DM-FENCE-STKREM,yes/no,,True,True,none,True
-PI-FENCESTK-WAT,Is abnormal water present or likely?,SI-FENCE-STKREM,DM-FENCE-STKREM,yes/no,,True,True,none,True
-PI-FENCESTK-W15,Does water exceed the 15 percent rule?,SI-FENCE-STKREM,DM-FENCE-STKREM,yes/no,,False,True,if abnormal water present,True
-PI-FENCESTK-RIN,Is local reinstatement included now?,SI-FENCE-STKREM,DM-FENCE-STKREM,yes/no,,True,False,none,True
-PI-FENCESTK-QTY,What is the quantity / length / count?,SI-FENCE-STKREM,DM-FENCE-STKREM,decimal,each,True,True,none,True
-PI-FENCESTK-TIE,Are tie-ins or local footing works required?,SI-FENCE-STKREM,DM-FENCE-STKREM,yes/no,,False,False,none,True
+PI-FENCESTK-A2M__SI-FENCE-STKS__DM-FENCE-STKS,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FENCE-STKS,DM-FENCE-STKS,yes/no,,True,True,none,True
+PI-FENCESTK-WAT__SI-FENCE-STKS__DM-FENCE-STKS,Is abnormal water present or likely?,SI-FENCE-STKS,DM-FENCE-STKS,yes/no,,True,True,none,True
+PI-FENCESTK-W15__SI-FENCE-STKS__DM-FENCE-STKS,Does water exceed the 15 percent rule?,SI-FENCE-STKS,DM-FENCE-STKS,yes/no,,False,True,if abnormal water present,True
+PI-FENCESTK-RIN__SI-FENCE-STKS__DM-FENCE-STKS,Is local reinstatement included now?,SI-FENCE-STKS,DM-FENCE-STKS,yes/no,,True,False,none,True
+PI-FENCESTK-QTY__SI-FENCE-STKS__DM-FENCE-STKS,What is the quantity / length / count?,SI-FENCE-STKS,DM-FENCE-STKS,decimal,each,True,True,none,True
+PI-FENCESTK-TIE__SI-FENCE-STKS__DM-FENCE-STKS,Are tie-ins or local footing works required?,SI-FENCE-STKS,DM-FENCE-STKS,yes/no,,False,False,none,True
+PI-FENCESTK-A2M__SI-FENCE-STKD__DM-FENCE-STKD,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FENCE-STKD,DM-FENCE-STKD,yes/no,,True,True,none,True
+PI-FENCESTK-WAT__SI-FENCE-STKD__DM-FENCE-STKD,Is abnormal water present or likely?,SI-FENCE-STKD,DM-FENCE-STKD,yes/no,,True,True,none,True
+PI-FENCESTK-W15__SI-FENCE-STKD__DM-FENCE-STKD,Does water exceed the 15 percent rule?,SI-FENCE-STKD,DM-FENCE-STKD,yes/no,,False,True,if abnormal water present,True
+PI-FENCESTK-RIN__SI-FENCE-STKD__DM-FENCE-STKD,Is local reinstatement included now?,SI-FENCE-STKD,DM-FENCE-STKD,yes/no,,True,False,none,True
+PI-FENCESTK-QTY__SI-FENCE-STKD__DM-FENCE-STKD,What is the quantity / length / count?,SI-FENCE-STKD,DM-FENCE-STKD,decimal,each,True,True,none,True
+PI-FENCESTK-TIE__SI-FENCE-STKD__DM-FENCE-STKD,Are tie-ins or local footing works required?,SI-FENCE-STKD,DM-FENCE-STKD,yes/no,,False,False,none,True
+PI-FENCESTK-A2M__SI-FENCE-STKREM__DM-FENCE-STKREM,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FENCE-STKREM,DM-FENCE-STKREM,yes/no,,True,True,none,True
+PI-FENCESTK-WAT__SI-FENCE-STKREM__DM-FENCE-STKREM,Is abnormal water present or likely?,SI-FENCE-STKREM,DM-FENCE-STKREM,yes/no,,True,True,none,True
+PI-FENCESTK-W15__SI-FENCE-STKREM__DM-FENCE-STKREM,Does water exceed the 15 percent rule?,SI-FENCE-STKREM,DM-FENCE-STKREM,yes/no,,False,True,if abnormal water present,True
+PI-FENCESTK-RIN__SI-FENCE-STKREM__DM-FENCE-STKREM,Is local reinstatement included now?,SI-FENCE-STKREM,DM-FENCE-STKREM,yes/no,,True,False,none,True
+PI-FENCESTK-QTY__SI-FENCE-STKREM__DM-FENCE-STKREM,What is the quantity / length / count?,SI-FENCE-STKREM,DM-FENCE-STKREM,decimal,each,True,True,none,True
+PI-FENCESTK-TIE__SI-FENCE-STKREM__DM-FENCE-STKREM,Are tie-ins or local footing works required?,SI-FENCE-STKREM,DM-FENCE-STKREM,yes/no,,False,False,none,True
 PI-PRELIMSI-QTY,What is the quantity / count?,SI-PRELIM-SITEVIS,DM-PRELIM-SITEVIS-STD,decimal,each,True,True,none,True
 PI-PRELIMCO-QTY,What is the quantity / count?,SI-PRELIM-CONSTR,DM-PRELIM-CONSTR-STD,decimal,each,True,True,none,True
 PI-PRELIMSE-QTY,What is the quantity / count?,SI-PRELIM-SETOUT,DM-PRELIM-SETOUT-STD,decimal,each,True,True,none,True
@@ -534,10 +534,10 @@ PI-ENVSEDF-QTY,What is the quantity / length / count?,SI-ENV-SEDF,DM-ENV-SEDF-ST
 PI-ENVTREE-QTY,What is the quantity / length / count?,SI-ENV-TREE,DM-ENV-TREE-STD,decimal,item,True,True,none,True
 PI-ENVDUST-QTY,What is the quantity / length / count?,SI-ENV-DUST,DM-ENV-DUST-STD,decimal,item,True,True,none,True
 PI-ENVMUD-QTY,What is the quantity / length / count?,SI-ENV-MUD,DM-ENV-MUD-STD,decimal,item,True,True,none,True
-PI-GENDEPBH-AFT,Is after-hours delivery required?,SI-GEN-DEP-BH,DM-GEN-DEP-BH-METRO,yes/no,,False,False,none,True
-PI-GENDEPBH-REG,Is regional mobilisation required?,SI-GEN-DEP-BH,DM-GEN-DEP-BH-METRO,yes/no,,False,False,none,True
-PI-GENDEPBH-AFT,Is after-hours delivery required?,SI-GEN-DEP-BH,DM-GEN-DEP-BH-REG,yes/no,,False,False,none,True
-PI-GENDEPBH-REG,Is regional mobilisation required?,SI-GEN-DEP-BH,DM-GEN-DEP-BH-REG,yes/no,,False,False,none,True
+PI-GENDEPBH-AFT__SI-GEN-DEP-BH__DM-GEN-DEP-BH-METRO,Is after-hours delivery required?,SI-GEN-DEP-BH,DM-GEN-DEP-BH-METRO,yes/no,,False,False,none,True
+PI-GENDEPBH-REG__SI-GEN-DEP-BH__DM-GEN-DEP-BH-METRO,Is regional mobilisation required?,SI-GEN-DEP-BH,DM-GEN-DEP-BH-METRO,yes/no,,False,False,none,True
+PI-GENDEPBH-AFT__SI-GEN-DEP-BH__DM-GEN-DEP-BH-REG,Is after-hours delivery required?,SI-GEN-DEP-BH,DM-GEN-DEP-BH-REG,yes/no,,False,False,none,True
+PI-GENDEPBH-REG__SI-GEN-DEP-BH__DM-GEN-DEP-BH-REG,Is regional mobilisation required?,SI-GEN-DEP-BH,DM-GEN-DEP-BH-REG,yes/no,,False,False,none,True
 PI-GENDEPAH-AFT,Is after-hours delivery required?,SI-GEN-DEP-AH,DM-GEN-DEP-AH-STD,yes/no,,False,False,none,True
 PI-GENDEPAH-REG,Is regional mobilisation required?,SI-GEN-DEP-AH,DM-GEN-DEP-AH-STD,yes/no,,False,False,none,True
 PI-GENHIRED-PER,What hire period applies?,SI-GEN-HIRE-DAY,DM-GEN-HIRE-DAY-STD,choice,,True,True,none,True
