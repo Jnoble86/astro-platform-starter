@@ -1,16 +1,11 @@
 ---
-import '../styles/globals.css';
-import '@fontsource-variable/inter/wght.css';
-import StarlinkJobOrder from '../components/StarlinkJobOrder';
+import Layout from '../layouts/Layout.astro';
+import EstimatorPrototypeApp from '../components/prototype/EstimatorPrototypeApp';
+import { loadPrototypeSeedData } from '../lib/prototypeSeedLoader';
+
+const seedData = await loadPrototypeSeedData();
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Starlink Job Order</title>
-  </head>
-  <body>
-    <StarlinkJobOrder client:load />
-  </body>
-</html>
+<Layout title="Civils Quote Workspace">
+  <EstimatorPrototypeApp client:load seedData={seedData} />
+</Layout>

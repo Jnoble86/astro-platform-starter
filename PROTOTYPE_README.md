@@ -1,44 +1,55 @@
-# Civils Estimator Prototype UI
+# Civils Quote Workspace (UI Prototype)
 
-This prototype provides a disposable operator-facing UI layer over the current civils CSV pack.
+This is a separate prototype UI layer for civils quoting that uses the repository CSV pack as source-of-truth data.
 
-## Structure
+## Updated structure
 
+### 1) Source data layer
 - `src/lib/csvAdapter.ts`
-  - Lightweight CSV parser and repository-root file loader.
+  - Reads CSV files from repository root.
+  - Parses CSV rows into plain objects.
+
+### 2) Orchestration layer
+- `src/lib/prototypeSeedLoader.ts`
+  - Builds UI-ready scope choices and grouped inputs from CSV data.
 - `src/lib/prototypeAdapter.ts`
-  - UI-facing orchestration layer that derives:
-    - `estimateSession`
-    - `availableScopeChoices`
-    - `activeQuestionGroups` (question bank keyed by scope+method)
-    - `estimateSummary`
-    - `triggeredControls`
-    - `outputPreviewModel`
+  - Computes quote summary, review controls, output preview, and status model.
+
+### 3) UI layer
 - `src/components/prototype/EstimatorPrototypeApp.tsx`
-  - React prototype app shell and surfaces:
+  - Enterprise-style shell:
     - Dashboard
-    - Estimates
-    - New Estimate wizard (Project / Scope / Inputs / Review and Output)
-    - Approvals
+    - New Quote
+    - Quotes
+    - Reviews
     - Outputs
-    - Admin placeholders
+    - Admin
+  - Core quoting flow:
+    - Project
+    - Scope
+    - Inputs
+    - Quote Builder
+    - Review
+  - Includes a structured quote builder surface with metadata row, grouped line table, and totals hierarchy.
 - `src/pages/prototype.astro`
-  - Entry route for the prototype (`/prototype`).
+  - Prototype route entry (`/prototype`).
 
-## Prototype data behavior
+## Behaviour preserved
 
-- Source of truth is loaded from repository-root CSV files.
-- No direct Dataverse binding is used.
-- Questions are filtered by selected scope item + delivery method.
-- Summary, controls, and output preview are recalculated from adapter outputs.
+- Scope path filters delivery method and grouped inputs.
+- Review holds and quote-required items remain visible.
+- The following quote-required items remain unresolved and explicit:
+  - concrete pit risers
+  - concrete pit lid and frame library
+  - geotextile / separator layer
 
-## What should connect to Dataverse later
+## Future Dataverse connection points
 
-1. Replace `readCsvFromRepoRoot` in `csvAdapter.ts` with a Dataverse data provider.
-2. Keep `prototypeAdapter.ts` as a stable transformation layer (or migrate logic to app service layer).
-3. Replace in-memory estimate state with persisted estimate entities and workflow status actions.
-4. Wire `Save draft`, `Validate`, `Send for review`, and `Generate output` to real backend operations.
-5. Replace admin placeholders with role-based maintenance screens tied to Dataverse tables.
+1. Replace CSV reads in `csvAdapter.ts` with Dataverse provider calls.
+2. Keep orchestration logic in `prototypeAdapter.ts` / `prototypeSeedLoader.ts` as the UI transformation layer.
+3. Replace in-memory quote session state with persisted quote entities.
+4. Connect actions (`Save draft`, `Validate`, `Send for review`, `Generate output`) to backend workflow endpoints.
+5. Replace read-only admin previews with role-based maintenance views.
 
 ## Run
 
@@ -46,4 +57,5 @@ This prototype provides a disposable operator-facing UI layer over the current c
 npm run dev
 ```
 
-Open: `http://localhost:4321/prototype`
+Route:
+- `/prototype`

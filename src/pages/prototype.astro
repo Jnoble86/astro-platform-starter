@@ -1,8 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { OperatorPrototypeApp } from '../components/prototype/OperatorPrototypeApp';
+import EstimatorPrototypeApp from '../components/prototype/EstimatorPrototypeApp';
+import { loadPrototypeSeedData } from '../lib/prototypeSeedLoader';
+
+const seedData = await loadPrototypeSeedData();
 ---
 
-<Layout>
-  <OperatorPrototypeApp client:load />
+<Layout title="Civils Quote Workspace">
+  <EstimatorPrototypeApp client:load seedData={seedData} />
 </Layout>
