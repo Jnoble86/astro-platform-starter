@@ -25,6 +25,11 @@ The current civils phase includes:
 - environmental and traffic overlays
 - temporary power and generator support
 
+## Repository layout
+
+All CSV files and the workbook are located at the **repository root**.
+Do not use legacy nested import-pack paths for this pack.
+
 ## Files to use
 
 Treat these files as the working pack:
@@ -88,7 +93,7 @@ Check:
 - no delivery method refers to a missing scope item
 - no scope build map row refers to missing scope items, methods, or cost components
 - no work step refers to missing scope items, methods, or cost components
-- no project input refers to missing scope items or methods
+- no project input refers to a missing scope item or method
 - no input option refers to a missing project input
 - no calculated quantity refers to a missing scope item or method
 - no extra cost trigger refers to a missing scope item or method
