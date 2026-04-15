@@ -1,14 +1,14 @@
 Project Input Code,Option Label,Option Value,Sequence Number,Default Option,Active
-PI-PITNEW-SURF,Concrete,Concrete,1,True,True
-PI-PITNEW-SURF,Asphalt,Asphalt,2,False,True
-PI-PITNEW-SURF,Gravel / crushed rock,Gravel / crushed rock,3,False,True
-PI-PITNEW-SURF,Softscape,Softscape,4,False,True
-PI-PITNEW-SURF,Other,Other,5,False,True
-PI-PITNEW-SURF,Concrete,Concrete,1,True,True
-PI-PITNEW-SURF,Asphalt,Asphalt,2,False,True
-PI-PITNEW-SURF,Gravel / crushed rock,Gravel / crushed rock,3,False,True
-PI-PITNEW-SURF,Softscape,Softscape,4,False,True
-PI-PITNEW-SURF,Other,Other,5,False,True
+PI-PITNEW-SURF__SI-PIT-NEW__DM-PIT-STD,Concrete,Concrete,1,True,True
+PI-PITNEW-SURF__SI-PIT-NEW__DM-PIT-LRG,Concrete,Concrete,1,True,True
+PI-PITNEW-SURF__SI-PIT-NEW__DM-PIT-STD,Asphalt,Asphalt,2,False,True
+PI-PITNEW-SURF__SI-PIT-NEW__DM-PIT-LRG,Asphalt,Asphalt,2,False,True
+PI-PITNEW-SURF__SI-PIT-NEW__DM-PIT-STD,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-PITNEW-SURF__SI-PIT-NEW__DM-PIT-LRG,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-PITNEW-SURF__SI-PIT-NEW__DM-PIT-STD,Softscape,Softscape,4,False,True
+PI-PITNEW-SURF__SI-PIT-NEW__DM-PIT-LRG,Softscape,Softscape,4,False,True
+PI-PITNEW-SURF__SI-PIT-NEW__DM-PIT-STD,Other,Other,5,False,True
+PI-PITNEW-SURF__SI-PIT-NEW__DM-PIT-LRG,Other,Other,5,False,True
 PI-PITTIE-SURF,Concrete,Concrete,1,True,True
 PI-PITTIE-SURF,Asphalt,Asphalt,2,False,True
 PI-PITTIE-SURF,Gravel / crushed rock,Gravel / crushed rock,3,False,True
@@ -49,36 +49,36 @@ PI-DRVGRAV-EST,Asphalt,Asphalt,2,False,True
 PI-DRVGRAV-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
 PI-DRVGRAV-EST,Softscape,Softscape,4,False,True
 PI-DRVGRAV-EST,Other,Other,5,False,True
-PI-HDSCONC-EST,Concrete,Concrete,1,True,True
-PI-HDSCONC-EST,Asphalt,Asphalt,2,False,True
-PI-HDSCONC-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
-PI-HDSCONC-EST,Softscape,Softscape,4,False,True
-PI-HDSCONC-EST,Other,Other,5,False,True
-PI-HDSCONC-EST,Concrete,Concrete,1,True,True
-PI-HDSCONC-EST,Asphalt,Asphalt,2,False,True
-PI-HDSCONC-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
-PI-HDSCONC-EST,Softscape,Softscape,4,False,True
-PI-HDSCONC-EST,Other,Other,5,False,True
-PI-HDSASPH-EST,Concrete,Concrete,1,True,True
-PI-HDSASPH-EST,Asphalt,Asphalt,2,False,True
-PI-HDSASPH-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
-PI-HDSASPH-EST,Softscape,Softscape,4,False,True
-PI-HDSASPH-EST,Other,Other,5,False,True
-PI-HDSASPH-EST,Concrete,Concrete,1,True,True
-PI-HDSASPH-EST,Asphalt,Asphalt,2,False,True
-PI-HDSASPH-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
-PI-HDSASPH-EST,Softscape,Softscape,4,False,True
-PI-HDSASPH-EST,Other,Other,5,False,True
-PI-HDSGRAV-EST,Concrete,Concrete,1,True,True
-PI-HDSGRAV-EST,Asphalt,Asphalt,2,False,True
-PI-HDSGRAV-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
-PI-HDSGRAV-EST,Softscape,Softscape,4,False,True
-PI-HDSGRAV-EST,Other,Other,5,False,True
-PI-HDSGRAV-EST,Concrete,Concrete,1,True,True
-PI-HDSGRAV-EST,Asphalt,Asphalt,2,False,True
-PI-HDSGRAV-EST,Gravel / crushed rock,Gravel / crushed rock,3,False,True
-PI-HDSGRAV-EST,Softscape,Softscape,4,False,True
-PI-HDSGRAV-EST,Other,Other,5,False,True
+PI-HDSCONC-EST__SI-HDS-CONC__DM-HDS-CONC-LD,Concrete,Concrete,1,True,True
+PI-HDSCONC-EST__SI-HDS-CONC__DM-HDS-CONC-HD,Concrete,Concrete,1,True,True
+PI-HDSCONC-EST__SI-HDS-CONC__DM-HDS-CONC-LD,Asphalt,Asphalt,2,False,True
+PI-HDSCONC-EST__SI-HDS-CONC__DM-HDS-CONC-HD,Asphalt,Asphalt,2,False,True
+PI-HDSCONC-EST__SI-HDS-CONC__DM-HDS-CONC-LD,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-HDSCONC-EST__SI-HDS-CONC__DM-HDS-CONC-HD,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-HDSCONC-EST__SI-HDS-CONC__DM-HDS-CONC-LD,Softscape,Softscape,4,False,True
+PI-HDSCONC-EST__SI-HDS-CONC__DM-HDS-CONC-HD,Softscape,Softscape,4,False,True
+PI-HDSCONC-EST__SI-HDS-CONC__DM-HDS-CONC-LD,Other,Other,5,False,True
+PI-HDSCONC-EST__SI-HDS-CONC__DM-HDS-CONC-HD,Other,Other,5,False,True
+PI-HDSASPH-EST__SI-HDS-ASPH__DM-HDS-ASPH-LD,Concrete,Concrete,1,True,True
+PI-HDSASPH-EST__SI-HDS-ASPH__DM-HDS-ASPH-HD,Concrete,Concrete,1,True,True
+PI-HDSASPH-EST__SI-HDS-ASPH__DM-HDS-ASPH-LD,Asphalt,Asphalt,2,False,True
+PI-HDSASPH-EST__SI-HDS-ASPH__DM-HDS-ASPH-HD,Asphalt,Asphalt,2,False,True
+PI-HDSASPH-EST__SI-HDS-ASPH__DM-HDS-ASPH-LD,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-HDSASPH-EST__SI-HDS-ASPH__DM-HDS-ASPH-HD,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-HDSASPH-EST__SI-HDS-ASPH__DM-HDS-ASPH-LD,Softscape,Softscape,4,False,True
+PI-HDSASPH-EST__SI-HDS-ASPH__DM-HDS-ASPH-HD,Softscape,Softscape,4,False,True
+PI-HDSASPH-EST__SI-HDS-ASPH__DM-HDS-ASPH-LD,Other,Other,5,False,True
+PI-HDSASPH-EST__SI-HDS-ASPH__DM-HDS-ASPH-HD,Other,Other,5,False,True
+PI-HDSGRAV-EST__SI-HDS-GRAV__DM-HDS-GRAV-LD,Concrete,Concrete,1,True,True
+PI-HDSGRAV-EST__SI-HDS-GRAV__DM-HDS-GRAV-HD,Concrete,Concrete,1,True,True
+PI-HDSGRAV-EST__SI-HDS-GRAV__DM-HDS-GRAV-LD,Asphalt,Asphalt,2,False,True
+PI-HDSGRAV-EST__SI-HDS-GRAV__DM-HDS-GRAV-HD,Asphalt,Asphalt,2,False,True
+PI-HDSGRAV-EST__SI-HDS-GRAV__DM-HDS-GRAV-LD,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-HDSGRAV-EST__SI-HDS-GRAV__DM-HDS-GRAV-HD,Gravel / crushed rock,Gravel / crushed rock,3,False,True
+PI-HDSGRAV-EST__SI-HDS-GRAV__DM-HDS-GRAV-LD,Softscape,Softscape,4,False,True
+PI-HDSGRAV-EST__SI-HDS-GRAV__DM-HDS-GRAV-HD,Softscape,Softscape,4,False,True
+PI-HDSGRAV-EST__SI-HDS-GRAV__DM-HDS-GRAV-LD,Other,Other,5,False,True
+PI-HDSGRAV-EST__SI-HDS-GRAV__DM-HDS-GRAV-HD,Other,Other,5,False,True
 PI-PROVNDD-SURF,Concrete,Concrete,1,True,True
 PI-PROVNDD-SURF,Asphalt,Asphalt,2,False,True
 PI-PROVNDD-SURF,Gravel / crushed rock,Gravel / crushed rock,3,False,True

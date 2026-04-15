@@ -1,18 +1,18 @@
 Calculated Quantity Code,Calculated Quantity Name,Scope Item Code,Delivery Method Code,Quantity Type,Unit,Formula Summary,Depends On Summary,Active
-CQ-PITNEW-01,Selected pit weight,SI-PIT-NEW,DM-PIT-STD,value,kg,lookup from standard items library,pit type,True
-CQ-PITNEW-02,Excavation volume,SI-PIT-NEW,DM-PIT-STD,quantity,m3,pit footprint with install allowance x depth,pit type plus install rule,True
-CQ-PITNEW-03,Bedding volume,SI-PIT-NEW,DM-PIT-STD,quantity,m3,pit footprint with bedding thickness,pit type,True
-CQ-PITNEW-04,Backfill volume,SI-PIT-NEW,DM-PIT-STD,quantity,m3,excavation volume minus pit external volume minus bedding,pit type and install rule,True
-CQ-PITNEW-05,Riser required flag,SI-PIT-NEW,DM-PIT-STD,flag,,direct from project input,riser required input,True
-CQ-PITNEW-06,Proving required flag,SI-PIT-NEW,DM-PIT-STD,flag,,if assets within 2 m then yes,brownfield/proximity input,True
-CQ-PITNEW-07,Water review flag,SI-PIT-NEW,DM-PIT-STD,flag,,if abnormal water and over 15 percent then review,water inputs,True
-CQ-PITNEW-01,Selected pit weight,SI-PIT-NEW,DM-PIT-LRG,value,kg,lookup from standard items library,pit type,True
-CQ-PITNEW-02,Excavation volume,SI-PIT-NEW,DM-PIT-LRG,quantity,m3,pit footprint with install allowance x depth,pit type plus install rule,True
-CQ-PITNEW-03,Bedding volume,SI-PIT-NEW,DM-PIT-LRG,quantity,m3,pit footprint with bedding thickness,pit type,True
-CQ-PITNEW-04,Backfill volume,SI-PIT-NEW,DM-PIT-LRG,quantity,m3,excavation volume minus pit external volume minus bedding,pit type and install rule,True
-CQ-PITNEW-05,Riser required flag,SI-PIT-NEW,DM-PIT-LRG,flag,,direct from project input,riser required input,True
-CQ-PITNEW-06,Proving required flag,SI-PIT-NEW,DM-PIT-LRG,flag,,if assets within 2 m then yes,brownfield/proximity input,True
-CQ-PITNEW-07,Water review flag,SI-PIT-NEW,DM-PIT-LRG,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-PITNEW-01__SI-PIT-NEW__DM-PIT-STD,Selected pit weight,SI-PIT-NEW,DM-PIT-STD,value,kg,lookup from standard items library,pit type,True
+CQ-PITNEW-02__SI-PIT-NEW__DM-PIT-STD,Excavation volume,SI-PIT-NEW,DM-PIT-STD,quantity,m3,pit footprint with install allowance x depth,pit type plus install rule,True
+CQ-PITNEW-03__SI-PIT-NEW__DM-PIT-STD,Bedding volume,SI-PIT-NEW,DM-PIT-STD,quantity,m3,pit footprint with bedding thickness,pit type,True
+CQ-PITNEW-04__SI-PIT-NEW__DM-PIT-STD,Backfill volume,SI-PIT-NEW,DM-PIT-STD,quantity,m3,excavation volume minus pit external volume minus bedding,pit type and install rule,True
+CQ-PITNEW-05__SI-PIT-NEW__DM-PIT-STD,Riser required flag,SI-PIT-NEW,DM-PIT-STD,flag,,direct from project input,riser required input,True
+CQ-PITNEW-06__SI-PIT-NEW__DM-PIT-STD,Proving required flag,SI-PIT-NEW,DM-PIT-STD,flag,,if assets within 2 m then yes,brownfield/proximity input,True
+CQ-PITNEW-07__SI-PIT-NEW__DM-PIT-STD,Water review flag,SI-PIT-NEW,DM-PIT-STD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-PITNEW-01__SI-PIT-NEW__DM-PIT-LRG,Selected pit weight,SI-PIT-NEW,DM-PIT-LRG,value,kg,lookup from standard items library,pit type,True
+CQ-PITNEW-02__SI-PIT-NEW__DM-PIT-LRG,Excavation volume,SI-PIT-NEW,DM-PIT-LRG,quantity,m3,pit footprint with install allowance x depth,pit type plus install rule,True
+CQ-PITNEW-03__SI-PIT-NEW__DM-PIT-LRG,Bedding volume,SI-PIT-NEW,DM-PIT-LRG,quantity,m3,pit footprint with bedding thickness,pit type,True
+CQ-PITNEW-04__SI-PIT-NEW__DM-PIT-LRG,Backfill volume,SI-PIT-NEW,DM-PIT-LRG,quantity,m3,excavation volume minus pit external volume minus bedding,pit type and install rule,True
+CQ-PITNEW-05__SI-PIT-NEW__DM-PIT-LRG,Riser required flag,SI-PIT-NEW,DM-PIT-LRG,flag,,direct from project input,riser required input,True
+CQ-PITNEW-06__SI-PIT-NEW__DM-PIT-LRG,Proving required flag,SI-PIT-NEW,DM-PIT-LRG,flag,,if assets within 2 m then yes,brownfield/proximity input,True
+CQ-PITNEW-07__SI-PIT-NEW__DM-PIT-LRG,Water review flag,SI-PIT-NEW,DM-PIT-LRG,flag,,if abnormal water and over 15 percent then review,water inputs,True
 CQ-PITTIE-01,Selected pit weight,SI-PIT-TIE,DM-PIT-TIE,value,kg,lookup from standard items library,pit type,True
 CQ-PITTIE-02,Excavation volume,SI-PIT-TIE,DM-PIT-TIE,quantity,m3,pit footprint with install allowance x depth,pit type plus install rule,True
 CQ-PITTIE-03,Bedding volume,SI-PIT-TIE,DM-PIT-TIE,quantity,m3,pit footprint with bedding thickness,pit type,True
@@ -72,54 +72,54 @@ CQ-DRVGRAV-05,Surface quantity,SI-DRV-GRAV,DM-DRV-GRAV-LD,quantity,m2,area based
 CQ-DRVGRAV-06,Proving required flag,SI-DRV-GRAV,DM-DRV-GRAV-LD,flag,,if assets within 2 m then yes,proximity input,True
 CQ-DRVGRAV-07,Water review flag,SI-DRV-GRAV,DM-DRV-GRAV-LD,flag,,if abnormal water and over 15 percent then review,water inputs,True
 CQ-DRVGRAV-08,Reinstatement area,SI-DRV-GRAV,DM-DRV-GRAV-LD,quantity,m2,local disturbed area,reinstatement input,True
-CQ-HDSCONC-01,Breakout area,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m2,entered disturbed area or object area,breakout inputs,True
-CQ-HDSCONC-02,Excavation volume,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m3,area x box-out depth,area and depth,True
-CQ-HDSCONC-03,Subbase volume,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m3,area x subbase thickness,area and thickness,True
-CQ-HDSCONC-04,Basecourse / structural layer volume,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m3,area x structural layer thickness,area and thickness,True
-CQ-HDSCONC-05,Concrete volume,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m3,area x concrete thickness,area and thickness,True
-CQ-HDSCONC-06,Proving required flag,SI-HDS-CONC,DM-HDS-CONC-LD,flag,,if assets within 2 m then yes,proximity input,True
-CQ-HDSCONC-07,Water review flag,SI-HDS-CONC,DM-HDS-CONC-LD,flag,,if abnormal water and over 15 percent then review,water inputs,True
-CQ-HDSCONC-08,Reinstatement area,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m2,local disturbed area,reinstatement input,True
-CQ-HDSCONC-01,Breakout area,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m2,entered disturbed area or object area,breakout inputs,True
-CQ-HDSCONC-02,Excavation volume,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m3,area x box-out depth,area and depth,True
-CQ-HDSCONC-03,Subbase volume,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m3,area x subbase thickness,area and thickness,True
-CQ-HDSCONC-04,Basecourse / structural layer volume,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m3,area x structural layer thickness,area and thickness,True
-CQ-HDSCONC-05,Concrete volume,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m3,area x concrete thickness,area and thickness,True
-CQ-HDSCONC-06,Proving required flag,SI-HDS-CONC,DM-HDS-CONC-HD,flag,,if assets within 2 m then yes,proximity input,True
-CQ-HDSCONC-07,Water review flag,SI-HDS-CONC,DM-HDS-CONC-HD,flag,,if abnormal water and over 15 percent then review,water inputs,True
-CQ-HDSCONC-08,Reinstatement area,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m2,local disturbed area,reinstatement input,True
-CQ-HDSASPH-01,Breakout area,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m2,entered disturbed area or object area,breakout inputs,True
-CQ-HDSASPH-02,Excavation volume,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m3,area x box-out depth,area and depth,True
-CQ-HDSASPH-03,Subbase volume,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m3,area x subbase thickness,area and thickness,True
-CQ-HDSASPH-04,Basecourse / structural layer volume,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m3,area x structural layer thickness,area and thickness,True
-CQ-HDSASPH-05,Surface quantity,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m2,area based surface quantity,area,True
-CQ-HDSASPH-06,Proving required flag,SI-HDS-ASPH,DM-HDS-ASPH-LD,flag,,if assets within 2 m then yes,proximity input,True
-CQ-HDSASPH-07,Water review flag,SI-HDS-ASPH,DM-HDS-ASPH-LD,flag,,if abnormal water and over 15 percent then review,water inputs,True
-CQ-HDSASPH-08,Reinstatement area,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m2,local disturbed area,reinstatement input,True
-CQ-HDSASPH-01,Breakout area,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m2,entered disturbed area or object area,breakout inputs,True
-CQ-HDSASPH-02,Excavation volume,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m3,area x box-out depth,area and depth,True
-CQ-HDSASPH-03,Subbase volume,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m3,area x subbase thickness,area and thickness,True
-CQ-HDSASPH-04,Basecourse / structural layer volume,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m3,area x structural layer thickness,area and thickness,True
-CQ-HDSASPH-05,Surface quantity,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m2,area based surface quantity,area,True
-CQ-HDSASPH-06,Proving required flag,SI-HDS-ASPH,DM-HDS-ASPH-HD,flag,,if assets within 2 m then yes,proximity input,True
-CQ-HDSASPH-07,Water review flag,SI-HDS-ASPH,DM-HDS-ASPH-HD,flag,,if abnormal water and over 15 percent then review,water inputs,True
-CQ-HDSASPH-08,Reinstatement area,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m2,local disturbed area,reinstatement input,True
-CQ-HDSGRAV-01,Breakout area,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m2,entered disturbed area or object area,breakout inputs,True
-CQ-HDSGRAV-02,Excavation volume,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m3,area x box-out depth,area and depth,True
-CQ-HDSGRAV-03,Subbase volume,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m3,area x subbase thickness,area and thickness,True
-CQ-HDSGRAV-04,Basecourse / structural layer volume,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m3,area x structural layer thickness,area and thickness,True
-CQ-HDSGRAV-05,Surface quantity,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m2,area based surface quantity,area,True
-CQ-HDSGRAV-06,Proving required flag,SI-HDS-GRAV,DM-HDS-GRAV-LD,flag,,if assets within 2 m then yes,proximity input,True
-CQ-HDSGRAV-07,Water review flag,SI-HDS-GRAV,DM-HDS-GRAV-LD,flag,,if abnormal water and over 15 percent then review,water inputs,True
-CQ-HDSGRAV-08,Reinstatement area,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m2,local disturbed area,reinstatement input,True
-CQ-HDSGRAV-01,Breakout area,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m2,entered disturbed area or object area,breakout inputs,True
-CQ-HDSGRAV-02,Excavation volume,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m3,area x box-out depth,area and depth,True
-CQ-HDSGRAV-03,Subbase volume,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m3,area x subbase thickness,area and thickness,True
-CQ-HDSGRAV-04,Basecourse / structural layer volume,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m3,area x structural layer thickness,area and thickness,True
-CQ-HDSGRAV-05,Surface quantity,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m2,area based surface quantity,area,True
-CQ-HDSGRAV-06,Proving required flag,SI-HDS-GRAV,DM-HDS-GRAV-HD,flag,,if assets within 2 m then yes,proximity input,True
-CQ-HDSGRAV-07,Water review flag,SI-HDS-GRAV,DM-HDS-GRAV-HD,flag,,if abnormal water and over 15 percent then review,water inputs,True
-CQ-HDSGRAV-08,Reinstatement area,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-HDSCONC-01__SI-HDS-CONC__DM-HDS-CONC-LD,Breakout area,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-HDSCONC-02__SI-HDS-CONC__DM-HDS-CONC-LD,Excavation volume,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m3,area x box-out depth,area and depth,True
+CQ-HDSCONC-03__SI-HDS-CONC__DM-HDS-CONC-LD,Subbase volume,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-HDSCONC-04__SI-HDS-CONC__DM-HDS-CONC-LD,Basecourse / structural layer volume,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m3,area x structural layer thickness,area and thickness,True
+CQ-HDSCONC-05__SI-HDS-CONC__DM-HDS-CONC-LD,Concrete volume,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m3,area x concrete thickness,area and thickness,True
+CQ-HDSCONC-06__SI-HDS-CONC__DM-HDS-CONC-LD,Proving required flag,SI-HDS-CONC,DM-HDS-CONC-LD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-HDSCONC-07__SI-HDS-CONC__DM-HDS-CONC-LD,Water review flag,SI-HDS-CONC,DM-HDS-CONC-LD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-HDSCONC-08__SI-HDS-CONC__DM-HDS-CONC-LD,Reinstatement area,SI-HDS-CONC,DM-HDS-CONC-LD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-HDSCONC-01__SI-HDS-CONC__DM-HDS-CONC-HD,Breakout area,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-HDSCONC-02__SI-HDS-CONC__DM-HDS-CONC-HD,Excavation volume,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m3,area x box-out depth,area and depth,True
+CQ-HDSCONC-03__SI-HDS-CONC__DM-HDS-CONC-HD,Subbase volume,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-HDSCONC-04__SI-HDS-CONC__DM-HDS-CONC-HD,Basecourse / structural layer volume,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m3,area x structural layer thickness,area and thickness,True
+CQ-HDSCONC-05__SI-HDS-CONC__DM-HDS-CONC-HD,Concrete volume,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m3,area x concrete thickness,area and thickness,True
+CQ-HDSCONC-06__SI-HDS-CONC__DM-HDS-CONC-HD,Proving required flag,SI-HDS-CONC,DM-HDS-CONC-HD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-HDSCONC-07__SI-HDS-CONC__DM-HDS-CONC-HD,Water review flag,SI-HDS-CONC,DM-HDS-CONC-HD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-HDSCONC-08__SI-HDS-CONC__DM-HDS-CONC-HD,Reinstatement area,SI-HDS-CONC,DM-HDS-CONC-HD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-HDSASPH-01__SI-HDS-ASPH__DM-HDS-ASPH-LD,Breakout area,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-HDSASPH-02__SI-HDS-ASPH__DM-HDS-ASPH-LD,Excavation volume,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m3,area x box-out depth,area and depth,True
+CQ-HDSASPH-03__SI-HDS-ASPH__DM-HDS-ASPH-LD,Subbase volume,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-HDSASPH-04__SI-HDS-ASPH__DM-HDS-ASPH-LD,Basecourse / structural layer volume,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m3,area x structural layer thickness,area and thickness,True
+CQ-HDSASPH-05__SI-HDS-ASPH__DM-HDS-ASPH-LD,Surface quantity,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m2,area based surface quantity,area,True
+CQ-HDSASPH-06__SI-HDS-ASPH__DM-HDS-ASPH-LD,Proving required flag,SI-HDS-ASPH,DM-HDS-ASPH-LD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-HDSASPH-07__SI-HDS-ASPH__DM-HDS-ASPH-LD,Water review flag,SI-HDS-ASPH,DM-HDS-ASPH-LD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-HDSASPH-08__SI-HDS-ASPH__DM-HDS-ASPH-LD,Reinstatement area,SI-HDS-ASPH,DM-HDS-ASPH-LD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-HDSASPH-01__SI-HDS-ASPH__DM-HDS-ASPH-HD,Breakout area,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-HDSASPH-02__SI-HDS-ASPH__DM-HDS-ASPH-HD,Excavation volume,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m3,area x box-out depth,area and depth,True
+CQ-HDSASPH-03__SI-HDS-ASPH__DM-HDS-ASPH-HD,Subbase volume,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-HDSASPH-04__SI-HDS-ASPH__DM-HDS-ASPH-HD,Basecourse / structural layer volume,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m3,area x structural layer thickness,area and thickness,True
+CQ-HDSASPH-05__SI-HDS-ASPH__DM-HDS-ASPH-HD,Surface quantity,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m2,area based surface quantity,area,True
+CQ-HDSASPH-06__SI-HDS-ASPH__DM-HDS-ASPH-HD,Proving required flag,SI-HDS-ASPH,DM-HDS-ASPH-HD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-HDSASPH-07__SI-HDS-ASPH__DM-HDS-ASPH-HD,Water review flag,SI-HDS-ASPH,DM-HDS-ASPH-HD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-HDSASPH-08__SI-HDS-ASPH__DM-HDS-ASPH-HD,Reinstatement area,SI-HDS-ASPH,DM-HDS-ASPH-HD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-HDSGRAV-01__SI-HDS-GRAV__DM-HDS-GRAV-LD,Breakout area,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-HDSGRAV-02__SI-HDS-GRAV__DM-HDS-GRAV-LD,Excavation volume,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m3,area x box-out depth,area and depth,True
+CQ-HDSGRAV-03__SI-HDS-GRAV__DM-HDS-GRAV-LD,Subbase volume,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-HDSGRAV-04__SI-HDS-GRAV__DM-HDS-GRAV-LD,Basecourse / structural layer volume,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m3,area x structural layer thickness,area and thickness,True
+CQ-HDSGRAV-05__SI-HDS-GRAV__DM-HDS-GRAV-LD,Surface quantity,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m2,area based surface quantity,area,True
+CQ-HDSGRAV-06__SI-HDS-GRAV__DM-HDS-GRAV-LD,Proving required flag,SI-HDS-GRAV,DM-HDS-GRAV-LD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-HDSGRAV-07__SI-HDS-GRAV__DM-HDS-GRAV-LD,Water review flag,SI-HDS-GRAV,DM-HDS-GRAV-LD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-HDSGRAV-08__SI-HDS-GRAV__DM-HDS-GRAV-LD,Reinstatement area,SI-HDS-GRAV,DM-HDS-GRAV-LD,quantity,m2,local disturbed area,reinstatement input,True
+CQ-HDSGRAV-01__SI-HDS-GRAV__DM-HDS-GRAV-HD,Breakout area,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m2,entered disturbed area or object area,breakout inputs,True
+CQ-HDSGRAV-02__SI-HDS-GRAV__DM-HDS-GRAV-HD,Excavation volume,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m3,area x box-out depth,area and depth,True
+CQ-HDSGRAV-03__SI-HDS-GRAV__DM-HDS-GRAV-HD,Subbase volume,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m3,area x subbase thickness,area and thickness,True
+CQ-HDSGRAV-04__SI-HDS-GRAV__DM-HDS-GRAV-HD,Basecourse / structural layer volume,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m3,area x structural layer thickness,area and thickness,True
+CQ-HDSGRAV-05__SI-HDS-GRAV__DM-HDS-GRAV-HD,Surface quantity,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m2,area based surface quantity,area,True
+CQ-HDSGRAV-06__SI-HDS-GRAV__DM-HDS-GRAV-HD,Proving required flag,SI-HDS-GRAV,DM-HDS-GRAV-HD,flag,,if assets within 2 m then yes,proximity input,True
+CQ-HDSGRAV-07__SI-HDS-GRAV__DM-HDS-GRAV-HD,Water review flag,SI-HDS-GRAV,DM-HDS-GRAV-HD,flag,,if abnormal water and over 15 percent then review,water inputs,True
+CQ-HDSGRAV-08__SI-HDS-GRAV__DM-HDS-GRAV-HD,Reinstatement area,SI-HDS-GRAV,DM-HDS-GRAV-HD,quantity,m2,local disturbed area,reinstatement input,True
 CQ-PROVNDD-01,Number of proves,SI-PROV-NDD,DM-PROV-NDD,quantity,count,direct from project input,prove count input,True
 CQ-PROVNDD-02,Breakout area,SI-PROV-NDD,DM-PROV-NDD,quantity,m2,entered disturbed area or standard local area,surface inputs,True
 CQ-PROVNDD-03,Spoil / slurry quantity,SI-PROV-NDD,DM-PROV-NDD,quantity,item,derived from prove count and depth band,prove count and depth,True
@@ -295,10 +295,10 @@ CQ-ENVSEDF-01,Charge quantity,SI-ENV-SEDF,DM-ENV-SEDF-STD,quantity,unit,direct f
 CQ-ENVTREE-01,Charge quantity,SI-ENV-TREE,DM-ENV-TREE-STD,quantity,unit,direct from project input,quantity input,True
 CQ-ENVDUST-01,Charge quantity,SI-ENV-DUST,DM-ENV-DUST-STD,quantity,unit,direct from project input,quantity input,True
 CQ-ENVMUD-01,Charge quantity,SI-ENV-MUD,DM-ENV-MUD-STD,quantity,unit,direct from project input,quantity input,True
-CQ-GENDEPBH-01,Charge quantity,SI-GEN-DEP-BH,DM-GEN-DEP-BH-METRO,quantity,unit,direct from project input,quantity input,True
-CQ-GENDEPBH-02,Fuel variable flag,SI-GEN-DEP-BH,DM-GEN-DEP-BH-METRO,flag,,direct from project input,fuel input,True
-CQ-GENDEPBH-01,Charge quantity,SI-GEN-DEP-BH,DM-GEN-DEP-BH-REG,quantity,unit,direct from project input,quantity input,True
-CQ-GENDEPBH-02,Fuel variable flag,SI-GEN-DEP-BH,DM-GEN-DEP-BH-REG,flag,,direct from project input,fuel input,True
+CQ-GENDEPBH-01__SI-GEN-DEP-BH__DM-GEN-DEP-BH-METRO,Charge quantity,SI-GEN-DEP-BH,DM-GEN-DEP-BH-METRO,quantity,unit,direct from project input,quantity input,True
+CQ-GENDEPBH-02__SI-GEN-DEP-BH__DM-GEN-DEP-BH-METRO,Fuel variable flag,SI-GEN-DEP-BH,DM-GEN-DEP-BH-METRO,flag,,direct from project input,fuel input,True
+CQ-GENDEPBH-01__SI-GEN-DEP-BH__DM-GEN-DEP-BH-REG,Charge quantity,SI-GEN-DEP-BH,DM-GEN-DEP-BH-REG,quantity,unit,direct from project input,quantity input,True
+CQ-GENDEPBH-02__SI-GEN-DEP-BH__DM-GEN-DEP-BH-REG,Fuel variable flag,SI-GEN-DEP-BH,DM-GEN-DEP-BH-REG,flag,,direct from project input,fuel input,True
 CQ-GENDEPAH-01,Charge quantity,SI-GEN-DEP-AH,DM-GEN-DEP-AH-STD,quantity,unit,direct from project input,quantity input,True
 CQ-GENDEPAH-02,Fuel variable flag,SI-GEN-DEP-AH,DM-GEN-DEP-AH-STD,flag,,direct from project input,fuel input,True
 CQ-GENHIRED-01,Charge quantity,SI-GEN-HIRE-DAY,DM-GEN-HIRE-DAY-STD,quantity,unit,direct from project input,quantity input,True
