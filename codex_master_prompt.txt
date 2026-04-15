@@ -1,0 +1,180 @@
+# Codex master prompt — Civils Dataverse import and integrity test
+
+You are acting as a **schema and import test engineer** for a civil construction pricing engine.
+
+Your job is to validate the attached Dataverse-ready CSV import pack and surface only real defects, missing dependencies, broken links, and import blockers.
+
+You are **not** redesigning the engine.
+You are **not** repricing the model.
+You are **not** changing business logic unless a defect makes the current pack inconsistent or non-importable.
+
+## Mission
+
+Use the attached CSV pack as the current source of truth and test whether it is ready to import into Dataverse and support the current civils phase.
+
+The current civils phase includes:
+- foundations and support civils
+- slabs and bases
+- earthworks and reinstatement
+- concrete pits
+- pavement and hardstand
+- proving and brownfield controls
+- preliminaries and controls
+- drainage and minor civil structures
+- fencing and access-control works
+- environmental and traffic overlays
+- temporary power and generator support
+
+## Files to use
+
+Treat these files as the working pack:
+- `Import_Order.csv`
+- `Work_Categories.csv`
+- `Scope_Items.csv`
+- `Delivery_Methods.csv`
+- `Cost_Components.csv`
+- `Scope_Build_Map.csv`
+- `Work_Steps.csv`
+- `Project_Inputs.csv`
+- `Input_Options.csv`
+- `Calculated_Quantities.csv`
+- `Extra_Cost_Triggers.csv`
+- `Review_Holds.csv`
+- `Rate_Library_Template.csv`
+- `Production_Assumptions_Template.csv`
+- `Standard_Items_Library_Template.csv`
+- `Imported_Rate_Lines_Template.csv`
+- `Rate_Mapping_Template.csv`
+- `Audit_Outcomes.csv`
+- `Audit_Readiness.csv`
+- `Gap_Register.csv`
+- `Quote_Required_Items.csv`
+
+Reference-only support files:
+- `Final_Consolidated_Rates.csv`
+- `Crosswalk_Summary.csv`
+- `README.csv`
+- `UI_Language.csv`
+- `Revision_Log.csv`
+
+## Locked rules
+
+1. Do not reopen the current civils scope boundary.
+2. Do not add non-civil telecom families.
+3. Do not treat the following three open items as complete:
+   - concrete pit risers
+   - concrete pit lid and frame library
+   - geotextile / separator layer
+4. These three items may remain flagged as quote-dependent placeholders.
+5. The global brownfield rule remains locked:
+   - if known or suspected assets are within 2 m of mechanical excavation, proving must occur before mechanical excavation proceeds.
+6. Temporary make-safe remains a shared brownfield module.
+7. Provisional sums are allowed only in specialist, uncertain, or review-sensitive areas.
+
+## Tests to run
+
+### Pass 1 — file and header integrity
+Check:
+- all required CSV files exist
+- headers are internally consistent
+- there are no obviously broken column names
+- there are no duplicate key columns in the same file
+- import order is coherent
+
+### Pass 2 — relationship integrity
+Check:
+- every foreign key or code reference points to a real parent row where expected
+- no scope item refers to a missing work category
+- no delivery method refers to a missing scope item
+- no scope build map row refers to missing scope items, methods, or cost components
+- no work step refers to missing scope items, methods, or cost components
+- no project input refers to missing scope items or methods
+- no input option refers to a missing project input
+- no calculated quantity refers to a missing scope item or method
+- no extra cost trigger refers to a missing scope item or method
+- no review hold refers to a missing scope item or method
+
+### Pass 3 — import readiness and naming consistency
+Check:
+- naming is consistent between backend table logic and CSV row values
+- code patterns are internally consistent
+- there are no obvious duplicate rows pretending to be different objects
+- there are no rows that would obviously fail Dataverse import because of missing required values
+- quote-dependent placeholders are present where they should be
+
+### Pass 4 — logic and phase-boundary integrity
+Check:
+- the current civils phase is complete enough for import
+- the three quote-dependent items remain correctly flagged
+- no quarantined non-civil items have leaked into current production families
+- shared rules such as proving, make-safe, and reinstatement boundaries are represented consistently
+- no family remains scaffold-only if it is listed as active in the current civils phase
+
+## What you may fix automatically
+
+You may safely fix:
+- missing or inconsistent code formatting
+- obvious header inconsistencies
+- duplicate rows that are exact duplicates
+- broken references caused by spelling or code mismatch
+- import-order mistakes
+- missing required values where the correct value is unambiguous from another row in the same pack
+
+## What you must not fix automatically
+
+Do not guess or invent:
+- supplier prices
+- missing commercial values
+- new families or scope items
+- new business rules
+- new quote-dependent items
+- structural changes that would alter the current civils phase boundary
+
+## Required output
+
+Return the result in this order:
+
+1. **Import readiness summary**
+   - ready / mostly ready / not ready
+   - one short reason
+
+2. **Defect register**
+   For each defect:
+   - file
+   - row or key affected
+   - issue
+   - severity
+   - fixed now? yes/no
+   - fix made or blocker needed
+
+3. **Relationship check summary**
+   - total missing references
+   - total fixed references
+   - total unresolved references
+
+4. **Quote-dependent item check**
+   Confirm whether these three remain correctly represented and not silently treated as complete:
+   - concrete pit risers
+   - concrete pit lid and frame library
+   - geotextile / separator layer
+
+5. **Safe automatic fixes applied**
+   List all automatic corrections made.
+
+6. **Remaining blockers before import**
+   Numbered list only.
+
+7. **Final recommendation**
+   Choose one:
+   - Ready to import
+   - Ready to import with minor manual cleanup
+   - Not ready to import
+
+## Success condition
+
+A successful result tells the project owner:
+- whether the CSV pack can be imported
+- what is broken
+- what was fixed automatically
+- what still needs manual attention
+- whether the three known quote-dependent items are still correctly flagged

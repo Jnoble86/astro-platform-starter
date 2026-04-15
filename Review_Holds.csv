@@ -1,0 +1,6 @@
+Review Hold Code,Review Hold Name,Applies To,Review Outcome Summary,Blocks Issue Ready,Active,Notes
+RH-WAT,Abnormal water exceeds the 15 percent rule,Global,Stop and review / reprice required,True,True,
+RH-ROCK,Rock / refusal encountered or known,Excavation / foundations / drainage,Stop and review / reprice required,True,True,
+RH-UNST,Founding material not stable clay / firm stable soil,Global,Review required for non-standard founding conditions,True,True,
+RH-CONFL,Unresolved service conflict present,Brownfield / excavation works,Blocked until conflict is resolved or priced separately,True,True,
+RH-ASSET,Exposed assets cannot be protected within a controlled method,Brownfield / proving / pit tie-in,Blocked until method is reviewed,True,True,

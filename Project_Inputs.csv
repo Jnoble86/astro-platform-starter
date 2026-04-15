@@ -1,0 +1,546 @@
+Project Input Code,Project Input Text,Scope Item Code,Delivery Method Code,Answer Type,Unit,Required,Blocks Pricing if Missing,Conditional On Summary,Active
+PI-PITNEW-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-PIT-NEW,DM-PIT-STD,yes/no,,True,True,none,True
+PI-PITNEW-WAT,Is abnormal water present or likely?,SI-PIT-NEW,DM-PIT-STD,yes/no,,True,True,none,True
+PI-PITNEW-W15,Does water exceed the 15 percent rule?,SI-PIT-NEW,DM-PIT-STD,yes/no,,False,True,if abnormal water present,True
+PI-PITNEW-RIN,Is local reinstatement included now?,SI-PIT-NEW,DM-PIT-STD,yes/no,,True,False,none,True
+PI-PITNEW-SURF,What is the local reinstatement surface type?,SI-PIT-NEW,DM-PIT-STD,choice,,True,True,none,True
+PI-PITNEW-BRK,Is surface breakout required?,SI-PIT-NEW,DM-PIT-STD,yes/no,,True,True,none,True
+PI-PITNEW-PIT,Which concrete pit type are you installing?,SI-PIT-NEW,DM-PIT-STD,lookup,,True,True,none,True
+PI-PITNEW-ENT,How many conduit entries are required?,SI-PIT-NEW,DM-PIT-STD,whole number,count,True,True,none,True
+PI-PITNEW-RIS,Is a riser required?,SI-PIT-NEW,DM-PIT-STD,yes/no,,True,False,none,True
+PI-PITNEW-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,True,True,none,True
+PI-PITNEW-WAT,Is abnormal water present or likely?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,True,True,none,True
+PI-PITNEW-W15,Does water exceed the 15 percent rule?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,False,True,if abnormal water present,True
+PI-PITNEW-RIN,Is local reinstatement included now?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,True,False,none,True
+PI-PITNEW-SURF,What is the local reinstatement surface type?,SI-PIT-NEW,DM-PIT-LRG,choice,,True,True,none,True
+PI-PITNEW-BRK,Is surface breakout required?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,True,True,none,True
+PI-PITNEW-PIT,Which concrete pit type are you installing?,SI-PIT-NEW,DM-PIT-LRG,lookup,,True,True,none,True
+PI-PITNEW-ENT,How many conduit entries are required?,SI-PIT-NEW,DM-PIT-LRG,whole number,count,True,True,none,True
+PI-PITNEW-RIS,Is a riser required?,SI-PIT-NEW,DM-PIT-LRG,yes/no,,True,False,none,True
+PI-PITTIE-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-PIT-TIE,DM-PIT-TIE,yes/no,,True,True,none,True
+PI-PITTIE-WAT,Is abnormal water present or likely?,SI-PIT-TIE,DM-PIT-TIE,yes/no,,True,True,none,True
+PI-PITTIE-W15,Does water exceed the 15 percent rule?,SI-PIT-TIE,DM-PIT-TIE,yes/no,,False,True,if abnormal water present,True
+PI-PITTIE-RIN,Is local reinstatement included now?,SI-PIT-TIE,DM-PIT-TIE,yes/no,,True,False,none,True
+PI-PITTIE-SURF,What is the local reinstatement surface type?,SI-PIT-TIE,DM-PIT-TIE,choice,,True,True,none,True
+PI-PITTIE-BRK,Is surface breakout required?,SI-PIT-TIE,DM-PIT-TIE,yes/no,,True,True,none,True
+PI-PITTIE-PIT,Which concrete pit type are you installing?,SI-PIT-TIE,DM-PIT-TIE,lookup,,True,True,none,True
+PI-PITTIE-ENT,How many conduit entries are required?,SI-PIT-TIE,DM-PIT-TIE,whole number,count,True,True,none,True
+PI-PITTIE-RIS,Is a riser required?,SI-PIT-TIE,DM-PIT-TIE,yes/no,,True,False,none,True
+PI-PITREP-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-PIT-REP,DM-PIT-REP,yes/no,,True,True,none,True
+PI-PITREP-WAT,Is abnormal water present or likely?,SI-PIT-REP,DM-PIT-REP,yes/no,,True,True,none,True
+PI-PITREP-W15,Does water exceed the 15 percent rule?,SI-PIT-REP,DM-PIT-REP,yes/no,,False,True,if abnormal water present,True
+PI-PITREP-RIN,Is local reinstatement included now?,SI-PIT-REP,DM-PIT-REP,yes/no,,True,False,none,True
+PI-PITREP-SURF,What is the local reinstatement surface type?,SI-PIT-REP,DM-PIT-REP,choice,,True,True,none,True
+PI-PITREP-BRK,Is surface breakout required?,SI-PIT-REP,DM-PIT-REP,yes/no,,True,True,none,True
+PI-PITREP-PIT,Which concrete pit type are you installing?,SI-PIT-REP,DM-PIT-REP,lookup,,True,True,none,True
+PI-PITREP-ENT,How many conduit entries are required?,SI-PIT-REP,DM-PIT-REP,whole number,count,True,True,none,True
+PI-PITREP-RIS,Is a riser required?,SI-PIT-REP,DM-PIT-REP,yes/no,,True,False,none,True
+PI-FPCONC-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FP-CONC,DM-FP-CONC-LD,yes/no,,True,True,none,True
+PI-FPCONC-WAT,Is abnormal water present or likely?,SI-FP-CONC,DM-FP-CONC-LD,yes/no,,True,True,none,True
+PI-FPCONC-W15,Does water exceed the 15 percent rule?,SI-FP-CONC,DM-FP-CONC-LD,yes/no,,False,True,if abnormal water present,True
+PI-FPCONC-RIN,Is local reinstatement included now?,SI-FP-CONC,DM-FP-CONC-LD,yes/no,,True,False,none,True
+PI-FPCONC-QTY,What is the area?,SI-FP-CONC,DM-FP-CONC-LD,decimal,m2,True,True,none,True
+PI-FPCONC-BRK,Is existing surface breakout required?,SI-FP-CONC,DM-FP-CONC-LD,yes/no,,True,True,none,True
+PI-FPCONC-EST,What is the existing surface type?,SI-FP-CONC,DM-FP-CONC-LD,choice,,False,False,if breakout required,True
+PI-FPCONC-DEP,What is the box-out depth?,SI-FP-CONC,DM-FP-CONC-LD,decimal,mm,True,True,none,True
+PI-FPCONC-SUB,What is the subbase thickness?,SI-FP-CONC,DM-FP-CONC-LD,decimal,mm,True,True,none,True
+PI-FPCONC-CON,What is the concrete thickness?,SI-FP-CONC,DM-FP-CONC-LD,decimal,mm,True,True,none,True
+PI-FPCONC-CAP,Is a capping layer required?,SI-FP-CONC,DM-FP-CONC-LD,yes/no,,True,False,none,True
+PI-FPCONC-SEP,Is a geotextile or separator required?,SI-FP-CONC,DM-FP-CONC-LD,yes/no,,True,False,none,True
+PI-FPCONC-TIE,Are tie-ins or edge treatments required?,SI-FP-CONC,DM-FP-CONC-LD,yes/no,,True,False,none,True
+PI-FPASPH-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FP-ASPH,DM-FP-ASPH-LD,yes/no,,True,True,none,True
+PI-FPASPH-WAT,Is abnormal water present or likely?,SI-FP-ASPH,DM-FP-ASPH-LD,yes/no,,True,True,none,True
+PI-FPASPH-W15,Does water exceed the 15 percent rule?,SI-FP-ASPH,DM-FP-ASPH-LD,yes/no,,False,True,if abnormal water present,True
+PI-FPASPH-RIN,Is local reinstatement included now?,SI-FP-ASPH,DM-FP-ASPH-LD,yes/no,,True,False,none,True
+PI-FPASPH-QTY,What is the area?,SI-FP-ASPH,DM-FP-ASPH-LD,decimal,m2,True,True,none,True
+PI-FPASPH-BRK,Is existing surface breakout required?,SI-FP-ASPH,DM-FP-ASPH-LD,yes/no,,True,True,none,True
+PI-FPASPH-EST,What is the existing surface type?,SI-FP-ASPH,DM-FP-ASPH-LD,choice,,False,False,if breakout required,True
+PI-FPASPH-DEP,What is the box-out depth?,SI-FP-ASPH,DM-FP-ASPH-LD,decimal,mm,True,True,none,True
+PI-FPASPH-SUB,What is the subbase thickness?,SI-FP-ASPH,DM-FP-ASPH-LD,decimal,mm,True,True,none,True
+PI-FPASPH-CAP,Is a capping layer required?,SI-FP-ASPH,DM-FP-ASPH-LD,yes/no,,True,False,none,True
+PI-FPASPH-SEP,Is a geotextile or separator required?,SI-FP-ASPH,DM-FP-ASPH-LD,yes/no,,True,False,none,True
+PI-FPASPH-TIE,Are tie-ins or edge treatments required?,SI-FP-ASPH,DM-FP-ASPH-LD,yes/no,,True,False,none,True
+PI-FPGRAV-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FP-GRAV,DM-FP-GRAV-LD,yes/no,,True,True,none,True
+PI-FPGRAV-WAT,Is abnormal water present or likely?,SI-FP-GRAV,DM-FP-GRAV-LD,yes/no,,True,True,none,True
+PI-FPGRAV-W15,Does water exceed the 15 percent rule?,SI-FP-GRAV,DM-FP-GRAV-LD,yes/no,,False,True,if abnormal water present,True
+PI-FPGRAV-RIN,Is local reinstatement included now?,SI-FP-GRAV,DM-FP-GRAV-LD,yes/no,,True,False,none,True
+PI-FPGRAV-QTY,What is the area?,SI-FP-GRAV,DM-FP-GRAV-LD,decimal,m2,True,True,none,True
+PI-FPGRAV-BRK,Is existing surface breakout required?,SI-FP-GRAV,DM-FP-GRAV-LD,yes/no,,True,True,none,True
+PI-FPGRAV-EST,What is the existing surface type?,SI-FP-GRAV,DM-FP-GRAV-LD,choice,,False,False,if breakout required,True
+PI-FPGRAV-DEP,What is the box-out depth?,SI-FP-GRAV,DM-FP-GRAV-LD,decimal,mm,True,True,none,True
+PI-FPGRAV-SUB,What is the subbase thickness?,SI-FP-GRAV,DM-FP-GRAV-LD,decimal,mm,True,True,none,True
+PI-FPGRAV-CAP,Is a capping layer required?,SI-FP-GRAV,DM-FP-GRAV-LD,yes/no,,True,False,none,True
+PI-FPGRAV-SEP,Is a geotextile or separator required?,SI-FP-GRAV,DM-FP-GRAV-LD,yes/no,,True,False,none,True
+PI-FPGRAV-TIE,Are tie-ins or edge treatments required?,SI-FP-GRAV,DM-FP-GRAV-LD,yes/no,,True,False,none,True
+PI-DRVCONC-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-DRV-CONC,DM-DRV-CONC-LD,yes/no,,True,True,none,True
+PI-DRVCONC-WAT,Is abnormal water present or likely?,SI-DRV-CONC,DM-DRV-CONC-LD,yes/no,,True,True,none,True
+PI-DRVCONC-W15,Does water exceed the 15 percent rule?,SI-DRV-CONC,DM-DRV-CONC-LD,yes/no,,False,True,if abnormal water present,True
+PI-DRVCONC-RIN,Is local reinstatement included now?,SI-DRV-CONC,DM-DRV-CONC-LD,yes/no,,True,False,none,True
+PI-DRVCONC-QTY,What is the area?,SI-DRV-CONC,DM-DRV-CONC-LD,decimal,m2,True,True,none,True
+PI-DRVCONC-BRK,Is existing surface breakout required?,SI-DRV-CONC,DM-DRV-CONC-LD,yes/no,,True,True,none,True
+PI-DRVCONC-EST,What is the existing surface type?,SI-DRV-CONC,DM-DRV-CONC-LD,choice,,False,False,if breakout required,True
+PI-DRVCONC-DEP,What is the box-out depth?,SI-DRV-CONC,DM-DRV-CONC-LD,decimal,mm,True,True,none,True
+PI-DRVCONC-SUB,What is the subbase thickness?,SI-DRV-CONC,DM-DRV-CONC-LD,decimal,mm,True,True,none,True
+PI-DRVCONC-BAS,What is the structural layer thickness?,SI-DRV-CONC,DM-DRV-CONC-LD,decimal,mm,True,True,none,True
+PI-DRVCONC-CON,What is the concrete thickness?,SI-DRV-CONC,DM-DRV-CONC-LD,decimal,mm,True,True,none,True
+PI-DRVCONC-CAP,Is a capping layer required?,SI-DRV-CONC,DM-DRV-CONC-LD,yes/no,,True,False,none,True
+PI-DRVCONC-SEP,Is a geotextile or separator required?,SI-DRV-CONC,DM-DRV-CONC-LD,yes/no,,True,False,none,True
+PI-DRVCONC-TIE,Are tie-ins or edge treatments required?,SI-DRV-CONC,DM-DRV-CONC-LD,yes/no,,True,False,none,True
+PI-DRVASPH-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-DRV-ASPH,DM-DRV-ASPH-LD,yes/no,,True,True,none,True
+PI-DRVASPH-WAT,Is abnormal water present or likely?,SI-DRV-ASPH,DM-DRV-ASPH-LD,yes/no,,True,True,none,True
+PI-DRVASPH-W15,Does water exceed the 15 percent rule?,SI-DRV-ASPH,DM-DRV-ASPH-LD,yes/no,,False,True,if abnormal water present,True
+PI-DRVASPH-RIN,Is local reinstatement included now?,SI-DRV-ASPH,DM-DRV-ASPH-LD,yes/no,,True,False,none,True
+PI-DRVASPH-QTY,What is the area?,SI-DRV-ASPH,DM-DRV-ASPH-LD,decimal,m2,True,True,none,True
+PI-DRVASPH-BRK,Is existing surface breakout required?,SI-DRV-ASPH,DM-DRV-ASPH-LD,yes/no,,True,True,none,True
+PI-DRVASPH-EST,What is the existing surface type?,SI-DRV-ASPH,DM-DRV-ASPH-LD,choice,,False,False,if breakout required,True
+PI-DRVASPH-DEP,What is the box-out depth?,SI-DRV-ASPH,DM-DRV-ASPH-LD,decimal,mm,True,True,none,True
+PI-DRVASPH-SUB,What is the subbase thickness?,SI-DRV-ASPH,DM-DRV-ASPH-LD,decimal,mm,True,True,none,True
+PI-DRVASPH-BAS,What is the structural layer thickness?,SI-DRV-ASPH,DM-DRV-ASPH-LD,decimal,mm,True,True,none,True
+PI-DRVASPH-CAP,Is a capping layer required?,SI-DRV-ASPH,DM-DRV-ASPH-LD,yes/no,,True,False,none,True
+PI-DRVASPH-SEP,Is a geotextile or separator required?,SI-DRV-ASPH,DM-DRV-ASPH-LD,yes/no,,True,False,none,True
+PI-DRVASPH-TIE,Are tie-ins or edge treatments required?,SI-DRV-ASPH,DM-DRV-ASPH-LD,yes/no,,True,False,none,True
+PI-DRVGRAV-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-DRV-GRAV,DM-DRV-GRAV-LD,yes/no,,True,True,none,True
+PI-DRVGRAV-WAT,Is abnormal water present or likely?,SI-DRV-GRAV,DM-DRV-GRAV-LD,yes/no,,True,True,none,True
+PI-DRVGRAV-W15,Does water exceed the 15 percent rule?,SI-DRV-GRAV,DM-DRV-GRAV-LD,yes/no,,False,True,if abnormal water present,True
+PI-DRVGRAV-RIN,Is local reinstatement included now?,SI-DRV-GRAV,DM-DRV-GRAV-LD,yes/no,,True,False,none,True
+PI-DRVGRAV-QTY,What is the area?,SI-DRV-GRAV,DM-DRV-GRAV-LD,decimal,m2,True,True,none,True
+PI-DRVGRAV-BRK,Is existing surface breakout required?,SI-DRV-GRAV,DM-DRV-GRAV-LD,yes/no,,True,True,none,True
+PI-DRVGRAV-EST,What is the existing surface type?,SI-DRV-GRAV,DM-DRV-GRAV-LD,choice,,False,False,if breakout required,True
+PI-DRVGRAV-DEP,What is the box-out depth?,SI-DRV-GRAV,DM-DRV-GRAV-LD,decimal,mm,True,True,none,True
+PI-DRVGRAV-SUB,What is the subbase thickness?,SI-DRV-GRAV,DM-DRV-GRAV-LD,decimal,mm,True,True,none,True
+PI-DRVGRAV-BAS,What is the structural layer thickness?,SI-DRV-GRAV,DM-DRV-GRAV-LD,decimal,mm,True,True,none,True
+PI-DRVGRAV-CAP,Is a capping layer required?,SI-DRV-GRAV,DM-DRV-GRAV-LD,yes/no,,True,False,none,True
+PI-DRVGRAV-SEP,Is a geotextile or separator required?,SI-DRV-GRAV,DM-DRV-GRAV-LD,yes/no,,True,False,none,True
+PI-DRVGRAV-TIE,Are tie-ins or edge treatments required?,SI-DRV-GRAV,DM-DRV-GRAV-LD,yes/no,,True,False,none,True
+PI-HDSCONC-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,True,none,True
+PI-HDSCONC-WAT,Is abnormal water present or likely?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,True,none,True
+PI-HDSCONC-W15,Does water exceed the 15 percent rule?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,False,True,if abnormal water present,True
+PI-HDSCONC-RIN,Is local reinstatement included now?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,False,none,True
+PI-HDSCONC-QTY,What is the area?,SI-HDS-CONC,DM-HDS-CONC-LD,decimal,m2,True,True,none,True
+PI-HDSCONC-BRK,Is existing surface breakout required?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,True,none,True
+PI-HDSCONC-EST,What is the existing surface type?,SI-HDS-CONC,DM-HDS-CONC-LD,choice,,False,False,if breakout required,True
+PI-HDSCONC-DEP,What is the box-out depth?,SI-HDS-CONC,DM-HDS-CONC-LD,decimal,mm,True,True,none,True
+PI-HDSCONC-SUB,What is the subbase thickness?,SI-HDS-CONC,DM-HDS-CONC-LD,decimal,mm,True,True,none,True
+PI-HDSCONC-BAS,What is the structural layer thickness?,SI-HDS-CONC,DM-HDS-CONC-LD,decimal,mm,True,True,none,True
+PI-HDSCONC-CON,What is the concrete thickness?,SI-HDS-CONC,DM-HDS-CONC-LD,decimal,mm,True,True,none,True
+PI-HDSCONC-CAP,Is a capping layer required?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,False,none,True
+PI-HDSCONC-SEP,Is a geotextile or separator required?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,False,none,True
+PI-HDSCONC-TIE,Are tie-ins or edge treatments required?,SI-HDS-CONC,DM-HDS-CONC-LD,yes/no,,True,False,none,True
+PI-HDSCONC-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,True,none,True
+PI-HDSCONC-WAT,Is abnormal water present or likely?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,True,none,True
+PI-HDSCONC-W15,Does water exceed the 15 percent rule?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,False,True,if abnormal water present,True
+PI-HDSCONC-RIN,Is local reinstatement included now?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,False,none,True
+PI-HDSCONC-QTY,What is the area?,SI-HDS-CONC,DM-HDS-CONC-HD,decimal,m2,True,True,none,True
+PI-HDSCONC-BRK,Is existing surface breakout required?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,True,none,True
+PI-HDSCONC-EST,What is the existing surface type?,SI-HDS-CONC,DM-HDS-CONC-HD,choice,,False,False,if breakout required,True
+PI-HDSCONC-DEP,What is the box-out depth?,SI-HDS-CONC,DM-HDS-CONC-HD,decimal,mm,True,True,none,True
+PI-HDSCONC-SUB,What is the subbase thickness?,SI-HDS-CONC,DM-HDS-CONC-HD,decimal,mm,True,True,none,True
+PI-HDSCONC-BAS,What is the structural layer thickness?,SI-HDS-CONC,DM-HDS-CONC-HD,decimal,mm,True,True,none,True
+PI-HDSCONC-CON,What is the concrete thickness?,SI-HDS-CONC,DM-HDS-CONC-HD,decimal,mm,True,True,none,True
+PI-HDSCONC-CAP,Is a capping layer required?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,False,none,True
+PI-HDSCONC-SEP,Is a geotextile or separator required?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,False,none,True
+PI-HDSCONC-TIE,Are tie-ins or edge treatments required?,SI-HDS-CONC,DM-HDS-CONC-HD,yes/no,,True,False,none,True
+PI-HDSASPH-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,True,none,True
+PI-HDSASPH-WAT,Is abnormal water present or likely?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,True,none,True
+PI-HDSASPH-W15,Does water exceed the 15 percent rule?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,False,True,if abnormal water present,True
+PI-HDSASPH-RIN,Is local reinstatement included now?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,False,none,True
+PI-HDSASPH-QTY,What is the area?,SI-HDS-ASPH,DM-HDS-ASPH-LD,decimal,m2,True,True,none,True
+PI-HDSASPH-BRK,Is existing surface breakout required?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,True,none,True
+PI-HDSASPH-EST,What is the existing surface type?,SI-HDS-ASPH,DM-HDS-ASPH-LD,choice,,False,False,if breakout required,True
+PI-HDSASPH-DEP,What is the box-out depth?,SI-HDS-ASPH,DM-HDS-ASPH-LD,decimal,mm,True,True,none,True
+PI-HDSASPH-SUB,What is the subbase thickness?,SI-HDS-ASPH,DM-HDS-ASPH-LD,decimal,mm,True,True,none,True
+PI-HDSASPH-BAS,What is the structural layer thickness?,SI-HDS-ASPH,DM-HDS-ASPH-LD,decimal,mm,True,True,none,True
+PI-HDSASPH-CAP,Is a capping layer required?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,False,none,True
+PI-HDSASPH-SEP,Is a geotextile or separator required?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,False,none,True
+PI-HDSASPH-TIE,Are tie-ins or edge treatments required?,SI-HDS-ASPH,DM-HDS-ASPH-LD,yes/no,,True,False,none,True
+PI-HDSASPH-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,True,none,True
+PI-HDSASPH-WAT,Is abnormal water present or likely?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,True,none,True
+PI-HDSASPH-W15,Does water exceed the 15 percent rule?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,False,True,if abnormal water present,True
+PI-HDSASPH-RIN,Is local reinstatement included now?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,False,none,True
+PI-HDSASPH-QTY,What is the area?,SI-HDS-ASPH,DM-HDS-ASPH-HD,decimal,m2,True,True,none,True
+PI-HDSASPH-BRK,Is existing surface breakout required?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,True,none,True
+PI-HDSASPH-EST,What is the existing surface type?,SI-HDS-ASPH,DM-HDS-ASPH-HD,choice,,False,False,if breakout required,True
+PI-HDSASPH-DEP,What is the box-out depth?,SI-HDS-ASPH,DM-HDS-ASPH-HD,decimal,mm,True,True,none,True
+PI-HDSASPH-SUB,What is the subbase thickness?,SI-HDS-ASPH,DM-HDS-ASPH-HD,decimal,mm,True,True,none,True
+PI-HDSASPH-BAS,What is the structural layer thickness?,SI-HDS-ASPH,DM-HDS-ASPH-HD,decimal,mm,True,True,none,True
+PI-HDSASPH-CAP,Is a capping layer required?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,False,none,True
+PI-HDSASPH-SEP,Is a geotextile or separator required?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,False,none,True
+PI-HDSASPH-TIE,Are tie-ins or edge treatments required?,SI-HDS-ASPH,DM-HDS-ASPH-HD,yes/no,,True,False,none,True
+PI-HDSGRAV-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,True,none,True
+PI-HDSGRAV-WAT,Is abnormal water present or likely?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,True,none,True
+PI-HDSGRAV-W15,Does water exceed the 15 percent rule?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,False,True,if abnormal water present,True
+PI-HDSGRAV-RIN,Is local reinstatement included now?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,False,none,True
+PI-HDSGRAV-QTY,What is the area?,SI-HDS-GRAV,DM-HDS-GRAV-LD,decimal,m2,True,True,none,True
+PI-HDSGRAV-BRK,Is existing surface breakout required?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,True,none,True
+PI-HDSGRAV-EST,What is the existing surface type?,SI-HDS-GRAV,DM-HDS-GRAV-LD,choice,,False,False,if breakout required,True
+PI-HDSGRAV-DEP,What is the box-out depth?,SI-HDS-GRAV,DM-HDS-GRAV-LD,decimal,mm,True,True,none,True
+PI-HDSGRAV-SUB,What is the subbase thickness?,SI-HDS-GRAV,DM-HDS-GRAV-LD,decimal,mm,True,True,none,True
+PI-HDSGRAV-BAS,What is the structural layer thickness?,SI-HDS-GRAV,DM-HDS-GRAV-LD,decimal,mm,True,True,none,True
+PI-HDSGRAV-CAP,Is a capping layer required?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,False,none,True
+PI-HDSGRAV-SEP,Is a geotextile or separator required?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,False,none,True
+PI-HDSGRAV-TIE,Are tie-ins or edge treatments required?,SI-HDS-GRAV,DM-HDS-GRAV-LD,yes/no,,True,False,none,True
+PI-HDSGRAV-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,True,none,True
+PI-HDSGRAV-WAT,Is abnormal water present or likely?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,True,none,True
+PI-HDSGRAV-W15,Does water exceed the 15 percent rule?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,False,True,if abnormal water present,True
+PI-HDSGRAV-RIN,Is local reinstatement included now?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,False,none,True
+PI-HDSGRAV-QTY,What is the area?,SI-HDS-GRAV,DM-HDS-GRAV-HD,decimal,m2,True,True,none,True
+PI-HDSGRAV-BRK,Is existing surface breakout required?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,True,none,True
+PI-HDSGRAV-EST,What is the existing surface type?,SI-HDS-GRAV,DM-HDS-GRAV-HD,choice,,False,False,if breakout required,True
+PI-HDSGRAV-DEP,What is the box-out depth?,SI-HDS-GRAV,DM-HDS-GRAV-HD,decimal,mm,True,True,none,True
+PI-HDSGRAV-SUB,What is the subbase thickness?,SI-HDS-GRAV,DM-HDS-GRAV-HD,decimal,mm,True,True,none,True
+PI-HDSGRAV-BAS,What is the structural layer thickness?,SI-HDS-GRAV,DM-HDS-GRAV-HD,decimal,mm,True,True,none,True
+PI-HDSGRAV-CAP,Is a capping layer required?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,False,none,True
+PI-HDSGRAV-SEP,Is a geotextile or separator required?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,False,none,True
+PI-HDSGRAV-TIE,Are tie-ins or edge treatments required?,SI-HDS-GRAV,DM-HDS-GRAV-HD,yes/no,,True,False,none,True
+PI-PROVNDD-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-PROV-NDD,DM-PROV-NDD,yes/no,,True,True,none,True
+PI-PROVNDD-WAT,Is abnormal water present or likely?,SI-PROV-NDD,DM-PROV-NDD,yes/no,,True,True,none,True
+PI-PROVNDD-W15,Does water exceed the 15 percent rule?,SI-PROV-NDD,DM-PROV-NDD,yes/no,,False,True,if abnormal water present,True
+PI-PROVNDD-RIN,Is local reinstatement included now?,SI-PROV-NDD,DM-PROV-NDD,yes/no,,True,False,none,True
+PI-PROVNDD-CNT,How many proving locations are required?,SI-PROV-NDD,DM-PROV-NDD,whole number,count,True,True,none,True
+PI-PROVNDD-SURF,What surface are you proving through?,SI-PROV-NDD,DM-PROV-NDD,choice,,True,True,none,True
+PI-PROVNDD-BRK,Is hard surface breakout required?,SI-PROV-NDD,DM-PROV-NDD,yes/no,,True,False,none,True
+PI-PROVNDD-TYP,What is the target service type?,SI-PROV-NDD,DM-PROV-NDD,choice,,True,False,none,True
+PI-PROVNDD-DEP,What is the target depth band?,SI-PROV-NDD,DM-PROV-NDD,choice,,True,True,none,True
+PI-PROVNDD-TC,Is traffic or pedestrian control required?,SI-PROV-NDD,DM-PROV-NDD,yes/no,,True,False,none,True
+PI-PROVPOT-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-PROV-POT,DM-PROV-POT,yes/no,,True,True,none,True
+PI-PROVPOT-WAT,Is abnormal water present or likely?,SI-PROV-POT,DM-PROV-POT,yes/no,,True,True,none,True
+PI-PROVPOT-W15,Does water exceed the 15 percent rule?,SI-PROV-POT,DM-PROV-POT,yes/no,,False,True,if abnormal water present,True
+PI-PROVPOT-RIN,Is local reinstatement included now?,SI-PROV-POT,DM-PROV-POT,yes/no,,True,False,none,True
+PI-PROVPOT-CNT,How many proving locations are required?,SI-PROV-POT,DM-PROV-POT,whole number,count,True,True,none,True
+PI-PROVPOT-SURF,What surface are you proving through?,SI-PROV-POT,DM-PROV-POT,choice,,True,True,none,True
+PI-PROVPOT-BRK,Is hard surface breakout required?,SI-PROV-POT,DM-PROV-POT,yes/no,,True,False,none,True
+PI-PROVPOT-TYP,What is the target service type?,SI-PROV-POT,DM-PROV-POT,choice,,True,False,none,True
+PI-PROVPOT-DEP,What is the target depth band?,SI-PROV-POT,DM-PROV-POT,choice,,True,True,none,True
+PI-PROVPOT-TC,Is traffic or pedestrian control required?,SI-PROV-POT,DM-PROV-POT,yes/no,,True,False,none,True
+PI-PROVSLOT-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-PROV-SLOT,DM-PROV-SLOT,yes/no,,True,True,none,True
+PI-PROVSLOT-WAT,Is abnormal water present or likely?,SI-PROV-SLOT,DM-PROV-SLOT,yes/no,,True,True,none,True
+PI-PROVSLOT-W15,Does water exceed the 15 percent rule?,SI-PROV-SLOT,DM-PROV-SLOT,yes/no,,False,True,if abnormal water present,True
+PI-PROVSLOT-RIN,Is local reinstatement included now?,SI-PROV-SLOT,DM-PROV-SLOT,yes/no,,True,False,none,True
+PI-PROVSLOT-CNT,How many proving locations are required?,SI-PROV-SLOT,DM-PROV-SLOT,whole number,count,True,True,none,True
+PI-PROVSLOT-SURF,What surface are you proving through?,SI-PROV-SLOT,DM-PROV-SLOT,choice,,True,True,none,True
+PI-PROVSLOT-BRK,Is hard surface breakout required?,SI-PROV-SLOT,DM-PROV-SLOT,yes/no,,True,False,none,True
+PI-PROVSLOT-TYP,What is the target service type?,SI-PROV-SLOT,DM-PROV-SLOT,choice,,True,False,none,True
+PI-PROVSLOT-DEP,What is the target depth band?,SI-PROV-SLOT,DM-PROV-SLOT,choice,,True,True,none,True
+PI-PROVSLOT-TC,Is traffic or pedestrian control required?,SI-PROV-SLOT,DM-PROV-SLOT,yes/no,,True,False,none,True
+PI-PROVBREX-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-PROV-BREXP,DM-PROV-BREXP,yes/no,,True,True,none,True
+PI-PROVBREX-WAT,Is abnormal water present or likely?,SI-PROV-BREXP,DM-PROV-BREXP,yes/no,,True,True,none,True
+PI-PROVBREX-W15,Does water exceed the 15 percent rule?,SI-PROV-BREXP,DM-PROV-BREXP,yes/no,,False,True,if abnormal water present,True
+PI-PROVBREX-RIN,Is local reinstatement included now?,SI-PROV-BREXP,DM-PROV-BREXP,yes/no,,True,False,none,True
+PI-PROVBREX-CNT,How many proving locations are required?,SI-PROV-BREXP,DM-PROV-BREXP,whole number,count,True,True,none,True
+PI-PROVBREX-SURF,What surface are you proving through?,SI-PROV-BREXP,DM-PROV-BREXP,choice,,True,True,none,True
+PI-PROVBREX-BRK,Is hard surface breakout required?,SI-PROV-BREXP,DM-PROV-BREXP,yes/no,,True,False,none,True
+PI-PROVBREX-TYP,What is the target service type?,SI-PROV-BREXP,DM-PROV-BREXP,choice,,True,False,none,True
+PI-PROVBREX-DEP,What is the target depth band?,SI-PROV-BREXP,DM-PROV-BREXP,choice,,True,True,none,True
+PI-PROVBREX-TC,Is traffic or pedestrian control required?,SI-PROV-BREXP,DM-PROV-BREXP,yes/no,,True,False,none,True
+PI-PROVPITI-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-PROV-PITINV,DM-PROV-PITINV,yes/no,,True,True,none,True
+PI-PROVPITI-WAT,Is abnormal water present or likely?,SI-PROV-PITINV,DM-PROV-PITINV,yes/no,,True,True,none,True
+PI-PROVPITI-W15,Does water exceed the 15 percent rule?,SI-PROV-PITINV,DM-PROV-PITINV,yes/no,,False,True,if abnormal water present,True
+PI-PROVPITI-RIN,Is local reinstatement included now?,SI-PROV-PITINV,DM-PROV-PITINV,yes/no,,True,False,none,True
+PI-PROVPITI-CNT,How many proving locations are required?,SI-PROV-PITINV,DM-PROV-PITINV,whole number,count,True,True,none,True
+PI-PROVPITI-SURF,What surface are you proving through?,SI-PROV-PITINV,DM-PROV-PITINV,choice,,True,True,none,True
+PI-PROVPITI-BRK,Is hard surface breakout required?,SI-PROV-PITINV,DM-PROV-PITINV,yes/no,,True,False,none,True
+PI-PROVPITI-TYP,What is the target service type?,SI-PROV-PITINV,DM-PROV-PITINV,choice,,True,False,none,True
+PI-PROVPITI-DEP,What is the target depth band?,SI-PROV-PITINV,DM-PROV-PITINV,choice,,True,True,none,True
+PI-PROVPITI-TC,Is traffic or pedestrian control required?,SI-PROV-PITINV,DM-PROV-PITINV,yes/no,,True,False,none,True
+PI-FOUNDSHE-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,yes/no,,True,True,none,True
+PI-FOUNDSHE-WAT,Is abnormal water present or likely?,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,yes/no,,True,True,none,True
+PI-FOUNDSHE-W15,Does water exceed the 15 percent rule?,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,yes/no,,False,True,if abnormal water present,True
+PI-FOUNDSHE-RIN,Is local reinstatement included now?,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,yes/no,,True,False,none,True
+PI-FOUNDSHE-QTY,How many piers are required?,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,whole number,count,True,True,none,True
+PI-FOUNDSHE-DIA,What foundation diameter band applies?,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,choice,,True,True,none,True
+PI-FOUNDSHE-DEP,What design depth band applies?,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,choice,,True,True,none,True
+PI-FOUNDSHE-CAG,Is a reinforcement cage required?,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,yes/no,,True,False,none,True
+PI-FOUNDSHE-TOP,Is top casing required?,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,yes/no,,False,False,none,True
+PI-FOUNDSHE-FUL,Is full casing required?,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,yes/no,,False,False,none,True
+PI-FOUNDSHE-PMP,Is pump placement required?,SI-FOUND-SHELTER,DM-FOUND-SHELTER-STD,yes/no,,False,False,none,True
+PI-FOUNDSOL-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,yes/no,,True,True,none,True
+PI-FOUNDSOL-WAT,Is abnormal water present or likely?,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,yes/no,,True,True,none,True
+PI-FOUNDSOL-W15,Does water exceed the 15 percent rule?,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,yes/no,,False,True,if abnormal water present,True
+PI-FOUNDSOL-RIN,Is local reinstatement included now?,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,yes/no,,True,False,none,True
+PI-FOUNDSOL-QTY,How many piers are required?,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,whole number,count,True,True,none,True
+PI-FOUNDSOL-DIA,What foundation diameter band applies?,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,choice,,True,True,none,True
+PI-FOUNDSOL-DEP,What design depth band applies?,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,choice,,True,True,none,True
+PI-FOUNDSOL-CAG,Is a reinforcement cage required?,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,yes/no,,True,False,none,True
+PI-FOUNDSOL-TOP,Is top casing required?,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,yes/no,,False,False,none,True
+PI-FOUNDSOL-FUL,Is full casing required?,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,yes/no,,False,False,none,True
+PI-FOUNDSOL-PMP,Is pump placement required?,SI-FOUND-SOLAR,DM-FOUND-SOLAR-STD,yes/no,,False,False,none,True
+PI-FOUNDFEN-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,yes/no,,True,True,none,True
+PI-FOUNDFEN-WAT,Is abnormal water present or likely?,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,yes/no,,True,True,none,True
+PI-FOUNDFEN-W15,Does water exceed the 15 percent rule?,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,yes/no,,False,True,if abnormal water present,True
+PI-FOUNDFEN-RIN,Is local reinstatement included now?,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,yes/no,,True,False,none,True
+PI-FOUNDFEN-QTY,How many piers are required?,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,whole number,count,True,True,none,True
+PI-FOUNDFEN-DIA,What foundation diameter band applies?,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,choice,,True,True,none,True
+PI-FOUNDFEN-DEP,What design depth band applies?,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,choice,,True,True,none,True
+PI-FOUNDFEN-CAG,Is a reinforcement cage required?,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,yes/no,,True,False,none,True
+PI-FOUNDFEN-TOP,Is top casing required?,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,yes/no,,False,False,none,True
+PI-FOUNDFEN-FUL,Is full casing required?,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,yes/no,,False,False,none,True
+PI-FOUNDFEN-PMP,Is pump placement required?,SI-FOUND-FENCE,DM-FOUND-FENCE-STD,yes/no,,False,False,none,True
+PI-FOUNDGEN-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FOUND-GEN,DM-FOUND-GEN-STD,yes/no,,True,True,none,True
+PI-FOUNDGEN-WAT,Is abnormal water present or likely?,SI-FOUND-GEN,DM-FOUND-GEN-STD,yes/no,,True,True,none,True
+PI-FOUNDGEN-W15,Does water exceed the 15 percent rule?,SI-FOUND-GEN,DM-FOUND-GEN-STD,yes/no,,False,True,if abnormal water present,True
+PI-FOUNDGEN-RIN,Is local reinstatement included now?,SI-FOUND-GEN,DM-FOUND-GEN-STD,yes/no,,True,False,none,True
+PI-FOUNDGEN-QTY,How many piers are required?,SI-FOUND-GEN,DM-FOUND-GEN-STD,whole number,count,True,True,none,True
+PI-FOUNDGEN-DIA,What foundation diameter band applies?,SI-FOUND-GEN,DM-FOUND-GEN-STD,choice,,True,True,none,True
+PI-FOUNDGEN-DEP,What design depth band applies?,SI-FOUND-GEN,DM-FOUND-GEN-STD,choice,,True,True,none,True
+PI-FOUNDGEN-CAG,Is a reinforcement cage required?,SI-FOUND-GEN,DM-FOUND-GEN-STD,yes/no,,True,False,none,True
+PI-FOUNDGEN-TOP,Is top casing required?,SI-FOUND-GEN,DM-FOUND-GEN-STD,yes/no,,False,False,none,True
+PI-FOUNDGEN-FUL,Is full casing required?,SI-FOUND-GEN,DM-FOUND-GEN-STD,yes/no,,False,False,none,True
+PI-FOUNDGEN-PMP,Is pump placement required?,SI-FOUND-GEN,DM-FOUND-GEN-STD,yes/no,,False,False,none,True
+PI-FOUNDSLA-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,yes/no,,True,True,none,True
+PI-FOUNDSLA-WAT,Is abnormal water present or likely?,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,yes/no,,True,True,none,True
+PI-FOUNDSLA-W15,Does water exceed the 15 percent rule?,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,yes/no,,False,True,if abnormal water present,True
+PI-FOUNDSLA-RIN,Is local reinstatement included now?,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,yes/no,,True,False,none,True
+PI-FOUNDSLA-QTY,How many piers are required?,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,whole number,count,True,True,none,True
+PI-FOUNDSLA-DIA,What foundation diameter band applies?,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,choice,,True,True,none,True
+PI-FOUNDSLA-DEP,What design depth band applies?,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,choice,,True,True,none,True
+PI-FOUNDSLA-CAG,Is a reinforcement cage required?,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,yes/no,,True,False,none,True
+PI-FOUNDSLA-TOP,Is top casing required?,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,yes/no,,False,False,none,True
+PI-FOUNDSLA-FUL,Is full casing required?,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,yes/no,,False,False,none,True
+PI-FOUNDSLA-PMP,Is pump placement required?,SI-FOUND-SLABPIER,DM-FOUND-SLABPIER-STD,yes/no,,False,False,none,True
+PI-SLABGEN-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-SLAB-GEN,DM-SLAB-GEN-STD,yes/no,,True,True,none,True
+PI-SLABGEN-WAT,Is abnormal water present or likely?,SI-SLAB-GEN,DM-SLAB-GEN-STD,yes/no,,True,True,none,True
+PI-SLABGEN-W15,Does water exceed the 15 percent rule?,SI-SLAB-GEN,DM-SLAB-GEN-STD,yes/no,,False,True,if abnormal water present,True
+PI-SLABGEN-RIN,Is local reinstatement included now?,SI-SLAB-GEN,DM-SLAB-GEN-STD,yes/no,,True,False,none,True
+PI-SLABGEN-AREA,What is the footprint area?,SI-SLAB-GEN,DM-SLAB-GEN-STD,decimal,m2,True,True,none,True
+PI-SLABGEN-DEP,What is the box-out depth?,SI-SLAB-GEN,DM-SLAB-GEN-STD,decimal,mm,True,True,none,True
+PI-SLABGEN-SUB,What is the base thickness?,SI-SLAB-GEN,DM-SLAB-GEN-STD,decimal,mm,True,True,none,True
+PI-SLABGEN-CON,What is the concrete thickness?,SI-SLAB-GEN,DM-SLAB-GEN-STD,decimal,mm,True,True,none,True
+PI-SLABGEN-REI,Is reinforcement required?,SI-SLAB-GEN,DM-SLAB-GEN-STD,yes/no,,True,False,none,True
+PI-SLABGEN-CST,Are cast-ins or anchor templates required?,SI-SLAB-GEN,DM-SLAB-GEN-STD,yes/no,,False,False,none,True
+PI-SLABGEN-PMP,Is pump placement required?,SI-SLAB-GEN,DM-SLAB-GEN-STD,yes/no,,False,False,none,True
+PI-SLABPLIN-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-SLAB-PLINTH,DM-SLAB-PLINTH-STD,yes/no,,True,True,none,True
+PI-SLABPLIN-WAT,Is abnormal water present or likely?,SI-SLAB-PLINTH,DM-SLAB-PLINTH-STD,yes/no,,True,True,none,True
+PI-SLABPLIN-W15,Does water exceed the 15 percent rule?,SI-SLAB-PLINTH,DM-SLAB-PLINTH-STD,yes/no,,False,True,if abnormal water present,True
+PI-SLABPLIN-RIN,Is local reinstatement included now?,SI-SLAB-PLINTH,DM-SLAB-PLINTH-STD,yes/no,,True,False,none,True
+PI-SLABPLIN-AREA,What is the footprint area?,SI-SLAB-PLINTH,DM-SLAB-PLINTH-STD,decimal,m2,True,True,none,True
+PI-SLABPLIN-DEP,What is the box-out depth?,SI-SLAB-PLINTH,DM-SLAB-PLINTH-STD,decimal,mm,True,True,none,True
+PI-SLABPLIN-SUB,What is the base thickness?,SI-SLAB-PLINTH,DM-SLAB-PLINTH-STD,decimal,mm,True,True,none,True
+PI-SLABPLIN-CON,What is the concrete thickness?,SI-SLAB-PLINTH,DM-SLAB-PLINTH-STD,decimal,mm,True,True,none,True
+PI-SLABPLIN-REI,Is reinforcement required?,SI-SLAB-PLINTH,DM-SLAB-PLINTH-STD,yes/no,,True,False,none,True
+PI-SLABPLIN-CST,Are cast-ins or anchor templates required?,SI-SLAB-PLINTH,DM-SLAB-PLINTH-STD,yes/no,,False,False,none,True
+PI-SLABPLIN-PMP,Is pump placement required?,SI-SLAB-PLINTH,DM-SLAB-PLINTH-STD,yes/no,,False,False,none,True
+PI-SLABSTEP-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-SLAB-STEP,DM-SLAB-STEP-STD,yes/no,,True,True,none,True
+PI-SLABSTEP-WAT,Is abnormal water present or likely?,SI-SLAB-STEP,DM-SLAB-STEP-STD,yes/no,,True,True,none,True
+PI-SLABSTEP-W15,Does water exceed the 15 percent rule?,SI-SLAB-STEP,DM-SLAB-STEP-STD,yes/no,,False,True,if abnormal water present,True
+PI-SLABSTEP-RIN,Is local reinstatement included now?,SI-SLAB-STEP,DM-SLAB-STEP-STD,yes/no,,True,False,none,True
+PI-SLABSTEP-AREA,What is the footprint area?,SI-SLAB-STEP,DM-SLAB-STEP-STD,decimal,m2,True,True,none,True
+PI-SLABSTEP-DEP,What is the box-out depth?,SI-SLAB-STEP,DM-SLAB-STEP-STD,decimal,mm,True,True,none,True
+PI-SLABSTEP-SUB,What is the base thickness?,SI-SLAB-STEP,DM-SLAB-STEP-STD,decimal,mm,True,True,none,True
+PI-SLABSTEP-CON,What is the concrete thickness?,SI-SLAB-STEP,DM-SLAB-STEP-STD,decimal,mm,True,True,none,True
+PI-SLABSTEP-REI,Is reinforcement required?,SI-SLAB-STEP,DM-SLAB-STEP-STD,yes/no,,True,False,none,True
+PI-SLABSTEP-CST,Are cast-ins or anchor templates required?,SI-SLAB-STEP,DM-SLAB-STEP-STD,yes/no,,False,False,none,True
+PI-SLABSTEP-PMP,Is pump placement required?,SI-SLAB-STEP,DM-SLAB-STEP-STD,yes/no,,False,False,none,True
+PI-SLABEDGE-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-SLAB-EDGE,DM-SLAB-EDGE-STD,yes/no,,True,True,none,True
+PI-SLABEDGE-WAT,Is abnormal water present or likely?,SI-SLAB-EDGE,DM-SLAB-EDGE-STD,yes/no,,True,True,none,True
+PI-SLABEDGE-W15,Does water exceed the 15 percent rule?,SI-SLAB-EDGE,DM-SLAB-EDGE-STD,yes/no,,False,True,if abnormal water present,True
+PI-SLABEDGE-RIN,Is local reinstatement included now?,SI-SLAB-EDGE,DM-SLAB-EDGE-STD,yes/no,,True,False,none,True
+PI-SLABEDGE-AREA,What is the footprint area?,SI-SLAB-EDGE,DM-SLAB-EDGE-STD,decimal,m2,True,True,none,True
+PI-SLABEDGE-DEP,What is the box-out depth?,SI-SLAB-EDGE,DM-SLAB-EDGE-STD,decimal,mm,True,True,none,True
+PI-SLABEDGE-SUB,What is the base thickness?,SI-SLAB-EDGE,DM-SLAB-EDGE-STD,decimal,mm,True,True,none,True
+PI-SLABEDGE-CON,What is the concrete thickness?,SI-SLAB-EDGE,DM-SLAB-EDGE-STD,decimal,mm,True,True,none,True
+PI-SLABEDGE-REI,Is reinforcement required?,SI-SLAB-EDGE,DM-SLAB-EDGE-STD,yes/no,,True,False,none,True
+PI-SLABEDGE-CST,Are cast-ins or anchor templates required?,SI-SLAB-EDGE,DM-SLAB-EDGE-STD,yes/no,,False,False,none,True
+PI-SLABEDGE-PMP,Is pump placement required?,SI-SLAB-EDGE,DM-SLAB-EDGE-STD,yes/no,,False,False,none,True
+PI-EWLOCAL-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-EW-LOCAL,DM-EW-LOCAL,yes/no,,True,True,none,True
+PI-EWLOCAL-WAT,Is abnormal water present or likely?,SI-EW-LOCAL,DM-EW-LOCAL,yes/no,,True,True,none,True
+PI-EWLOCAL-W15,Does water exceed the 15 percent rule?,SI-EW-LOCAL,DM-EW-LOCAL,yes/no,,False,True,if abnormal water present,True
+PI-EWLOCAL-RIN,Is local reinstatement included now?,SI-EW-LOCAL,DM-EW-LOCAL,yes/no,,True,False,none,True
+PI-EWLOCAL-QTY,What is the quantity / area / volume?,SI-EW-LOCAL,DM-EW-LOCAL,decimal,m3,True,True,none,True
+PI-EWLOCAL-BRK,Is existing surface breakout required?,SI-EW-LOCAL,DM-EW-LOCAL,yes/no,,True,True,none,True
+PI-EWLOCAL-MAT,What is the material class?,SI-EW-LOCAL,DM-EW-LOCAL,choice,,True,True,site-won / imported / select / unsuitable,True
+PI-EWLOCAL-MST,Is moisture conditioning required?,SI-EW-LOCAL,DM-EW-LOCAL,yes/no,,False,False,none,True
+PI-EWBULK-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-EW-BULK,DM-EW-BULK,yes/no,,True,True,none,True
+PI-EWBULK-WAT,Is abnormal water present or likely?,SI-EW-BULK,DM-EW-BULK,yes/no,,True,True,none,True
+PI-EWBULK-W15,Does water exceed the 15 percent rule?,SI-EW-BULK,DM-EW-BULK,yes/no,,False,True,if abnormal water present,True
+PI-EWBULK-RIN,Is local reinstatement included now?,SI-EW-BULK,DM-EW-BULK,yes/no,,True,False,none,True
+PI-EWBULK-QTY,What is the quantity / area / volume?,SI-EW-BULK,DM-EW-BULK,decimal,m3,True,True,none,True
+PI-EWBULK-BRK,Is existing surface breakout required?,SI-EW-BULK,DM-EW-BULK,yes/no,,True,True,none,True
+PI-EWBULK-MAT,What is the material class?,SI-EW-BULK,DM-EW-BULK,choice,,True,True,site-won / imported / select / unsuitable,True
+PI-EWBULK-MST,Is moisture conditioning required?,SI-EW-BULK,DM-EW-BULK,yes/no,,False,False,none,True
+PI-EWSITEFI-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-EW-SITEFILL,DM-EW-SITEFILL,yes/no,,True,True,none,True
+PI-EWSITEFI-WAT,Is abnormal water present or likely?,SI-EW-SITEFILL,DM-EW-SITEFILL,yes/no,,True,True,none,True
+PI-EWSITEFI-W15,Does water exceed the 15 percent rule?,SI-EW-SITEFILL,DM-EW-SITEFILL,yes/no,,False,True,if abnormal water present,True
+PI-EWSITEFI-RIN,Is local reinstatement included now?,SI-EW-SITEFILL,DM-EW-SITEFILL,yes/no,,True,False,none,True
+PI-EWSITEFI-QTY,What is the quantity / area / volume?,SI-EW-SITEFILL,DM-EW-SITEFILL,decimal,m3,True,True,none,True
+PI-EWSITEFI-BRK,Is existing surface breakout required?,SI-EW-SITEFILL,DM-EW-SITEFILL,yes/no,,True,True,none,True
+PI-EWSITEFI-MAT,What is the material class?,SI-EW-SITEFILL,DM-EW-SITEFILL,choice,,True,True,site-won / imported / select / unsuitable,True
+PI-EWSITEFI-MST,Is moisture conditioning required?,SI-EW-SITEFILL,DM-EW-SITEFILL,yes/no,,False,False,none,True
+PI-EWIMPFIL-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-EW-IMPFILL,DM-EW-IMPFILL,yes/no,,True,True,none,True
+PI-EWIMPFIL-WAT,Is abnormal water present or likely?,SI-EW-IMPFILL,DM-EW-IMPFILL,yes/no,,True,True,none,True
+PI-EWIMPFIL-W15,Does water exceed the 15 percent rule?,SI-EW-IMPFILL,DM-EW-IMPFILL,yes/no,,False,True,if abnormal water present,True
+PI-EWIMPFIL-RIN,Is local reinstatement included now?,SI-EW-IMPFILL,DM-EW-IMPFILL,yes/no,,True,False,none,True
+PI-EWIMPFIL-QTY,What is the quantity / area / volume?,SI-EW-IMPFILL,DM-EW-IMPFILL,decimal,m3,True,True,none,True
+PI-EWIMPFIL-BRK,Is existing surface breakout required?,SI-EW-IMPFILL,DM-EW-IMPFILL,yes/no,,True,True,none,True
+PI-EWIMPFIL-MAT,What is the material class?,SI-EW-IMPFILL,DM-EW-IMPFILL,choice,,True,True,site-won / imported / select / unsuitable,True
+PI-EWIMPFIL-MST,Is moisture conditioning required?,SI-EW-IMPFILL,DM-EW-IMPFILL,yes/no,,False,False,none,True
+PI-EWSELFIL-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-EW-SELFILL,DM-EW-SELFILL,yes/no,,True,True,none,True
+PI-EWSELFIL-WAT,Is abnormal water present or likely?,SI-EW-SELFILL,DM-EW-SELFILL,yes/no,,True,True,none,True
+PI-EWSELFIL-W15,Does water exceed the 15 percent rule?,SI-EW-SELFILL,DM-EW-SELFILL,yes/no,,False,True,if abnormal water present,True
+PI-EWSELFIL-RIN,Is local reinstatement included now?,SI-EW-SELFILL,DM-EW-SELFILL,yes/no,,True,False,none,True
+PI-EWSELFIL-QTY,What is the quantity / area / volume?,SI-EW-SELFILL,DM-EW-SELFILL,decimal,m3,True,True,none,True
+PI-EWSELFIL-BRK,Is existing surface breakout required?,SI-EW-SELFILL,DM-EW-SELFILL,yes/no,,True,True,none,True
+PI-EWSELFIL-MAT,What is the material class?,SI-EW-SELFILL,DM-EW-SELFILL,choice,,True,True,site-won / imported / select / unsuitable,True
+PI-EWSELFIL-MST,Is moisture conditioning required?,SI-EW-SELFILL,DM-EW-SELFILL,yes/no,,False,False,none,True
+PI-EWCRUSHB-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-EW-CRUSHBF,DM-EW-CRUSHBF,yes/no,,True,True,none,True
+PI-EWCRUSHB-WAT,Is abnormal water present or likely?,SI-EW-CRUSHBF,DM-EW-CRUSHBF,yes/no,,True,True,none,True
+PI-EWCRUSHB-W15,Does water exceed the 15 percent rule?,SI-EW-CRUSHBF,DM-EW-CRUSHBF,yes/no,,False,True,if abnormal water present,True
+PI-EWCRUSHB-RIN,Is local reinstatement included now?,SI-EW-CRUSHBF,DM-EW-CRUSHBF,yes/no,,True,False,none,True
+PI-EWCRUSHB-QTY,What is the quantity / area / volume?,SI-EW-CRUSHBF,DM-EW-CRUSHBF,decimal,m3,True,True,none,True
+PI-EWCRUSHB-BRK,Is existing surface breakout required?,SI-EW-CRUSHBF,DM-EW-CRUSHBF,yes/no,,True,True,none,True
+PI-EWCRUSHB-MAT,What is the material class?,SI-EW-CRUSHBF,DM-EW-CRUSHBF,choice,,True,True,site-won / imported / select / unsuitable,True
+PI-EWCRUSHB-MST,Is moisture conditioning required?,SI-EW-CRUSHBF,DM-EW-CRUSHBF,yes/no,,False,False,none,True
+PI-DRAINPVC-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-DRAIN-PVC,DM-DRAIN-PVC-STD,yes/no,,True,True,none,True
+PI-DRAINPVC-WAT,Is abnormal water present or likely?,SI-DRAIN-PVC,DM-DRAIN-PVC-STD,yes/no,,True,True,none,True
+PI-DRAINPVC-W15,Does water exceed the 15 percent rule?,SI-DRAIN-PVC,DM-DRAIN-PVC-STD,yes/no,,False,True,if abnormal water present,True
+PI-DRAINPVC-RIN,Is local reinstatement included now?,SI-DRAIN-PVC,DM-DRAIN-PVC-STD,yes/no,,True,False,none,True
+PI-DRAINPVC-QTY,What is the quantity / length / count?,SI-DRAIN-PVC,DM-DRAIN-PVC-STD,decimal,m,True,True,none,True
+PI-DRAINPVC-TYP,What pipe or structure type applies?,SI-DRAIN-PVC,DM-DRAIN-PVC-STD,choice,,True,True,none,True
+PI-DRAINPVC-GRD,What ground variant applies?,SI-DRAIN-PVC,DM-DRAIN-PVC-STD,choice,,True,True,soil / shale / rock,True
+PI-DRAINPVC-BRK,Is breakout required?,SI-DRAIN-PVC,DM-DRAIN-PVC-STD,yes/no,,True,False,none,True
+PI-DRAINRCP-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-DRAIN-RCP,DM-DRAIN-RCP-STD,yes/no,,True,True,none,True
+PI-DRAINRCP-WAT,Is abnormal water present or likely?,SI-DRAIN-RCP,DM-DRAIN-RCP-STD,yes/no,,True,True,none,True
+PI-DRAINRCP-W15,Does water exceed the 15 percent rule?,SI-DRAIN-RCP,DM-DRAIN-RCP-STD,yes/no,,False,True,if abnormal water present,True
+PI-DRAINRCP-RIN,Is local reinstatement included now?,SI-DRAIN-RCP,DM-DRAIN-RCP-STD,yes/no,,True,False,none,True
+PI-DRAINRCP-QTY,What is the quantity / length / count?,SI-DRAIN-RCP,DM-DRAIN-RCP-STD,decimal,m,True,True,none,True
+PI-DRAINRCP-TYP,What pipe or structure type applies?,SI-DRAIN-RCP,DM-DRAIN-RCP-STD,choice,,True,True,none,True
+PI-DRAINRCP-GRD,What ground variant applies?,SI-DRAIN-RCP,DM-DRAIN-RCP-STD,choice,,True,True,soil / shale / rock,True
+PI-DRAINRCP-BRK,Is breakout required?,SI-DRAIN-RCP,DM-DRAIN-RCP-STD,yes/no,,True,False,none,True
+PI-DRAINSWA-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-DRAIN-SWAL,DM-DRAIN-SWAL-STD,yes/no,,True,True,none,True
+PI-DRAINSWA-WAT,Is abnormal water present or likely?,SI-DRAIN-SWAL,DM-DRAIN-SWAL-STD,yes/no,,True,True,none,True
+PI-DRAINSWA-W15,Does water exceed the 15 percent rule?,SI-DRAIN-SWAL,DM-DRAIN-SWAL-STD,yes/no,,False,True,if abnormal water present,True
+PI-DRAINSWA-RIN,Is local reinstatement included now?,SI-DRAIN-SWAL,DM-DRAIN-SWAL-STD,yes/no,,True,False,none,True
+PI-DRAINSWA-QTY,What is the quantity / length / count?,SI-DRAIN-SWAL,DM-DRAIN-SWAL-STD,decimal,m,True,True,none,True
+PI-DRAINSWA-TYP,What pipe or structure type applies?,SI-DRAIN-SWAL,DM-DRAIN-SWAL-STD,choice,,True,True,none,True
+PI-DRAINSWA-GRD,What ground variant applies?,SI-DRAIN-SWAL,DM-DRAIN-SWAL-STD,choice,,True,True,soil / shale / rock,True
+PI-DRAINSWA-BRK,Is breakout required?,SI-DRAIN-SWAL,DM-DRAIN-SWAL-STD,yes/no,,True,False,none,True
+PI-DRAINPIT-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-DRAIN-PIT,DM-DRAIN-PIT-STD,yes/no,,True,True,none,True
+PI-DRAINPIT-WAT,Is abnormal water present or likely?,SI-DRAIN-PIT,DM-DRAIN-PIT-STD,yes/no,,True,True,none,True
+PI-DRAINPIT-W15,Does water exceed the 15 percent rule?,SI-DRAIN-PIT,DM-DRAIN-PIT-STD,yes/no,,False,True,if abnormal water present,True
+PI-DRAINPIT-RIN,Is local reinstatement included now?,SI-DRAIN-PIT,DM-DRAIN-PIT-STD,yes/no,,True,False,none,True
+PI-DRAINPIT-QTY,What is the quantity / length / count?,SI-DRAIN-PIT,DM-DRAIN-PIT-STD,decimal,m,True,True,none,True
+PI-DRAINPIT-TYP,What pipe or structure type applies?,SI-DRAIN-PIT,DM-DRAIN-PIT-STD,choice,,True,True,none,True
+PI-DRAINPIT-GRD,What ground variant applies?,SI-DRAIN-PIT,DM-DRAIN-PIT-STD,choice,,True,True,soil / shale / rock,True
+PI-DRAINPIT-BRK,Is breakout required?,SI-DRAIN-PIT,DM-DRAIN-PIT-STD,yes/no,,True,False,none,True
+PI-DRAINKG-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-DRAIN-KG,DM-DRAIN-KG-STD,yes/no,,True,True,none,True
+PI-DRAINKG-WAT,Is abnormal water present or likely?,SI-DRAIN-KG,DM-DRAIN-KG-STD,yes/no,,True,True,none,True
+PI-DRAINKG-W15,Does water exceed the 15 percent rule?,SI-DRAIN-KG,DM-DRAIN-KG-STD,yes/no,,False,True,if abnormal water present,True
+PI-DRAINKG-RIN,Is local reinstatement included now?,SI-DRAIN-KG,DM-DRAIN-KG-STD,yes/no,,True,False,none,True
+PI-DRAINKG-QTY,What is the quantity / length / count?,SI-DRAIN-KG,DM-DRAIN-KG-STD,decimal,m,True,True,none,True
+PI-DRAINKG-TYP,What pipe or structure type applies?,SI-DRAIN-KG,DM-DRAIN-KG-STD,choice,,True,True,none,True
+PI-DRAINKG-GRD,What ground variant applies?,SI-DRAIN-KG,DM-DRAIN-KG-STD,choice,,True,True,soil / shale / rock,True
+PI-DRAINKG-BRK,Is breakout required?,SI-DRAIN-KG,DM-DRAIN-KG-STD,yes/no,,True,False,none,True
+PI-DRAINLKB-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-DRAIN-LKB,DM-DRAIN-LKB-STD,yes/no,,True,True,none,True
+PI-DRAINLKB-WAT,Is abnormal water present or likely?,SI-DRAIN-LKB,DM-DRAIN-LKB-STD,yes/no,,True,True,none,True
+PI-DRAINLKB-W15,Does water exceed the 15 percent rule?,SI-DRAIN-LKB,DM-DRAIN-LKB-STD,yes/no,,False,True,if abnormal water present,True
+PI-DRAINLKB-RIN,Is local reinstatement included now?,SI-DRAIN-LKB,DM-DRAIN-LKB-STD,yes/no,,True,False,none,True
+PI-DRAINLKB-QTY,What is the quantity / length / count?,SI-DRAIN-LKB,DM-DRAIN-LKB-STD,decimal,m,True,True,none,True
+PI-DRAINLKB-TYP,What pipe or structure type applies?,SI-DRAIN-LKB,DM-DRAIN-LKB-STD,choice,,True,True,none,True
+PI-DRAINLKB-GRD,What ground variant applies?,SI-DRAIN-LKB,DM-DRAIN-LKB-STD,choice,,True,True,soil / shale / rock,True
+PI-DRAINLKB-BRK,Is breakout required?,SI-DRAIN-LKB,DM-DRAIN-LKB-STD,yes/no,,True,False,none,True
+PI-DRAINXS-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-DRAIN-XS,DM-DRAIN-XS-STD,yes/no,,True,True,none,True
+PI-DRAINXS-WAT,Is abnormal water present or likely?,SI-DRAIN-XS,DM-DRAIN-XS-STD,yes/no,,True,True,none,True
+PI-DRAINXS-W15,Does water exceed the 15 percent rule?,SI-DRAIN-XS,DM-DRAIN-XS-STD,yes/no,,False,True,if abnormal water present,True
+PI-DRAINXS-RIN,Is local reinstatement included now?,SI-DRAIN-XS,DM-DRAIN-XS-STD,yes/no,,True,False,none,True
+PI-DRAINXS-QTY,What is the quantity / length / count?,SI-DRAIN-XS,DM-DRAIN-XS-STD,decimal,m,True,True,none,True
+PI-DRAINXS-TYP,What pipe or structure type applies?,SI-DRAIN-XS,DM-DRAIN-XS-STD,choice,,True,True,none,True
+PI-DRAINXS-GRD,What ground variant applies?,SI-DRAIN-XS,DM-DRAIN-XS-STD,choice,,True,True,soil / shale / rock,True
+PI-DRAINXS-BRK,Is breakout required?,SI-DRAIN-XS,DM-DRAIN-XS-STD,yes/no,,True,False,none,True
+PI-DRAINXD-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-DRAIN-XD,DM-DRAIN-XD-STD,yes/no,,True,True,none,True
+PI-DRAINXD-WAT,Is abnormal water present or likely?,SI-DRAIN-XD,DM-DRAIN-XD-STD,yes/no,,True,True,none,True
+PI-DRAINXD-W15,Does water exceed the 15 percent rule?,SI-DRAIN-XD,DM-DRAIN-XD-STD,yes/no,,False,True,if abnormal water present,True
+PI-DRAINXD-RIN,Is local reinstatement included now?,SI-DRAIN-XD,DM-DRAIN-XD-STD,yes/no,,True,False,none,True
+PI-DRAINXD-QTY,What is the quantity / length / count?,SI-DRAIN-XD,DM-DRAIN-XD-STD,decimal,m,True,True,none,True
+PI-DRAINXD-TYP,What pipe or structure type applies?,SI-DRAIN-XD,DM-DRAIN-XD-STD,choice,,True,True,none,True
+PI-DRAINXD-GRD,What ground variant applies?,SI-DRAIN-XD,DM-DRAIN-XD-STD,choice,,True,True,soil / shale / rock,True
+PI-DRAINXD-BRK,Is breakout required?,SI-DRAIN-XD,DM-DRAIN-XD-STD,yes/no,,True,False,none,True
+PI-DRAINRWB-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-DRAIN-RWB,DM-DRAIN-RWB-STD,yes/no,,True,True,none,True
+PI-DRAINRWB-WAT,Is abnormal water present or likely?,SI-DRAIN-RWB,DM-DRAIN-RWB-STD,yes/no,,True,True,none,True
+PI-DRAINRWB-W15,Does water exceed the 15 percent rule?,SI-DRAIN-RWB,DM-DRAIN-RWB-STD,yes/no,,False,True,if abnormal water present,True
+PI-DRAINRWB-RIN,Is local reinstatement included now?,SI-DRAIN-RWB,DM-DRAIN-RWB-STD,yes/no,,True,False,none,True
+PI-DRAINRWB-QTY,What is the quantity / length / count?,SI-DRAIN-RWB,DM-DRAIN-RWB-STD,decimal,m,True,True,none,True
+PI-DRAINRWB-TYP,What pipe or structure type applies?,SI-DRAIN-RWB,DM-DRAIN-RWB-STD,choice,,True,True,none,True
+PI-DRAINRWB-GRD,What ground variant applies?,SI-DRAIN-RWB,DM-DRAIN-RWB-STD,choice,,True,True,soil / shale / rock,True
+PI-DRAINRWB-BRK,Is breakout required?,SI-DRAIN-RWB,DM-DRAIN-RWB-STD,yes/no,,True,False,none,True
+PI-DRAINRWC-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-DRAIN-RWC,DM-DRAIN-RWC-STD,yes/no,,True,True,none,True
+PI-DRAINRWC-WAT,Is abnormal water present or likely?,SI-DRAIN-RWC,DM-DRAIN-RWC-STD,yes/no,,True,True,none,True
+PI-DRAINRWC-W15,Does water exceed the 15 percent rule?,SI-DRAIN-RWC,DM-DRAIN-RWC-STD,yes/no,,False,True,if abnormal water present,True
+PI-DRAINRWC-RIN,Is local reinstatement included now?,SI-DRAIN-RWC,DM-DRAIN-RWC-STD,yes/no,,True,False,none,True
+PI-DRAINRWC-QTY,What is the quantity / length / count?,SI-DRAIN-RWC,DM-DRAIN-RWC-STD,decimal,m,True,True,none,True
+PI-DRAINRWC-TYP,What pipe or structure type applies?,SI-DRAIN-RWC,DM-DRAIN-RWC-STD,choice,,True,True,none,True
+PI-DRAINRWC-GRD,What ground variant applies?,SI-DRAIN-RWC,DM-DRAIN-RWC-STD,choice,,True,True,soil / shale / rock,True
+PI-DRAINRWC-BRK,Is breakout required?,SI-DRAIN-RWC,DM-DRAIN-RWC-STD,yes/no,,True,False,none,True
+PI-DRAINRWT-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-DRAIN-RWT,DM-DRAIN-RWT-STD,yes/no,,True,True,none,True
+PI-DRAINRWT-WAT,Is abnormal water present or likely?,SI-DRAIN-RWT,DM-DRAIN-RWT-STD,yes/no,,True,True,none,True
+PI-DRAINRWT-W15,Does water exceed the 15 percent rule?,SI-DRAIN-RWT,DM-DRAIN-RWT-STD,yes/no,,False,True,if abnormal water present,True
+PI-DRAINRWT-RIN,Is local reinstatement included now?,SI-DRAIN-RWT,DM-DRAIN-RWT-STD,yes/no,,True,False,none,True
+PI-DRAINRWT-QTY,What is the quantity / length / count?,SI-DRAIN-RWT,DM-DRAIN-RWT-STD,decimal,m,True,True,none,True
+PI-DRAINRWT-TYP,What pipe or structure type applies?,SI-DRAIN-RWT,DM-DRAIN-RWT-STD,choice,,True,True,none,True
+PI-DRAINRWT-GRD,What ground variant applies?,SI-DRAIN-RWT,DM-DRAIN-RWT-STD,choice,,True,True,soil / shale / rock,True
+PI-DRAINRWT-BRK,Is breakout required?,SI-DRAIN-RWT,DM-DRAIN-RWT-STD,yes/no,,True,False,none,True
+PI-FENCEPER-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FENCE-PERSG,DM-FENCE-PERSG,yes/no,,True,True,none,True
+PI-FENCEPER-WAT,Is abnormal water present or likely?,SI-FENCE-PERSG,DM-FENCE-PERSG,yes/no,,True,True,none,True
+PI-FENCEPER-W15,Does water exceed the 15 percent rule?,SI-FENCE-PERSG,DM-FENCE-PERSG,yes/no,,False,True,if abnormal water present,True
+PI-FENCEPER-RIN,Is local reinstatement included now?,SI-FENCE-PERSG,DM-FENCE-PERSG,yes/no,,True,False,none,True
+PI-FENCEPER-QTY,What is the quantity / length / count?,SI-FENCE-PERSG,DM-FENCE-PERSG,decimal,each,True,True,none,True
+PI-FENCEPER-TIE,Are tie-ins or local footing works required?,SI-FENCE-PERSG,DM-FENCE-PERSG,yes/no,,False,False,none,True
+PI-FENCEVEH-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FENCE-VEHG,DM-FENCE-VEHG,yes/no,,True,True,none,True
+PI-FENCEVEH-WAT,Is abnormal water present or likely?,SI-FENCE-VEHG,DM-FENCE-VEHG,yes/no,,True,True,none,True
+PI-FENCEVEH-W15,Does water exceed the 15 percent rule?,SI-FENCE-VEHG,DM-FENCE-VEHG,yes/no,,False,True,if abnormal water present,True
+PI-FENCEVEH-RIN,Is local reinstatement included now?,SI-FENCE-VEHG,DM-FENCE-VEHG,yes/no,,True,False,none,True
+PI-FENCEVEH-QTY,What is the quantity / length / count?,SI-FENCE-VEHG,DM-FENCE-VEHG,decimal,each,True,True,none,True
+PI-FENCEVEH-TIE,Are tie-ins or local footing works required?,SI-FENCE-VEHG,DM-FENCE-VEHG,yes/no,,False,False,none,True
+PI-FENCEREM-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FENCE-REM,DM-FENCE-REM,yes/no,,True,True,none,True
+PI-FENCEREM-WAT,Is abnormal water present or likely?,SI-FENCE-REM,DM-FENCE-REM,yes/no,,True,True,none,True
+PI-FENCEREM-W15,Does water exceed the 15 percent rule?,SI-FENCE-REM,DM-FENCE-REM,yes/no,,False,True,if abnormal water present,True
+PI-FENCEREM-RIN,Is local reinstatement included now?,SI-FENCE-REM,DM-FENCE-REM,yes/no,,True,False,none,True
+PI-FENCEREM-QTY,What is the quantity / length / count?,SI-FENCE-REM,DM-FENCE-REM,decimal,each,True,True,none,True
+PI-FENCEREM-TIE,Are tie-ins or local footing works required?,SI-FENCE-REM,DM-FENCE-REM,yes/no,,False,False,none,True
+PI-FENCEREL-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FENCE-RELOC,DM-FENCE-RELOC,yes/no,,True,True,none,True
+PI-FENCEREL-WAT,Is abnormal water present or likely?,SI-FENCE-RELOC,DM-FENCE-RELOC,yes/no,,True,True,none,True
+PI-FENCEREL-W15,Does water exceed the 15 percent rule?,SI-FENCE-RELOC,DM-FENCE-RELOC,yes/no,,False,True,if abnormal water present,True
+PI-FENCEREL-RIN,Is local reinstatement included now?,SI-FENCE-RELOC,DM-FENCE-RELOC,yes/no,,True,False,none,True
+PI-FENCEREL-QTY,What is the quantity / length / count?,SI-FENCE-RELOC,DM-FENCE-RELOC,decimal,each,True,True,none,True
+PI-FENCEREL-TIE,Are tie-ins or local footing works required?,SI-FENCE-RELOC,DM-FENCE-RELOC,yes/no,,False,False,none,True
+PI-FENCESTK-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FENCE-STKS,DM-FENCE-STKS,yes/no,,True,True,none,True
+PI-FENCESTK-WAT,Is abnormal water present or likely?,SI-FENCE-STKS,DM-FENCE-STKS,yes/no,,True,True,none,True
+PI-FENCESTK-W15,Does water exceed the 15 percent rule?,SI-FENCE-STKS,DM-FENCE-STKS,yes/no,,False,True,if abnormal water present,True
+PI-FENCESTK-RIN,Is local reinstatement included now?,SI-FENCE-STKS,DM-FENCE-STKS,yes/no,,True,False,none,True
+PI-FENCESTK-QTY,What is the quantity / length / count?,SI-FENCE-STKS,DM-FENCE-STKS,decimal,each,True,True,none,True
+PI-FENCESTK-TIE,Are tie-ins or local footing works required?,SI-FENCE-STKS,DM-FENCE-STKS,yes/no,,False,False,none,True
+PI-FENCESTK-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FENCE-STKD,DM-FENCE-STKD,yes/no,,True,True,none,True
+PI-FENCESTK-WAT,Is abnormal water present or likely?,SI-FENCE-STKD,DM-FENCE-STKD,yes/no,,True,True,none,True
+PI-FENCESTK-W15,Does water exceed the 15 percent rule?,SI-FENCE-STKD,DM-FENCE-STKD,yes/no,,False,True,if abnormal water present,True
+PI-FENCESTK-RIN,Is local reinstatement included now?,SI-FENCE-STKD,DM-FENCE-STKD,yes/no,,True,False,none,True
+PI-FENCESTK-QTY,What is the quantity / length / count?,SI-FENCE-STKD,DM-FENCE-STKD,decimal,each,True,True,none,True
+PI-FENCESTK-TIE,Are tie-ins or local footing works required?,SI-FENCE-STKD,DM-FENCE-STKD,yes/no,,False,False,none,True
+PI-FENCESTK-A2M,Are known or suspected assets within 2 metres of mechanical excavation?,SI-FENCE-STKREM,DM-FENCE-STKREM,yes/no,,True,True,none,True
+PI-FENCESTK-WAT,Is abnormal water present or likely?,SI-FENCE-STKREM,DM-FENCE-STKREM,yes/no,,True,True,none,True
+PI-FENCESTK-W15,Does water exceed the 15 percent rule?,SI-FENCE-STKREM,DM-FENCE-STKREM,yes/no,,False,True,if abnormal water present,True
+PI-FENCESTK-RIN,Is local reinstatement included now?,SI-FENCE-STKREM,DM-FENCE-STKREM,yes/no,,True,False,none,True
+PI-FENCESTK-QTY,What is the quantity / length / count?,SI-FENCE-STKREM,DM-FENCE-STKREM,decimal,each,True,True,none,True
+PI-FENCESTK-TIE,Are tie-ins or local footing works required?,SI-FENCE-STKREM,DM-FENCE-STKREM,yes/no,,False,False,none,True
+PI-PRELIMSI-QTY,What is the quantity / count?,SI-PRELIM-SITEVIS,DM-PRELIM-SITEVIS-STD,decimal,each,True,True,none,True
+PI-PRELIMCO-QTY,What is the quantity / count?,SI-PRELIM-CONSTR,DM-PRELIM-CONSTR-STD,decimal,each,True,True,none,True
+PI-PRELIMSE-QTY,What is the quantity / count?,SI-PRELIM-SETOUT,DM-PRELIM-SETOUT-STD,decimal,each,True,True,none,True
+PI-PRELIMEC-QTY,What is the quantity / count?,SI-PRELIM-ECO,DM-PRELIM-ECO-STD,decimal,each,True,True,none,True
+PI-PRELIMDI-QTY,What is the quantity / count?,SI-PRELIM-DILAP,DM-PRELIM-DILAP-STD,decimal,each,True,True,none,True
+PI-PRELIMIN-QTY,What is the quantity / count?,SI-PRELIM-INDUCT,DM-PRELIM-INDUCT-STD,decimal,each,True,True,none,True
+PI-PRELIMWA-QTY,What is the quantity / count?,SI-PRELIM-WASTE,DM-PRELIM-WASTE-STD,decimal,each,True,True,none,True
+PI-PRELIMPW-QTY,What is the quantity / count?,SI-PRELIM-PWRAUD,DM-PRELIM-PWRAUD-STD,decimal,each,True,True,none,True
+PI-PRELIMSU-QTY,What is the quantity / count?,SI-PRELIM-SUPER,DM-PRELIM-SUPER-STD,decimal,each,True,True,none,True
+PI-PRELIMEN-QTY,What is the quantity / count?,SI-PRELIM-ENGFIN,DM-PRELIM-ENGFIN-STD,decimal,each,True,True,none,True
+PI-ENVTC-QTY,What is the quantity / length / count?,SI-ENV-TC,DM-ENV-TC-STD,decimal,item,True,True,none,True
+PI-ENVSEDF-QTY,What is the quantity / length / count?,SI-ENV-SEDF,DM-ENV-SEDF-STD,decimal,item,True,True,none,True
+PI-ENVTREE-QTY,What is the quantity / length / count?,SI-ENV-TREE,DM-ENV-TREE-STD,decimal,item,True,True,none,True
+PI-ENVDUST-QTY,What is the quantity / length / count?,SI-ENV-DUST,DM-ENV-DUST-STD,decimal,item,True,True,none,True
+PI-ENVMUD-QTY,What is the quantity / length / count?,SI-ENV-MUD,DM-ENV-MUD-STD,decimal,item,True,True,none,True
+PI-GENDEPBH-AFT,Is after-hours delivery required?,SI-GEN-DEP-BH,DM-GEN-DEP-BH-METRO,yes/no,,False,False,none,True
+PI-GENDEPBH-REG,Is regional mobilisation required?,SI-GEN-DEP-BH,DM-GEN-DEP-BH-METRO,yes/no,,False,False,none,True
+PI-GENDEPBH-AFT,Is after-hours delivery required?,SI-GEN-DEP-BH,DM-GEN-DEP-BH-REG,yes/no,,False,False,none,True
+PI-GENDEPBH-REG,Is regional mobilisation required?,SI-GEN-DEP-BH,DM-GEN-DEP-BH-REG,yes/no,,False,False,none,True
+PI-GENDEPAH-AFT,Is after-hours delivery required?,SI-GEN-DEP-AH,DM-GEN-DEP-AH-STD,yes/no,,False,False,none,True
+PI-GENDEPAH-REG,Is regional mobilisation required?,SI-GEN-DEP-AH,DM-GEN-DEP-AH-STD,yes/no,,False,False,none,True
+PI-GENHIRED-PER,What hire period applies?,SI-GEN-HIRE-DAY,DM-GEN-HIRE-DAY-STD,choice,,True,True,none,True
+PI-GENHIREW-PER,What hire period applies?,SI-GEN-HIRE-WK,DM-GEN-HIRE-WK-STD,choice,,True,True,none,True
+PI-GENFUEL-LIT,How many litres apply?,SI-GEN-FUEL,DM-GEN-FUEL-STD,decimal,litre,True,True,none,True
+PI-RAILTRAC-QTY,What overlay quantity applies?,SI-RAIL-TRACK,DM-RAIL-TRACK-STD,decimal,item,True,True,none,True

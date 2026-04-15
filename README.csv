@@ -1,0 +1,12 @@
+Section,Detail
+Pack name,Civils Dataverse audit-ready pack
+Purpose,"Seed the Dataverse schema, provide import-ready tables, and support audit of current civils engine state"
+Current phase,Civils plus shared site overlays
+Master system,"Dataverse (database-first), with Excel/CSV as staging and review layer"
+Ready for audit,"Yes - structure, seed rows, consolidated rates, crosswalk, and gap register included"
+Still quote-dependent,Concrete pit risers; concrete pit lid/frame library; geotextile/separator layer
+Next user action,"Create Dataverse tables, then import CSV seed files in the order shown on Import_Order"
+Revision status,"Revision 2 - audit outcomes folded in, explicit placeholder rows added, Codex test brief added"
+Open quote-dependent items,Concrete pit risers; concrete pit lid/frame library; geotextile/separator layer
+Codex test pack included,Yes - workbook sheet and markdown file included in import pack
+Ready for next step,"Yes - create tables/import seeds, then run Codex integrity test pass before app screens"

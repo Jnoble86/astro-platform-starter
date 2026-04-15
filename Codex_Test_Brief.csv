@@ -1,0 +1,10 @@
+Section,Detail
+Purpose,Run a narrow integrity test pass against the civils Dataverse pack and CSV import pack without redesigning the engine
+Instruction 1,Treat the current workbook and CSV pack as the source of truth. Do not redesign solved work.
+Instruction 2,"Test table and field consistency, lookup integrity, duplicate code collisions, required-field completeness, and import readiness."
+Instruction 3,"Confirm the three quote-dependent items remain explicitly flagged and are not silently treated as complete: concrete pit risers, concrete pit lid/frame library, geotextile/separator layer."
+Instruction 4,"Check that relationships are consistent between Work Categories, Scope Items, Delivery Methods, Cost Components, Scope Build Map, Work Steps, Project Inputs, Calculated Quantities, Rate Library, Standard Items Library, Imported Rate Lines, and Rate Mapping."
+Instruction 5,"Check for duplicate codes, blank required labels, mismatched references, and missing lookup targets."
+Instruction 6,Check that imported-rate staging and rate-mapping sheets can accept future uploads without colliding with the current schema.
+Instruction 7,"Produce only defects, proposed fixes, and blockers. Do not produce new families or new architecture unless a real contradiction is found."
+Success Condition,"The pack is considered ready if no broken relationships, no duplicate identifiers, no silent completion of quote-dependent items, and no import-blocking column issues are found."

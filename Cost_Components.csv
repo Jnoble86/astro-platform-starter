@@ -1,0 +1,22 @@
+Cost Component Code,Cost Component Name,Component Group,Reusable,Output Text Required,Active,Notes
+CC-PRESTART,Pre-start controls,Pre-start,True,False,True,
+CC-LOCATE,Locate and mark-out,Pre-start,True,False,True,
+CC-BREAKOUT,Breakout and removal,Breakout,True,False,True,
+CC-EXC,Excavation,Excavation,True,False,True,
+CC-SPOIL,Spoil handling,Excavation,True,False,True,
+CC-PROVE,Proving works,Protection,True,False,True,
+CC-PROTECT,Asset protection,Protection,True,False,True,
+CC-BEDDING,Bedding / blinding / levelling,Base / Bedding,True,False,True,
+CC-CAP,Capping / separator layer,Base / Bedding,True,False,True,
+CC-SUBBASE,Subbase placement,Base / Bedding,True,False,True,
+CC-BASE,Basecourse / structural layer,Base / Bedding,True,False,True,
+CC-INSTALL,Main item install,Supply / Install,True,False,True,
+CC-CONC,Concrete placement,Supply / Install,True,False,True,
+CC-REINF,Reinforcement / mesh / cast-ins,Supply / Install,True,False,True,
+CC-TIEIN,Tie-ins / penetrations / interfaces,Supply / Install,True,False,True,
+CC-BFILL,Backfill and compaction,Backfill / Compaction,True,False,True,
+CC-REINSTATE,Local reinstatement,Reinstatement,True,False,True,
+CC-MAKESAFE,Temporary make-safe,Overlay,True,False,True,Shared brownfield module
+CC-QA,QA and closeout,QA / Closeout,True,False,True,
+CC-OVERLAY,Overlay support,Overlay,True,False,True,"Traffic, ecology, dust, corridor overlays"
+CC-HIRE,Hire / deployment support,Overlay,True,False,True,Generator and support hire logic

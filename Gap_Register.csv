@@ -1,0 +1,19 @@
+gap_no,work_category,missing_function,why_missing,needs
+1,Proving and Brownfield Controls,Dedicated NDD / vacuum proving plant and crew rate,No explicit NDD or hydro-vac hourly rate extracted; current coverage is mostly service-location or pothole-style pricing,subcontract quote or provisional sum
+2,Proving and Brownfield Controls,Temporary make-safe / temporary plate / temporary backfill,No explicit shared brownfield make-safe rate extracted,internal rate or provisional sum
+3,Pits,Concrete pit install in new location,"Available pit rows are mostly plastic pit, generic pit civils, or supply-only analogues, not clean concrete-pit install rows",supplier quote or provisional sum
+4,Pits,Concrete pit over existing route,"Plastic and generic over-existing pit analogues exist, but no clean concrete-pit brownfield install rate",supplier quote or provisional sum
+5,Pits,Concrete pit full replacement,"Asbestos/cover/pit analogues exist, but not a clean concrete-pit replacement rate",supplier quote or provisional sum
+6,Pits,Concrete pit risers,No explicit riser price found in final workbooks,supplier quote
+7,Pits,Concrete pit lid and frame library,"Some lid/cover rows exist, but not a consistent concrete lid/frame library",supplier quote
+8,Pits,Large pit Franna lift support,No explicit Franna or large-pit lift row found,supplier quote or internal plant rate
+9,Drainage and Minor Civil Structures,Drainage pit / gully install,"Pipe and minor civil rates exist, but not a clean drainage pit/gully install row",supplier quote or provisional sum
+10,Earthworks and Reinstatement,Imported fill / select fill placement,"Crushed rock and spoil rates exist, but no clean imported fill/select fill placement rate",supplier quote or provisional sum
+11,Pavements and Hardstand,Asphalt footpath install,"Only asphalt reinstatement style rows were found, not full install rate",provisional sum or subcontract quote
+12,Pavements and Hardstand,Asphalt driveway install,"Only asphalt reinstatement style rows were found, not full install rate",provisional sum or subcontract quote
+13,Pavements and Hardstand,Asphalt hardstand install,No clean full asphalt hardstand install row found,provisional sum or subcontract quote
+14,Pavements and Hardstand,Concrete hardstand heavy-duty path,"Concrete paving and hardstanding analogues exist, but no clean heavy-duty concrete hardstand row",provisional sum
+15,Pavements and Hardstand,Geotextile / separator layer,Weed matting is not a safe one-to-one replacement for all separator use,supplier quote or provisional sum
+16,Foundations and Support Civils,Generator slab / step civils direct composite rates,"Concrete slab/pad and ODU plinth analogues exist, but not clean generator slab and steps rows",provisional sum
+17,Foundations and Support Civils,Fence piers / solar piers direct object rates,"General foundation and CEV / structure analogues exist, but not explicit fence-pier and solar-pier rows",provisional sum
+18,Environmental and Traffic Overlays,Track protection crew composition variants beyond current workbook rows,"Track protection rows exist, but only for the specific overlay structures in the workbook",uploaded workbook or subcontract quote

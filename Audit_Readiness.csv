@@ -1,0 +1,19 @@
+Area,Status,Notes
+Work Categories,Complete,Seed rows prepared
+Scope Items,Complete,Seed rows prepared
+Delivery Methods,Complete,Seed rows prepared
+Cost Components,Complete,Seed rows prepared
+Scope Build Map,Complete,First-pass rows prepared across active civils scope
+Work Steps,Complete,First-pass reusable rows prepared
+Project Inputs,Complete,First-pass rows prepared across active civils scope
+Calculated Quantities,Complete,First-pass rows prepared across active civils scope
+Extra Cost Triggers,Complete,First-pass rules prepared
+Review Holds,Complete,First-pass rules prepared
+Rate Library,Ready for import,Consolidated rate card included separately
+Production Assumptions,Template only,Populate later from calibrated productivity set
+Imported Rate Lines,Template only,Use for workbook staging imports
+Rate Mapping,Template only,Use for row-level crosswalk
+Audit status,Ready for audit,"Includes structure, rates, crosswalk, and gap register"
+Audit outcomes folded in,Complete,Revision 2 includes audit outcomes and narrowed open-item list
+Quote-dependent placeholders,Complete,"Three explicit placeholders added for risers, lid/frame, and geotextile"
+Codex test brief,Complete,Workbook sheet and markdown brief included
